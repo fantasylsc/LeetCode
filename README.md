@@ -1,5 +1,6 @@
 # LeetCode
 
+LeetCode python solutions.
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
