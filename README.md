@@ -10,7 +10,7 @@ LeetCode python solutions.
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Python](./Algorithm/Python/0004_Median_of_Two_Sorted_Arrays.py)|Hard|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [Python](./Algorithm/Python/0005_Longest_Palindromic_Substring.py)|Medium|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| [Python](./Algorithm/Python/0006_ZigZag_Conversion.py)|Medium|
-|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [Python](./)|Easy|
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [Python](./Algorithm/Python/0007_Reverse_Integer.py)|Easy|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| [Python](./)|Easy|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [Python](./)|Easy|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)| [Python](./algorithms/cpp/regularExpressionMatch)|Hard|
