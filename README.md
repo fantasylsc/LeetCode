@@ -18,6 +18,17 @@ LeetCode python solutions.
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| [Python](./algorithms/cpp/integerToRoman/integ)|Medium|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [Python](./algorithms/cpp/romanToInteger/roman)|Easy|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Python](./algorithms/cpp/longestCommonPrefix/longest)|Easy|
+|15|[3Sum](https://leetcode.com/problems/3sum/)| [Python](./algorithms/cpp/3S)|Medium|
+|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Python](./algorithms/cpp/3SumClosest/3S)|Medium|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./algorithms/cpp/letterCombinationsOfAPhoneNum)|Medium|
+|18|[4Sum](https://leetcode.com/problems/4sum/)| [Python](./algorithms/cpp/4)|Medium|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./algorithms/python/RemoveNthNodeFromEndOfList/re)|Easy|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./algorithms/cpp/validParentheses/valid)|Easy|
+
+
+
+
+
 
 
 
