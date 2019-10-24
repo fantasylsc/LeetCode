@@ -4,7 +4,7 @@
 
 | Sorting Algorithm | Average | Best | Worst | Space | Note |
 |---| ----- | -------- | ---------- |--------- |------- |
-|Bubble Sort| O(n^2) | O(n) | O(n^2) | O(1) | |
+|[Bubble Sort]()| O(n^2) | O(n) | O(n^2) | O(1) |[Optimized Version}()|
 |Selection Sort| O(n^2) | O(n^2) | O(n^2) | O(1) | |
 |Insertion Sort| O(n^2) | O(n) | O(n^2) | O(1) | |
 |Merge Sort| O(nlogn) | O(nlogn) | O(nlogn) | O(n) | |
