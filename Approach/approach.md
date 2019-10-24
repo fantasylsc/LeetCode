@@ -2,6 +2,10 @@
 
 ## Sorting Algorithms
 
+| Sorting Algorithm | Average | Best | Worst | Space |
+|---| ----- | -------- | ---------- | -------- |
+
+
 
 
 ## Divide and Conquer
