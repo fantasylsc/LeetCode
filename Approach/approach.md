@@ -2,7 +2,7 @@
 
 ## Divide and Conquer
 
-### [Binary Search]()
+### [Binary Search](./Approach/Classification/Binary_Search.py)
 
 
 
