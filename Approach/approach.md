@@ -10,9 +10,9 @@
 |Merge Sort| O(nlogn) | O(nlogn) | O(nlogn) | O(n) | |
 |Heap Sort| O(nlogn) | O(nlogn) | O(nlogn) | O(1) | |
 |Quick Sort| O(nlogn) | O(nlogn) | O(n^2) | O(nlogn)| |
-|Radix Sort| O(nk) | O(nk) | O(nk) | O(n+k) | |
+|Radix Sort| O(nk) | O(nk) | O(nk) | O(n+k) |k is the maximum number of digits|
 |Counting Sort| O(n+k) | O(n+k) | O(n+k) | O(k) |k is the range of input|
-|Bucket Sort| O(n+k) | O(n+k) | O(n^2) | O(n) | |
+|Bucket Sort| O(n+k) | O(n+k) | O(n^2) | O(n) |k is the number of buckets|
 
 ## Divide and Conquer
 
