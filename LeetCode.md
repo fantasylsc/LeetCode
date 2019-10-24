@@ -1,4 +1,3 @@
-# LeetCode
 
 ## LeetCode Python Solutions
 
@@ -26,8 +25,6 @@
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./algorithms/cpp/validParentheses/valid)|Easy|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
 
-
-## [Approach Classification](./Approach/approach.md)
 
 
 
