@@ -14,6 +14,8 @@
 
 ### LRU Cache
 
+### LFU Cache
+
 ### Max Stack
 
 
