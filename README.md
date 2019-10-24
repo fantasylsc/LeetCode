@@ -1,6 +1,6 @@
 # LeetCode
 
-LeetCode python solutions.
+## LeetCode Python Solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -27,7 +27,7 @@ LeetCode python solutions.
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
 
 
-
+## [Approach Classification](./Approach/approach.md)
 
 
 
