@@ -2,7 +2,7 @@
 
 ## Sorting Algorithms
 
-| --- | Time | --- |
+|  | Time |  |
 | Sorting Algorithm | Average | Best | Worst | Space |
 |---| ----- | -------- | ---------- |--------- |
 |Bubble Sort| O(n^2) | O(n) | O(n^2) | O(1) |
