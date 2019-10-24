@@ -32,14 +32,15 @@ class Solution:
 
 
 class Test(unittest.TestCase):
-	def basic_test(self):
+	def test(self):
 		nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 		target = 5
 		s = Solution()
 		actual = s.binarySearch(nums, target)
 		expected = 4
 		self.assertEqual(actual, expected)
-	def second_test(self):
+
+	def test_second(self):
 		nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 		target = 9
 		s = Solution()
