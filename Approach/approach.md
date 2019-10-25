@@ -14,11 +14,11 @@
 |Counting Sort| Θ(n+k) | Ω(n+k) | O(n+k) | O(k) |k is the range of input|
 |Bucket Sort| Θ(n+k) | Ω(n+k) | O(n^2) | O(n) |k is the number of buckets|
 
-## Divide and Conquer
+## Searching
 
 ### [Binary Search](./Classification/Binary_Search.py)
 
-
+## Divide and Conquer
 
 ## Class Design
 
