@@ -12,7 +12,7 @@
 |[Quick Sort](./Classification/Quick_Sort.py)| Θ(nlogn) | Ω(nlogn) | O(n^2) | O(nlogn)| |
 |[Radix Sort](./Classification/Radix_Sort.py)| Θ(nk) | Ω(nk) | O(nk) | O(n+k) |k is the maximum number of digits [Visualization](https://www.cs.usfca.edu/~galles/visualization/RadixSort.html)|
 |[Counting Sort](./Classification/Counting_Sort.py)| Θ(n+k) | Ω(n+k) | O(n+k) | O(k) |k is the range of input|
-|[Bucket Sort]()| Θ(n+k) | Ω(n+k) | O(n^2) | O(n) |k is the number of buckets|
+|[Bucket Sort](./Classification/Bucket_Sort.py)| Θ(n+k) | Ω(n+k) | O(n^2) | O(n) |k is the number of buckets|
 
 ## Searching
 
