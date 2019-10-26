@@ -20,19 +20,19 @@ class Solution:
 			# pi is partitioning index 
 			pi = self.partition(nums, low, high) 
   
-	        # Separately sort elements before 
-	        # partition and after partition 
+			# Separately sort elements before 
+			# partition and after partition 
 			self.quickSort(nums, low, pi - 1) 
 			self.quickSort(nums, pi + 1, high)
 
 	def partition(self, nums, low, high): 
-		i = (low - 1)         # index of smaller element 
-		pivot = nums[high]     # pivot 
+		i = (low - 1)		 # index of smaller element 
+		pivot = nums[high]	 # pivot 
   
 		for j in range(low , high): 
-	        # If current element is smaller than the pivot 
+			# If current element is smaller than the pivot 
 			if   nums[j] < pivot: 
-	            # increment index of smaller element 
+				# increment index of smaller element 
 				i = i + 1 
 				nums[i], nums[j] = nums[j], nums[i] 
   

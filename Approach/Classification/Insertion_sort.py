@@ -13,16 +13,16 @@ import unittest
 from typing import List
 
 class Solution:
-    def insertionSort(self, nums: List[int]):
-    	n = len(nums)
+	def insertionSort(self, nums: List[int]):
+		n = len(nums)
 
-    	for i in range(1， n):
-    		insert_val = nums[i]
-    		j = i - 1
-    		while j >= 0 and insert_val < nums[j]:
-    			nums[j + 1] = nums[j]
-    			j -= 1
-    		nums[j + 1] = insert_val
+		for i in range(1， n):
+			insert_val = nums[i]
+			j = i - 1
+			while j >= 0 and insert_val < nums[j]:
+				nums[j + 1] = nums[j]
+				j -= 1
+			nums[j + 1] = insert_val
 
 
 
