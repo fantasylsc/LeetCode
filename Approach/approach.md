@@ -7,7 +7,7 @@
 ## 2. Sorting Algorithms
 
 | Sorting Algorithm <td colspan=1>  Time Complexity <td colspan=3>  Space <td colspan=1> Note <td colspan=1>
-|---| ----- | -------- | ---------- |--------- |------- |
+|---| ----- | -------- | ---------- |--------- |------- 
 |  | Average | Best | Worst | Complexity | Note |
 
 |[Bubble Sort](./Classification/Bubble_Sort.py)| Θ(n^2) | Ω(n) | O(n^2) | O(1) |[Optimized Version](./Classification/Bubble_Sort_optimized.py)|
