@@ -23,6 +23,7 @@
 |18|[4Sum](https://leetcode.com/problems/4sum/)| [Python](./algorithms/cpp/4)|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./algorithms/python/RemoveNthNodeFromEndOfList/re)|Easy|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./algorithms/cpp/validParentheses/valid)|Easy|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/0042_Trapping_Rain_Water.py)|Hard|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
 
