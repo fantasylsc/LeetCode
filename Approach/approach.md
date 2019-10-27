@@ -1,6 +1,6 @@
 # Approach Classification
 
-## Sorting Algorithms
+1. ## Sorting Algorithms
 
 | Sorting Algorithm | Average | Best | Worst | Space | Note |
 |---| ----- | -------- | ---------- |--------- |------- |
