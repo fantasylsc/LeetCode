@@ -6,7 +6,7 @@
 
 ## 2. Sorting Algorithms
 
-| Sorting Algorithm |    Time |      |       | Space | Note |
+| Sorting Algorithm |    Time              ||| Space | Note |
 |-------------------| ------- | ---- | ----- |----------- |----- |
 |[Bubble Sort](./Classification/Bubble_Sort.py)| Θ(n^2) | Ω(n) | O(n^2) | O(1) |[Optimized Version](./Classification/Bubble_Sort_optimized.py)|
 |[Selection Sort](./Classification/Selection_Sort.py)| Θ(n^2) | Ω(n^2) | O(n^2) | O(1) | |
