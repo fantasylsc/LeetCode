@@ -19,7 +19,7 @@
 |[Bucket Sort](./Classification/Bucket_Sort.py)| Θ(n+k) | Ω(n+k) | O(n^2) | O(n) |k is the number of buckets|
    
 
-## Searching
+## 3. Searching
 
 ### [Binary Search](./Classification/Binary_Search.py)
 
