@@ -28,7 +28,7 @@
 ### DFS
 
 
-## Divide and Conquer
+## 4. Divide and Conquer
 
 ## Class Design
 
