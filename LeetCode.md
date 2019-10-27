@@ -16,7 +16,7 @@
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](./Algorithm/Python/0011_Container_With_Most_Water.py)|Medium|
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| [Python](./Algorithm/Python/0012_Integer_to_Roman.py)|Medium|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [Python](./Algorithm/Python/0013_Roman_to_Integer.py)|Easy|
-|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Python](./algorithms/cpp/longestCommonPrefix/longest)|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Python](./Algorithm/Python/0014_Longest_Common_Prefix.py)|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum/)| [Python](./Algorithm/Python/0015_3_Sum.py)|Medium|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Python](./algorithms/cpp/3SumClosest/3S)|Medium|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./algorithms/cpp/letterCombinationsOfAPhoneNum)|Medium|
