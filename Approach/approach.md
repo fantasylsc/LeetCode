@@ -1,8 +1,13 @@
 # Approach Classification
 
-## 1. Sorting Algorithms
+## 1. Data Structures
 
-| Sorting Algorithm | Average | Best | Worst | Space | Note |
+
+
+## 2. Sorting Algorithms
+
+| Sorting Algorithm | Time Complexity <td colspan=3> | Space | Note |
+|  | Average | Best | Worst | Complexity | Note |
 |---| ----- | -------- | ---------- |--------- |------- |
 |[Bubble Sort](./Classification/Bubble_Sort.py)| Θ(n^2) | Ω(n) | O(n^2) | O(1) |[Optimized Version](./Classification/Bubble_Sort_optimized.py)|
 |[Selection Sort](./Classification/Selection_Sort.py)| Θ(n^2) | Ω(n^2) | O(n^2) | O(1) | |
