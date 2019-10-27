@@ -23,6 +23,18 @@
 |18|[4Sum](https://leetcode.com/problems/4sum/)| [Python](./algorithms/cpp/4)|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./algorithms/python/RemoveNthNodeFromEndOfList/re)|Easy|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./algorithms/cpp/validParentheses/valid)|Easy|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Python](./algorithms/cpp/mergeTwoSortedList/mergeTwoSortedLis)|Easy|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Python](./algorithms/cpp/generateParentheses/generateParentheses)|Medium|
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./algorithms/cpp/mergeKSortedLists/mergeKSorte)|Hard|
+|24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./algorithms/cpp/swapNodesInPairs/swapNodesInPairs)|Medium|
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [Python](./algorithms/cpp/reverseNodesInKGroup/reverseNodesInKGroup)|Hard|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./algorithms/cpp/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.cpp)|Easy|
+|27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Python](./algorithms/cpp/removeElement/removeElement)|Easy|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Python](./algorithms/cpp/strStr/strSt)|Easy|
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python](./algorithms/cpp/divideTwoInt/divideTwoInt.)|Medium|
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./algorithms/cpp/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords)|Hard|
+
+
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/0042_Trapping_Rain_Water.py)|Hard|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
