@@ -6,8 +6,8 @@
 
 ## 2. Sorting Algorithms
 
-| Sorting Algorithm |  Time || Space |Note |
-|  | Average | Best | Worst | Complexity | Note |
+| Sorting Algorithm |    Time |      |       | Space | Note |
+|                   | Average | Best | Worst | Complexity | Note |
 |---| ----- | -------- | ---------- |--------- |------- |
 
 
