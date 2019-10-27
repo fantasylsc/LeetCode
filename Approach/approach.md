@@ -21,7 +21,7 @@
 
 ## 3. Searching
 
-[Binary Search](./Classification/Binary_Search.py)   BFS   DFS
+[Binary Search](./Classification/Binary_Search.py)     BFS    DFS
 
 
 ## 4. Divide and Conquer
