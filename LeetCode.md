@@ -33,8 +33,6 @@
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Python](./algorithms/cpp/strStr/strSt)|Easy|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python](./algorithms/cpp/divideTwoInt/divideTwoInt.)|Medium|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./algorithms/cpp/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords)|Hard|
-
-
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/0042_Trapping_Rain_Water.py)|Hard|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
