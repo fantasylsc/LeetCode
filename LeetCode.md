@@ -23,7 +23,7 @@
 |18|[4Sum](https://leetcode.com/problems/4sum/)| [Python](./Algorithm/Python/0018_4Sum.py)|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./Algorithm/Python/0019_Remove_Nth_Node_From_End_of_List.py)|Medium|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Algorithm/Python/0020_Valid_Parentheses.py)|Easy|
-|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Python](./algorithms/cpp/mergeTwoSortedList/mergeTwoSortedLis)|Easy|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Python](./Algorithm/Python/0021_Merge_Two_Sorted_Lists.py)|Easy|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Python](./algorithms/cpp/generateParentheses/generateParentheses)|Medium|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./algorithms/cpp/mergeKSortedLists/mergeKSorte)|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./algorithms/cpp/swapNodesInPairs/swapNodesInPairs)|Medium|
