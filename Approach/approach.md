@@ -26,6 +26,12 @@
 
 ## 4. Divide and Conquer
 
+## 5. Recursion
+
+[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 
+
+## 6. Dynamic Programming
+
 ## Class Design
 
 ### LRU Cache
