@@ -49,7 +49,7 @@ Shortcut # : [25](#25) | [50](#50)
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./algorithms/cpp/searchInsertPosition/searchInsertPosition.cpp)|Medium|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Python](./algorithms/cpp/validSudoku/validSudoku.cpp)|Easy|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [Python](./algorithms/cpp/sudokuSolver/sudokuSolver.cpp)|Hard|
-|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./algorithms/cpp/countAndSay/countAndSay.cpp), [Java](./algorithms/java/src/countAndSay/CountAndSay.java)|Easy|
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./Algorithm/Python/0038_Count_and_Say.py)|Easy|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Python](./algorithms/cpp/combinationSum/combinationSum.cpp)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Python](./algorithms/cpp/combinationSum/combinationSum.II.cpp)|Medium|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [Python](./algorithms/cpp/firstMissingPositive/firstMissingPositive.cpp)|Hard|
