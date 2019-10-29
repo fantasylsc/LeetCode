@@ -43,7 +43,7 @@ Shortcut # : [25](#25) | [50](#50)
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python](./Algorithm/Python/0029_Divide_Two_Integers.py)|Medium|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./Algorithm/Python/0030_Substring_with_Concatenation_of_All_Words.py)|Hard|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)| [Python](./Algorithm/Python/0031_Next_Permutation.py)|Medium|
-|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [Python](./algorithms/cpp/longestValidParentheses/longestValidParentheses.cpp)|Hard|
+|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [Python](./Algorithm/Python/0032_Longest_Valid_Parentheses.py)|Hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python](./algorithms/cpp/searchInRotatedSortedArray/searchInRotatedSortedArray.cpp)|Hard|
 |34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| [Python](./algorithms/cpp/searchForRange/searchForRange.cpp)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./algorithms/cpp/searchInsertPosition/searchInsertPosition.cpp)|Medium|
