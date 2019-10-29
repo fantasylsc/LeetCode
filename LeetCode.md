@@ -41,26 +41,26 @@ Shortcut # : [25](#25) | [50](#50)
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Python](./Algorithm/Python/0027_Remove_Element.py)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Python](./Algorithm/Python/0028_Implement_strStr.py)|Easy|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python](./Algorithm/Python/0029_Divide_Two_Integers.py)|Medium|
-|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./algorithms/cpp/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords)|Hard|
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./Algorithm/Python/0030_Substring_with_Concatenation_of_All_Words.py)|Hard|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)| [Python](./algorithms/cpp/nextPermutation/nextPermutation.cpp)|Medium|
-|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [C++](./algorithms/cpp/longestValidParentheses/longestValidParentheses.cpp)|Hard|
-|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [C++](./algorithms/cpp/searchInRotatedSortedArray/searchInRotatedSortedArray.cpp), [Java](./algorithms/java/src/searchInRotatedSortedArray/searchInRotatedSortedArray.java)|Hard|
-|34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| [C++](./algorithms/cpp/searchForRange/searchForRange.cpp), [Java](./algorithms/java/src/searchForRange/searchForRange.java)|Medium|
-|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [C++](./algorithms/cpp/searchInsertPosition/searchInsertPosition.cpp), [Java](./algorithms/java/src/searchInsertPosition/searchInsertPosition.java)|Medium|
-|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [C++](./algorithms/cpp/validSudoku/validSudoku.cpp)|Easy|
-|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [C++](./algorithms/cpp/sudokuSolver/sudokuSolver.cpp)|Hard|
-|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [C++](./algorithms/cpp/countAndSay/countAndSay.cpp), [Java](./algorithms/java/src/countAndSay/CountAndSay.java)|Easy|
-|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [C++](./algorithms/cpp/combinationSum/combinationSum.cpp)|Medium|
-|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [C++](./algorithms/cpp/combinationSum/combinationSum.II.cpp)|Medium|
-|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [C++](./algorithms/cpp/firstMissingPositive/firstMissingPositive.cpp)|Hard|
+|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [Python](./algorithms/cpp/longestValidParentheses/longestValidParentheses.cpp)|Hard|
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python](./algorithms/cpp/searchInRotatedSortedArray/searchInRotatedSortedArray.cpp), [Python](./algorithms/java/src/searchInRotatedSortedArray/searchInRotatedSortedArray.java)|Hard|
+|34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| [Python](./algorithms/cpp/searchForRange/searchForRange.cpp)|Medium|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./algorithms/cpp/searchInsertPosition/searchInsertPosition.cpp), [Python](./algorithms/java/src/searchInsertPosition/searchInsertPosition.java)|Medium|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Python](./algorithms/cpp/validSudoku/validSudoku.cpp)|Easy|
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [Python](./algorithms/cpp/sudokuSolver/sudokuSolver.cpp)|Hard|
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./algorithms/cpp/countAndSay/countAndSay.cpp), [Java](./algorithms/java/src/countAndSay/CountAndSay.java)|Easy|
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Python](./algorithms/cpp/combinationSum/combinationSum.cpp)|Medium|
+|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Python](./algorithms/cpp/combinationSum/combinationSum.II.cpp)|Medium|
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [Python](./algorithms/cpp/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/0042_Trapping_Rain_Water.py)|Hard|
-|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [C++](./algorithms/cpp/multiplyStrings/multiplyStrings.cpp)|Medium|
-|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)| [C++](./algorithms/cpp/wildcardMatching/wildcardMatching.cpp)|Hard|
-|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [C++](./algorithms/cpp/jumpGame/jumpGame.II.cpp)|Hard|
-|46|[Permutations](https://leetcode.com/problems/permutations/)| [C++](./algorithms/cpp/permutations/permutations.cpp)|Medium|
-|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [C++](./algorithms/cpp/permutations/permutations.II.cpp)|Hard|
-|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)| [C++](./algorithms/cpp/rotateImage/rotateImage.cpp)|Medium|
-|49|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [C++](./algorithms/cpp/anagrams/GroupAnagrams.cpp)|Medium|
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Python](./algorithms/cpp/multiplyStrings/multiplyStrings.cpp)|Medium|
+|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)| [Python](./algorithms/cpp/wildcardMatching/wildcardMatching.cpp)|Hard|
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [Python](./algorithms/cpp/jumpGame/jumpGame.II.cpp)|Hard|
+|46|[Permutations](https://leetcode.com/problems/permutations/)| [Python](./algorithms/cpp/permutations/permutations.cpp)|Medium|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python](./algorithms/cpp/permutations/permutations.II.cpp)|Hard|
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)| [Python](./algorithms/cpp/rotateImage/rotateImage.cpp)|Medium|
+|49|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [Python](./algorithms/cpp/anagrams/GroupAnagrams.cpp)|Medium|
 
 ## [Go to Top](#LeetCode-Python-Solutions)
 
