@@ -1,5 +1,5 @@
 
-## LeetCode Python Solutions
+# LeetCode Python Solutions
 
 Shortcut # : [25](#25) | 
 
