@@ -1,7 +1,7 @@
 
 ## LeetCode Python Solutions
 
-Shortcut # : [25](#25) 
+Shortcut # : [25](#Reverse-Nodes-in-k-Group) 
 
 
 | # | Title | Solution | Difficulty |
