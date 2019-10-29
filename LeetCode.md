@@ -32,7 +32,7 @@ Shortcut # : [25](#25) |
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./Algorithm/Python/0023_Merge_k_Sorted_Lists.py)|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./Algorithm/Python/0024_Swap_Nodes_in_Pairs.py)|Medium|
 
-## [Top](#Top)
+## [Go to Top](#Top)
 
 ## 25
 
