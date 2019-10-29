@@ -40,7 +40,7 @@ Shortcut # : [25](#25) |
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./Algorithm/Python/0026_Remove_Duplicates_from_Sorted_Array.py)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Python](./Algorithm/Python/0027_Remove_Element.py)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Python](./Algorithm/Python/0028_Implement_strStr.py)|Easy|
-|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python](./algorithms/cpp/divideTwoInt/divideTwoInt.)|Medium|
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python](./Algorithm/Python/0029_Divide_Two_Integers.py)|Medium|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./algorithms/cpp/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/0042_Trapping_Rain_Water.py)|Hard|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
