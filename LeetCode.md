@@ -39,7 +39,7 @@ Shortcut # : [25](#25) |
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [Python](./Algorithm/Python/0025_Reverse_Nodes_in_K-Group.py)|Hard|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./Algorithm/Python/0026_Remove_Duplicates_from_Sorted_Array.py)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Python](./Algorithm/Python/0027_Remove_Element.py)|Easy|
-|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Python](./algorithms/cpp/strStr/strSt)|Easy|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Python](./Algorithm/Python/0028_Implement_strStr.py)|Easy|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python](./algorithms/cpp/divideTwoInt/divideTwoInt.)|Medium|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./algorithms/cpp/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/0042_Trapping_Rain_Water.py)|Hard|
