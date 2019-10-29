@@ -3,8 +3,6 @@
 
 Shortcut # : [25](#25) | 
 
-## Top
-
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Python](./Algorithm/Python/0001_Two_Sum.py)|Easy|
@@ -32,7 +30,7 @@ Shortcut # : [25](#25) |
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./Algorithm/Python/0023_Merge_k_Sorted_Lists.py)|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./Algorithm/Python/0024_Swap_Nodes_in_Pairs.py)|Medium|
 
-## [Go to Top](#Top)
+## [Go to Top](#LeetCode-Python-Solutions)
 
 ## 25
 
