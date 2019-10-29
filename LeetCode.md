@@ -1,8 +1,9 @@
 
 ## LeetCode Python Solutions
 
-Shortcut # : [25](#25) 
+Shortcut # : [25](#25) | 
 
+## Top
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -30,6 +31,8 @@ Shortcut # : [25](#25)
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Python](./Algorithm/Python/0022_Generate_Parentheses.py)|Medium|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./Algorithm/Python/0023_Merge_k_Sorted_Lists.py)|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./Algorithm/Python/0024_Swap_Nodes_in_Pairs.py)|Medium|
+
+## [Top](#Top)
 
 ## 25
 
