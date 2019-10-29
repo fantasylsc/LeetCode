@@ -1,7 +1,7 @@
 
 ## LeetCode Python Solutions
 
-Shortcut # : [25](#Reverse-Nodes-in-k-Group) 
+Shortcut # : [25](#25) 
 
 
 | # | Title | Solution | Difficulty |
@@ -30,6 +30,11 @@ Shortcut # : [25](#Reverse-Nodes-in-k-Group)
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Python](./Algorithm/Python/0022_Generate_Parentheses.py)|Medium|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./Algorithm/Python/0023_Merge_k_Sorted_Lists.py)|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./Algorithm/Python/0024_Swap_Nodes_in_Pairs.py)|Medium|
+
+## 25
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [Python](./Algorithm/Python/0025_Reverse_Nodes_in_K-Group.py)|Hard|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./Algorithm/Python/0026_Remove_Duplicates_from_Sorted_Array.py)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Python](./Algorithm/Python/0027_Remove_Element.py)|Easy|
