@@ -44,9 +44,9 @@ Shortcut # : [25](#25) | [50](#50)
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./Algorithm/Python/0030_Substring_with_Concatenation_of_All_Words.py)|Hard|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)| [Python](./Algorithm/Python/0031_Next_Permutation.py)|Medium|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [Python](./algorithms/cpp/longestValidParentheses/longestValidParentheses.cpp)|Hard|
-|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python](./algorithms/cpp/searchInRotatedSortedArray/searchInRotatedSortedArray.cpp), [Python](./algorithms/java/src/searchInRotatedSortedArray/searchInRotatedSortedArray.java)|Hard|
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python](./algorithms/cpp/searchInRotatedSortedArray/searchInRotatedSortedArray.cpp)|Hard|
 |34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| [Python](./algorithms/cpp/searchForRange/searchForRange.cpp)|Medium|
-|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./algorithms/cpp/searchInsertPosition/searchInsertPosition.cpp), [Python](./algorithms/java/src/searchInsertPosition/searchInsertPosition.java)|Medium|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./algorithms/cpp/searchInsertPosition/searchInsertPosition.cpp)|Medium|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Python](./algorithms/cpp/validSudoku/validSudoku.cpp)|Easy|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [Python](./algorithms/cpp/sudokuSolver/sudokuSolver.cpp)|Hard|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./algorithms/cpp/countAndSay/countAndSay.cpp), [Java](./algorithms/java/src/countAndSay/CountAndSay.java)|Easy|
