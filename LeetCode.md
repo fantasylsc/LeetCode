@@ -62,6 +62,8 @@ Shortcut # : [25](#25) | [50](#50)
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)| [C++](./algorithms/cpp/rotateImage/rotateImage.cpp)|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [C++](./algorithms/cpp/anagrams/GroupAnagrams.cpp)|Medium|
 
+## [Go to Top](#LeetCode-Python-Solutions)
+
 ## 50
 
 | # | Title | Solution | Difficulty |
