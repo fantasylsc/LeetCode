@@ -1,7 +1,7 @@
 
 # LeetCode Python Solutions
 
-Shortcut # : [25](#25) | 
+Shortcut # : [25](#25) | [50](#50)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -61,6 +61,11 @@ Shortcut # : [25](#25) |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [C++](./algorithms/cpp/permutations/permutations.II.cpp)|Hard|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)| [C++](./algorithms/cpp/rotateImage/rotateImage.cpp)|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [C++](./algorithms/cpp/anagrams/GroupAnagrams.cpp)|Medium|
+
+## 50
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |50|["Pow(x, n)"](https://leetcode.com/problems/powx-n/)| [C++](./algorithms/cpp/pow/pow.cpp), [Java](./algorithms/java/src/powXn/PowXn.java)|Medium|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
