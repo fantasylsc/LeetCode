@@ -28,7 +28,7 @@
 
 ## 5. Recursion
 
-[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [39. Combination Sum]() | [46. Permutations]() | [LPermutations II]() | [77. Combinatinos]() | [90. Subsets II]() | [Path Sum II]() |
+[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [39. Combination Sum]() | [46. Permutations]() | [47. Permutations II]() | [77. Combinatinos]() | [90. Subsets II]() | [113. Path Sum II]() |
 
 ## 6. Dynamic Programming
 
