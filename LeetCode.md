@@ -46,7 +46,7 @@ Shortcut # : [25](#25) | [50](#50)
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [Python](./Algorithm/Python/0032_Longest_Valid_Parentheses.py)|Hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python](./Algorithm/Python/0033_Search_in_Rotated_Sorted_Array.py)|Medium|
 |34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| [Python](./Algorithm/Python/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)|Medium|
-|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./algorithms/cpp/searchInsertPosition/searchInsertPosition.cpp)|Medium|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./Algorithm/Python/0035_Search_Insert_Position.py)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Python](./algorithms/cpp/validSudoku/validSudoku.cpp)|Easy|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [Python](./algorithms/cpp/sudokuSolver/sudokuSolver.cpp)|Hard|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./Algorithm/Python/0038_Count_and_Say.py)|Easy|
