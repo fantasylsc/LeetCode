@@ -47,8 +47,8 @@ Shortcut # : [25](#25) | [50](#50)
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python](./Algorithm/Python/50/0033_Search_in_Rotated_Sorted_Array.py)|Medium|
 |34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| [Python](./Algorithm/Python/50/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./Algorithm/Python/50/0035_Search_Insert_Position.py)|Easy|
-|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Python](./algorithms/cpp/validSudoku/validSudoku.cpp)|Easy|
-|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [Python](./algorithms/cpp/sudokuSolver/sudokuSolver.cpp)|Hard|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Python](./Algorithm/Python/50/0036_Valid_Sudoku.py)|Easy|
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [Python](./Algorithm/Python/50/0037_Sudoku_Solver.py)|Hard|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./Algorithm/Python/50/0038_Count_and_Say.py)|Easy|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Python](./algorithms/cpp/combinationSum/combinationSum.cpp)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Python](./algorithms/cpp/combinationSum/combinationSum.II.cpp)|Medium|
