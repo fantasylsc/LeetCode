@@ -36,24 +36,24 @@ Shortcut # : [25](#25) | [50](#50)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [Python](./Algorithm/Python/0025_Reverse_Nodes_in_K-Group.py)|Hard|
-|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./Algorithm/Python/0026_Remove_Duplicates_from_Sorted_Array.py)|Easy|
-|27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Python](./Algorithm/Python/0027_Remove_Element.py)|Easy|
-|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Python](./Algorithm/Python/0028_Implement_strStr.py)|Easy|
-|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python](./Algorithm/Python/0029_Divide_Two_Integers.py)|Medium|
-|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./Algorithm/Python/0030_Substring_with_Concatenation_of_All_Words.py)|Hard|
-|31|[Next Permutation](https://leetcode.com/problems/next-permutation/)| [Python](./Algorithm/Python/0031_Next_Permutation.py)|Medium|
-|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [Python](./Algorithm/Python/0032_Longest_Valid_Parentheses.py)|Hard|
-|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python](./Algorithm/Python/0033_Search_in_Rotated_Sorted_Array.py)|Medium|
-|34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| [Python](./Algorithm/Python/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)|Medium|
-|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./Algorithm/Python/0035_Search_Insert_Position.py)|Easy|
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [Python](./Algorithm/Python/25/0025_Reverse_Nodes_in_K-Group.py)|Hard|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./Algorithm/Python/50/0026_Remove_Duplicates_from_Sorted_Array.py)|Easy|
+|27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Python](./Algorithm/Python/50/0027_Remove_Element.py)|Easy|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Python](./Algorithm/Python/50/0028_Implement_strStr.py)|Easy|
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python](./Algorithm/Python/50/0029_Divide_Two_Integers.py)|Medium|
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Python](./Algorithm/Python/50/0030_Substring_with_Concatenation_of_All_Words.py)|Hard|
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation/)| [Python](./Algorithm/Python/50/0031_Next_Permutation.py)|Medium|
+|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [Python](./Algorithm/Python/50/0032_Longest_Valid_Parentheses.py)|Hard|
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python](./Algorithm/Python/50/0033_Search_in_Rotated_Sorted_Array.py)|Medium|
+|34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| [Python](./Algorithm/Python/50/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)|Medium|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python](./Algorithm/Python/50/0035_Search_Insert_Position.py)|Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Python](./algorithms/cpp/validSudoku/validSudoku.cpp)|Easy|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [Python](./algorithms/cpp/sudokuSolver/sudokuSolver.cpp)|Hard|
-|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./Algorithm/Python/0038_Count_and_Say.py)|Easy|
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./Algorithm/Python/50/0038_Count_and_Say.py)|Easy|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Python](./algorithms/cpp/combinationSum/combinationSum.cpp)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Python](./algorithms/cpp/combinationSum/combinationSum.II.cpp)|Medium|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [Python](./algorithms/cpp/firstMissingPositive/firstMissingPositive.cpp)|Hard|
-|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/0042_Trapping_Rain_Water.py)|Hard|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/50/0042_Trapping_Rain_Water.py)|Hard|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Python](./algorithms/cpp/multiplyStrings/multiplyStrings.cpp)|Medium|
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)| [Python](./algorithms/cpp/wildcardMatching/wildcardMatching.cpp)|Hard|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [Python](./algorithms/cpp/jumpGame/jumpGame.II.cpp)|Hard|
