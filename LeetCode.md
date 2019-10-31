@@ -56,8 +56,8 @@ Shortcut # : [25](#25) | [50](#50)
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/50/0042_Trapping_Rain_Water.py)|Hard|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Python](./Algorithm/Python/50/0043_Multiply_Strings.py)|Medium|
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)| [Python](./algorithms/cpp/wildcardMatching/wildcardMatching.cpp)|Hard|
-|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [Python](./algorithms/cpp/jumpGame/jumpGame.II.cpp)|Hard|
-|46|[Permutations](https://leetcode.com/problems/permutations/)| [Python](./algorithms/cpp/permutations/permutations.cpp)|Medium|
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [Python](./Algorithm/Python/50/0045_Jump_Game_II.py)|Hard|
+|46|[Permutations](https://leetcode.com/problems/permutations/)| [Python](./Algorithm/Python/50/0046_Permutations.py)|Medium|
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python](./algorithms/cpp/permutations/permutations.II.cpp)|Hard|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)| [Python](./algorithms/cpp/rotateImage/rotateImage.cpp)|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [Python](./algorithms/cpp/anagrams/GroupAnagrams.cpp)|Medium|
