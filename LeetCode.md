@@ -54,7 +54,7 @@ Shortcut # : [25](#25) | [50](#50)
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Python](./algorithms/cpp/combinationSum/combinationSum.II.cpp)|Medium|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [Python](./Algorithm/Python/50/0041_First_Missing_Positive.py)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/50/0042_Trapping_Rain_Water.py)|Hard|
-|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Python](./algorithms/cpp/multiplyStrings/multiplyStrings.cpp)|Medium|
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Python](./Algorithm/Python/50/0043_Multiply_Strings.py)|Medium|
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)| [Python](./algorithms/cpp/wildcardMatching/wildcardMatching.cpp)|Hard|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [Python](./algorithms/cpp/jumpGame/jumpGame.II.cpp)|Hard|
 |46|[Permutations](https://leetcode.com/problems/permutations/)| [Python](./algorithms/cpp/permutations/permutations.cpp)|Medium|
