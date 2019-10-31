@@ -50,7 +50,7 @@ Shortcut # : [25](#25) | [50](#50)
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Python](./Algorithm/Python/50/0036_Valid_Sudoku.py)|Easy|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [Python](./Algorithm/Python/50/0037_Sudoku_Solver.py)|Hard|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./Algorithm/Python/50/0038_Count_and_Say.py)|Easy|
-|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Python](./algorithms/cpp/combinationSum/combinationSum.cpp)|Medium|
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Python](./Algorithm/Python/50/0039_Combination_Sum.py)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Python](./algorithms/cpp/combinationSum/combinationSum.II.cpp)|Medium|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [Python](./algorithms/cpp/firstMissingPositive/firstMissingPositive.cpp)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/50/0042_Trapping_Rain_Water.py)|Hard|
