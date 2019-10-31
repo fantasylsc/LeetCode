@@ -52,7 +52,7 @@ Shortcut # : [25](#25) | [50](#50)
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Python](./Algorithm/Python/50/0038_Count_and_Say.py)|Easy|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Python](./Algorithm/Python/50/0039_Combination_Sum.py)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Python](./algorithms/cpp/combinationSum/combinationSum.II.cpp)|Medium|
-|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [Python](./algorithms/cpp/firstMissingPositive/firstMissingPositive.cpp)|Hard|
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [Python](./Algorithm/Python/50/0041_First_Missing_Positive.py)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/50/0042_Trapping_Rain_Water.py)|Hard|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Python](./algorithms/cpp/multiplyStrings/multiplyStrings.cpp)|Medium|
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)| [Python](./algorithms/cpp/wildcardMatching/wildcardMatching.cpp)|Hard|
