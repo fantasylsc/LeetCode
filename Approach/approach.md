@@ -19,12 +19,12 @@
 |[Bucket Sort](./Classification/Bucket_Sort.py)| Θ(n+k) | Ω(n+k) | O(n^2) | O(n) |k is the number of buckets|
    
 
-## 3. Searching
+## 3. Binary Search and Sorted Array
 
 |[Binary Search](./Classification/Binary_Search.py)| BFS | DFS |
 
+## 4. Binary Tree, Divide Conquer, DFS, and BFS
 
-## 4. Divide and Conquer
 
 ## 5. Recursion
 
