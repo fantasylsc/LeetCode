@@ -73,7 +73,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)| [Python](./algorithms/cpp/nQueens/nQueuens.II.cpp)|Hard|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Python](./Algorithm/Python/75/0053_Maximum_Subarray.py)|Medium|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)| [Python](./algorithms/cpp/spiralMatrix/spiralMatrix.cpp)|Medium|
-|55|[Jump Game](https://leetcode.com/problems/jump-game/)| [Python](./algorithms/cpp/jumpGame/jumpGame.cpp)|Medium|
+|55|[Jump Game](https://leetcode.com/problems/jump-game/)| [Python](./Algorithm/Python/75/0055_Jump_Game.py)|Medium|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)| [Python](./algorithms/cpp/mergeIntervals/mergeIntervals.cpp)|Hard|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)| [Python](./algorithms/cpp/insertInterval/insertInterval.cpp)|Hard|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)| [Python](./algorithms/cpp/lengthOfLastWord/lengthOfLastWord.cpp), [Java](./algorithms/java/src/lengthOfLastWord/LengthOfLastWord.java)|Easy|
