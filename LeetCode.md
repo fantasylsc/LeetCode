@@ -55,12 +55,12 @@ Shortcut # : [25](#25) | [50](#50)
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [Python](./Algorithm/Python/50/0041_First_Missing_Positive.py)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Python](./Algorithm/Python/50/0042_Trapping_Rain_Water.py)|Hard|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Python](./Algorithm/Python/50/0043_Multiply_Strings.py)|Medium|
-|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)| [Python](./algorithms/cpp/wildcardMatching/wildcardMatching.cpp)|Hard|
+|44|[Wildcard Matching--](https://leetcode.com/problems/wildcard-matching/)| [Python](./algorithms/cpp/wildcardMatching/wildcardMatching.cpp)|Hard|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [Python](./Algorithm/Python/50/0045_Jump_Game_II.py)|Hard|
 |46|[Permutations](https://leetcode.com/problems/permutations/)| [Python](./Algorithm/Python/50/0046_Permutations.py)|Medium|
-|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python](./algorithms/cpp/permutations/permutations.II.cpp)|Hard|
-|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)| [Python](./algorithms/cpp/rotateImage/rotateImage.cpp)|Medium|
-|49|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [Python](./algorithms/cpp/anagrams/GroupAnagrams.cpp)|Medium|
+|47|[Permutations II--](https://leetcode.com/problems/permutations-ii/)| [Python](./algorithms/cpp/permutations/permutations.II.cpp)|Hard|
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)| [Python](./Algorithm/Python/50/0048_Rotate_Image.py)|Medium|
+|49|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [Python](./Algorithm/Python/50/0049_Group_Anagrams.py)|Medium|
 
 ## [Go to Top](#LeetCode-Python-Solutions)
 
