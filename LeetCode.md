@@ -69,7 +69,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |50|["Pow(x, n)"](https://leetcode.com/problems/powx-n/)| [Python](./Algorithm/Python/50/0050_Pow(x%2Cn).py)|Medium|
-|51|[N-Queens](https://leetcode.com/problems/n-queens/)| [Python](./algorithms/cpp/nQueens/nQueuens.cpp)|Hard|
+|51|[N-Queens](https://leetcode.com/problems/n-queens/)| [Python](./Algorithm/Python/75/0051_N-Queens.py)|Hard|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)| [Python](./algorithms/cpp/nQueens/nQueuens.II.cpp)|Hard|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Python](./algorithms/cpp/maximumSubArray/maximumSubArray.cpp)|Medium|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)| [Python](./algorithms/cpp/spiralMatrix/spiralMatrix.cpp)|Medium|
