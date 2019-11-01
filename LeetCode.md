@@ -75,7 +75,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)| [Python](./algorithms/cpp/spiralMatrix/spiralMatrix.cpp)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)| [Python](./Algorithm/Python/75/0055_Jump_Game.py)|Medium|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)| [Python](./Algorithm/Python/75/0056_Merge_Intervals.py)|Hard|
-|57|[Insert Interval](https://leetcode.com/problems/insert-interval/)| [Python](./algorithms/cpp/insertInterval/insertInterval.cpp)|Hard|
+|57|[Insert Interval](https://leetcode.com/problems/insert-interval/)| [Python](./Algorithm/Python/75/0057_Insert_Interval.py)|Hard|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)| [Python](./algorithms/cpp/lengthOfLastWord/lengthOfLastWord.cpp), [Java](./algorithms/java/src/lengthOfLastWord/LengthOfLastWord.java)|Easy|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)| [Python](./algorithms/cpp/spiralMatrix/spiralMatrix.II.cpp)|Medium|
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)| [Python](./algorithms/cpp/permutationSequence/permutationSequence.cpp)|Medium|
