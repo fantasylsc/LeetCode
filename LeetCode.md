@@ -1,7 +1,7 @@
 
 # LeetCode Python Solutions
 
-Shortcut # : [25](#25) | [50](#50)
+Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [150](#150) | [175](#175) | [200](#200) |
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -98,6 +98,8 @@ Shortcut # : [25](#25) | [50](#50)
 
 ## 75
 
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)| [C++](./algorithms/cpp/sortColors/sortColors.cpp)|Medium|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [C++](./algorithms/cpp/minimumWindowSubstring/minimumWindowSubstring.cpp)|Hard|
 |77|[Combinations](https://leetcode.com/problems/combinations/)| [C++](./algorithms/cpp/combinations/combinations.cpp)|Medium|
@@ -128,6 +130,8 @@ Shortcut # : [25](#25) | [50](#50)
 
 ## 100
 
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)| [C++](./algorithms/cpp/sameTree/sameTree.cpp)|Easy|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [C++](./algorithms/cpp/symmetricTree/symmetricTree.cpp)|Easy|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [C++](./algorithms/cpp/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.cpp), [Java](./algorithms/java/src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.java)|Easy|
@@ -158,6 +162,8 @@ Shortcut # : [25](#25) | [50](#50)
 
 ## 125
 
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./algorithms/cpp/validPalindrome/validPalindrome.cpp), [Java](./algorithms/java/src/validPalindrome/ValidPalindrome.java)|Easy|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)| [C++](./algorithms/cpp/wordLadder/wordLadder.II.cpp)|Hard|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)| [C++](./algorithms/cpp/wordLadder/wordLadder.cpp)|Medium|
@@ -188,6 +194,8 @@ Shortcut # : [25](#25) | [50](#50)
 
 ## 150
 
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [C++](./algorithms/cpp/evaluateReversePolishNotation/evaluateReversePolishNotation.cpp)|Medium|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [C++](./algorithms/cpp/reverseWordsInAString/reverseWordsInAString.cpp), [Java](./algorithms/java/src/reverseWordsInAString/ReverseWordsInAString.java)|Medium|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)| [C++](./algorithms/cpp/maximumProductSubarray/maximumProductSubarray.cpp)|Medium|
@@ -218,6 +226,8 @@ Shortcut # : [25](#25) | [50](#50)
 
 ## 175
 
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |179|[Largest Number](https://leetcode.com/problems/largest-number/) | [C++](./algorithms/cpp/largestNumber/largestNumber.cpp)|Medium|
 |186|[Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) &hearts; | [C++](./algorithms/cpp/reverseWordsInAString/reverseWordsInAString.II.cpp)|Medium|
 |187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)| [C++](./algorithms/cpp/repeatedDNASequences/repeatedDNASequences.cpp)|Medium|
@@ -232,6 +242,8 @@ Shortcut # : [25](#25) | [50](#50)
 
 ## 200
 
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
 
