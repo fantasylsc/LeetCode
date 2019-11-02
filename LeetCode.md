@@ -78,7 +78,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)| [Python](./Algorithm/Python/75/0057_Insert_Interval.py)|Hard|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)| [Python](./Algorithm/Python/75/0058_Length_of_Last_Word.py)|Easy|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)| [Python](./Algorithm/Python/75/0059_Spiral_MatrixII.py)|Medium|
-|60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)| [Python](./algorithms/cpp/permutationSequence/permutationSequence.cpp)|Medium|
+|60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)| [Python](./Algorithm/Python/75/0060_permutation_Sequence.py)|Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)| [Python](./algorithms/cpp/rotateList/rotateList.cpp)|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)| [Python](./algorithms/cpp/uniquePaths/uniquePaths.cpp), [Java](./algorithms/java/src/dynamicProgramming/uniquePaths/uniquePaths.java)|Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)| [Python](./algorithms/cpp/uniquePaths/uniquePaths.II.cpp), [Java](./algorithms/java/src/dynamicProgramming/uniquePaths/uniquePathsII.java)|Medium|
