@@ -82,7 +82,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)| [Python](./algorithms/cpp/rotateList/rotateList.cpp)|Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)| [Python](./Algorithm/Python/75/0062_Unique_Paths.py)|Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)| [Python](./Algorithm/Python/75/0063_Unique_PathsII.py)|Medium|
-|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)| [Python](./algorithms/cpp/minimumPathSum/minimumPathSum.cpp), [Java](./algorithms/java/src/dynamicProgramming/minimumPathSum/minimumPathSum.java)|Medium|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)| [Python](./Algorithm/Python/75/0064_Minimum_Path_Sum.py)|Medium|
 |65|[Valid Number](https://leetcode.com/problems/valid-number/)| [Python](./algorithms/cpp/validNumber/validNumber.cpp)|Easy|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)| [Python](./algorithms/cpp/plusOne/plusOne.cpp)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)| [Python](./algorithms/cpp/addBinary/addBinary.cpp)|Easy|
