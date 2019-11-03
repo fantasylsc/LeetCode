@@ -22,14 +22,8 @@ Example 2:
 Input: m = 7, n = 3
 Output: 28
 
-
 '''
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
 
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
