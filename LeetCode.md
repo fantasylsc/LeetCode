@@ -86,7 +86,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |65|[Valid Number](https://leetcode.com/problems/valid-number/)| [Python](./algorithms/cpp/validNumber/validNumber.cpp)|Easy|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)| [Python](./Algorithm/Python/50/0066_Plus_One.py)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)| [Python](./algorithms/cpp/addBinary/addBinary.cpp)|Easy|
-|68|[Text Justification](https://leetcode.com/problems/text-justification/)| [Python](./algorithms/cpp/textJustification/textJustification.cpp)|Hard|
+|68|[Text Justification](https://leetcode.com/problems/text-justification/)| [Python](./Algorithm/Python/75/0068_Text_Justification.py)|Hard|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python](./algorithms/cpp/sqrt/sqrt.cpp)|Medium|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python](./algorithms/cpp/climbStairs/climbStairs.cpp), [Java](./algorithms/java/src/dynamicProgramming/climbStairs/climbStairs.java)|Easy|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)| [Python](./algorithms/cpp/simplifyPath/simplifyPath.cpp)|Medium|
