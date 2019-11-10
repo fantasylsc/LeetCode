@@ -88,7 +88,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)| [Python](./Algorithm/Python/50/0067_Add_Binary.py)|Easy|
 |68|[Text Justification](https://leetcode.com/problems/text-justification/)| [Python](./Algorithm/Python/75/0068_Text_Justification.py)|Hard|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python](./Algorithm/Python/50/0069_Sqrt(x).py)|Medium|
-|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python](./algorithms/cpp/climbStairs/climbStairs.cpp), [Java](./algorithms/java/src/dynamicProgramming/climbStairs/climbStairs.java)|Easy|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python](./Algorithm/Python/50/0070_Climbing_Stairs.py)|Easy|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)| [Python](./algorithms/cpp/simplifyPath/simplifyPath.cpp)|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)| [Python](./algorithms/cpp/editDistance/editDistance.cpp)|Hard|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)| [Python](./algorithms/cpp/setMatrixZeroes/setMatrixZeroes.cpp)|Medium|
