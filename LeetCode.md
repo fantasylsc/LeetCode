@@ -246,6 +246,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
+|887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Python](./Algorithm/Python/0836_Rectangle_Overl)|Hard|
 
 
 
