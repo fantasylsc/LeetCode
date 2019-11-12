@@ -30,7 +30,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Python](./Algorithm/Python/25/0023_Merge_k_Sorted_Lists.py)|Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./Algorithm/Python/25/0024_Swap_Nodes_in_Pairs.py)|Medium|
 
-## [Go to Top](#LeetCode-Python-Solutions)
+## [Go to Top](#LeetCode-Solutions)
 
 ## 25
 
@@ -62,7 +62,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)| [Python](./Algorithm/Python/50/0048_Rotate_Image.py)|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [Python](./Algorithm/Python/50/0049_Group_Anagrams.py)|Medium|
 
-## [Go to Top](#LeetCode-Python-Solutions)
+## [Go to Top](#LeetCode-Solutions)
 
 ## 50
 
@@ -94,7 +94,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)| [Python](./Algorithm/Python/50/0073_Set_Matrix_Zeros.py)|Medium|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python](./algorithms/cpp/search2DMatrix/search2DMatrix.cpp), [Java](./algorithms/java/src/search2DMatrix/search2DMatrix.java)|Medium|
 
-## [Go to Top](#LeetCode-Python-Solutions)
+## [Go to Top](#LeetCode-Solutions)
 
 ## 75
 
@@ -126,7 +126,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)| [Python](./algorithms/cpp/validateBinarySearchTree/validateBinarySearchTree.cpp), [Java](./algorithms/java/src/validateBinarySearchTree/validateBinarySearchTree.java), [Python](./algorithms/python/ValidateBinarySearchTree/isValidBST.py)|Medium|
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)| [Python](./algorithms/cpp/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard|
 
-## [Go to Top](#LeetCode-Python-Solutions)
+## [Go to Top](#LeetCode-Solutions)
 
 ## 100
 
@@ -158,7 +158,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [Python](./algorithms/cpp/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.III.cpp)|Hard|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [Python](./algorithms/cpp/binaryTreeMaximumPathSum/binaryTreeMaximumPathSum.cpp), [Java](./algorithms/java/src/binaryTreeMaximumPathSum/binaryTreeMaximumPathSum.java)|Hard|
 
-## [Go to Top](#LeetCode-Python-Solutions)
+## [Go to Top](#LeetCode-Solutions)
 
 ## 125
 
@@ -190,7 +190,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |148|[Sort List](https://leetcode.com/problems/sort-list/)| [Python](./algorithms/cpp/sortList/sortList.cpp), [Python](./algorithms/python/SortList/sortList.py)|Medium|
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)| [Python](./algorithms/cpp/maxPointsOnALine/maxPointsOnALine.cpp)|Hard|
 
-## [Go to Top](#LeetCode-Python-Solutions)
+## [Go to Top](#LeetCode-Solutions)
 
 ## 150
 
@@ -222,7 +222,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Python](./algorithms/cpp/binarySearchTreeIterator/binarySearchTreeIterator.cpp), [Java](./algorithms/java/src/binarySearchTreeIterator/binarySearchTreeIterator.java), [Python](./algorithms/python/BinarySearchTreeIterator/BSTIterator.py)|Medium|
 |174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [Python](./algorithms/cpp/dungeonGame/dungeonGame.cpp)|Hard|
 
-## [Go to Top](#LeetCode-Python-Solutions)
+## [Go to Top](#LeetCode-Solutions)
 
 ## 175
 
@@ -238,7 +238,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |198|[House Robber](https://leetcode.com/problems/house-robber/)| [Python](./algorithms/cpp/houseRobber/houseRobber.cpp), [Python](./algorithms/python/HouseRobber/rob.py)|Easy|
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)| [Python](./algorithms/cpp/binaryTreeRightSideView/binaryTreeRightSideView.cpp)|Medium|
 
-## [Go to Top](#LeetCode-Python-Solutions)
+## [Go to Top](#LeetCode-Solutions)
 
 ## 200
 
