@@ -1,7 +1,7 @@
 
 # LeetCode Solutions
 
-Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [150](#150) | [175](#175) | [200](#200) |
+Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [150](#150) | [175](#175) | [200](#200) | [225](#225) | [250](#250) | [275](#275) | [300](#300) | [325](#325) | [350](#350) |
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -245,6 +245,44 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 225
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 250
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)| [Python](./Python/275/0253_Meeting_Rooms_II.py)|Medium|
+
+## 275
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## 300
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## 325
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## 350
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)| [Python](./Algorithm/Python/350/0348_Design_Tic-Tac-Toe.py)|Medium|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Python](./Algorithm/Python/0836_Rectangle_Overl)|Hard|
