@@ -21,10 +21,11 @@
 
 ## 3. Binary Search and Sorted Array
 
-|[Binary Search](./Classification/Binary_Search.py)| BFS | DFS |
+|[Binary Search](./Classification/Binary_Search.py)
 
 ## 4. Binary Tree, Divide Conquer, DFS, and BFS
 
+Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/), [BFS (Level Order Tree Traversal)](https://www.geeksforgeeks.org/level-order-tree-traversal/), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
 
 ## 5. Recursion
 
