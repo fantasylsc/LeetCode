@@ -293,7 +293,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)| [Python](./Algorithm/Python/350/0348_Design_Tic-Tac-Toe.py)|Medium|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Python](./Algorithm/Python/0836_Rectangle_Overl)|Hard|
-
+|1192|[Ctitical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)| [Python](./Algorithm/Python/1200/1192_Critical_Connections_in_a_Network.py)|Hard|
 
 
 
