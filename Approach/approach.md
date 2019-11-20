@@ -37,6 +37,10 @@ Dynamic Programming properties: [Overlapping Subproblems Property](https://www.g
 
 [Dynamic Progrmming problems](https://www.geeksforgeeks.org/category/dynamic-programming/)
 
+Typical Dynamic Programming Problems:
+
+[Traveling Salesman Problem](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
+
 ## Class Design
 
 ### LRU Cache
