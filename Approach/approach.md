@@ -35,11 +35,9 @@ Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-r
 
 Dynamic Programming properties: [Overlapping Subproblems Property](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/) and [Optimal Substructure Property](https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/).
 
-[Dynamic Progrmming problems](https://www.geeksforgeeks.org/category/dynamic-programming/)
+[Dynamic Progrmming Problem Archives](https://www.geeksforgeeks.org/category/dynamic-programming/)
 
-Typical Dynamic Programming Problems:
-
-[Traveling Salesman Problem](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
+Typical Dynamic Programming Problems: [Traveling Salesman Problem](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
 
 ## Class Design
 
