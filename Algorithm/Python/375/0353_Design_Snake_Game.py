@@ -64,6 +64,7 @@ class SnakeGame:
         self.height = height
         self.food = food
         self.snake = [[0, 0]]
+
         
 
     def move(self, direction: str) -> int:
@@ -73,28 +74,37 @@ class SnakeGame:
         @return The game's score after the move. Return -1 if game over. 
         Game over when snake crosses the screen boundary or bites its body.
         """
-        head = self.snake[0]
-        tail = self.snake[-1]
+        
+        head = [self.snake[0][0], self.snake[0][1]]
+        tail = [self.snake[-1][0], self.snake[-1][1]]
+        
+        # delete tail
         self.snake.pop()
         
+        # calculate new head
         if direction == 'U':
-            head = [head[0] - 1, head[1]]
+            head[0] -= 1
         elif direction == 'L':
-            head = [head[0], head[1] - 1]
+            head[1] -= 1
         elif direction == 'R':
-            head = [head[0], head[1] + 1]
+            head[1] += 1
         elif direction == 'D':
-            head = [head[0] + 1, head[1]]
+            head[0] += 1
+        
+        # judge if game over
         if head in self.snake or head[0] < 0 or head[0] >= self.height or head[1] < 0 or head[1] >= self.width:
             return -1
         
+        # insert new head
         self.snake.insert(0, head)
+        
+        # judge if food is eaten by the snake, if so update food and snake
         if len(self.food) != 0 and head == self.food[0]:
             self.food.pop(0)
             self.snake.append(tail)
-        print(self.snake)
+        
+        # return score
         return len(self.snake) - 1
-
 
 # Your SnakeGame object will be instantiated and called as such:
 # obj = SnakeGame(width, height, food)
