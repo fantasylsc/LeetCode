@@ -310,7 +310,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
-|887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Python](./Algorithm/Python/0836_Rectangle_Overl)|Hard|
+|887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Python](./Algorithm/Python/900/0887_Super_Egg_Drop.py)|Hard|
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)| [Python](./Algorithm/Python/0836_Rectangle)|Hard|
 |1192|[Ctitical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)| [Python](./Algorithm/Python/1200/1192_Critical_Connections_in_a_Network.py)|Hard|
 
