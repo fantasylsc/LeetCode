@@ -1,7 +1,7 @@
 
 # LeetCode Solutions
 
-Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [150](#150) | [175](#175) | [200](#200) | [225](#225) | [250](#250) | [275](#275) | [300](#300) | [325](#325) | [350](#350) | [375](#375) |
+Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [150](#150) | [175](#175) | [200](#200) | [225](#225) | [250](#250) | [275](#275) | [300](#300) | [325](#325) | [350](#350) | [375](#375) | [400](#400) | 
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -303,11 +303,16 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 |353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)| [Python](./Algorithm/Python/375/0353_Design_Snake_Game.py)|Medium|
 
+## [Go to Top](#LeetCode-Solutions)
 
+## 400
 
-
-
-
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
+|887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Python](./Algorithm/Python/0836_Rectangle_Overl)|Hard|
+|943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)| [Python](./Algorithm/Python/0836_Rectangle)|Hard|
+|1192|[Ctitical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)| [Python](./Algorithm/Python/1200/1192_Critical_Connections_in_a_Network.py)|Hard|
 
 
 
