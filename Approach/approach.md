@@ -2,9 +2,20 @@
 
 ## 1. Data Structures
 
-# Linked List
+### List
+
+### Sets
+
+
+### Linked List
 
 | Delete node | Have a cycle | Reverse a linked list | Kth to last node | Go in a cycle, find length of cycle, find first node in a cylce |
+
+### Hash Tables
+
+
+### Tree
+
 
 
 ## 2. Sorting Algorithms
