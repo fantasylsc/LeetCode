@@ -2,7 +2,7 @@
 
 ## 1. Data Structures
 
-### List
+### * [List]
 
 ### Sets
 
