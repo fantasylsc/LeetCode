@@ -35,7 +35,7 @@ class Solution:
             return dp[amount]
 
 
-# Recusion without memorization
+# Recusion without memoization
 
 # class Solution:
 #     def coinChange(self, coins: List[int], amount: int) -> int:
@@ -73,7 +73,7 @@ class Solution:
 #         #     self.count[rem - 1] = min_value # update with min_value
 #         # return self.count[rem - 1]
 
-# Recursion with memorization
+# Recursion with memoization
 # class Solution:
 #     def coinChange(self, coins: List[int], amount: int) -> int:
 #         if amount < 1:
