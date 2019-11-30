@@ -17,38 +17,54 @@ You may assume that you have an infinite number of each kind of coin.
 '''
 
 # Recursion with memorization
+# class Solution:
+#     def coinChange(self, coins: List[int], amount: int) -> int:
+#         if amount < 1:
+#             return 0
+#         self.count = [0] * amount
+#         return self.helper(coins, amount)
+        
+#     def helper(self, coins, rem):
+#         # Base case
+#         if rem < 0:
+#             return -1
+#         if rem == 0:
+#             return 0
+        
+#         # Memorization
+#         if self.count[rem - 1] != 0:
+#             return self.count[rem - 1]
+        
+#         # for each coin in coins, update optimal minimum value
+#         min_value = float('inf')
+#         for coin in coins:
+#             temp = self.helper(coins, rem - coin)
+#             if temp >= 0 and temp < min_value:
+#                 min_value = temp + 1
+                
+#         if min_value == float('inf'): # no update means cannot be made up by any combination of the coins
+#             self.count[rem - 1] = -1
+#         else:
+#             self.count[rem - 1] = min_value # update with min_value
+#         return self.count[rem - 1]
+
+
+# DP
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        if amount < 1:
-            return 0
-        self.count = [0] * amount
-        return self.helper(coins, amount)
+        # initialize dp table
+        max_value = amount + 1
+        dp = [max_value] * max_value
+        dp[0] = 0
         
-    def helper(self, coins, rem):
-        # Base case
-        if rem < 0:
+        # for every amount, try every coin to update dp table
+        for i in range(1, amount + 1):
+            for coin in coins:
+                if coin <= i:
+                    dp[i] = min(dp[i], dp[i - coin] + 1)
+        if dp[amount] > amount:
             return -1
-        if rem == 0:
-            return 0
-        
-        # Memorization
-        if self.count[rem - 1] != 0:
-            return self.count[rem - 1]
-        
-        # for each coin in coins, update optimal minimum value
-        min_value = float('inf')
-        for coin in coins:
-            temp = self.helper(coins, rem - coin)
-            if temp >= 0 and temp < min_value:
-                min_value = temp + 1
-                
-        if min_value == float('inf'): # no update means cannot be made up by any combination of the coins
-            self.count[rem - 1] = -1
         else:
-            self.count[rem - 1] = min_value # update with min_value
-        return self.count[rem - 1]
-
-
-
+            return dp[amount]
 
 
