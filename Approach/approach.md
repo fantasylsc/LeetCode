@@ -45,7 +45,7 @@ Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-r
 
 ### Recursion
 
-Example: [Calculate Fibonacci Number](https://leetcode.com/problems/fibonacci-number/): [Approach Compare]() (1. Recusion without memoization, 2. Recursion with memoization, 3. Bottom up Dynamic Programming)
+Example: [Calculate Fibonacci Number](https://leetcode.com/problems/fibonacci-number/): [Approach Compare](https://github.com/fantasylsc/LeetCode/blob/master/Algorithm/Python/525/0509_Fib_Number.py) (1. Recusion without memoization, 2. Recursion with memoization, 3. Bottom up Dynamic Programming)
 
 [322. Coin Change](https://leetcode.com/problems/coin-change/)
 
