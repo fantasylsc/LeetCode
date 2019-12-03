@@ -332,15 +332,52 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
+
+## [Go to Top](#LeetCode-Solutions)
+
+
+## 875
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## 900
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Python](./Algorithm/Python/900/0887_Super_Egg_Drop.py)|Hard|
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 975
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+
+## 950
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)| [Python](./Algorithm/Python/0836_Rectangle)|Hard|
+
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 1175
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)| [Python](./Algorithm/Python/1175/1170_Compare_String_by_Frequency_of_Smallest_Character.py)|Easy|
+
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 1200
+
 |1192|[Ctitical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)| [Python](./Algorithm/Python/1200/1192_Critical_Connections_in_a_Network.py)|Hard|
-
-
-
-
-
-
 
 
 
