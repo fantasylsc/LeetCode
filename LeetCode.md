@@ -301,6 +301,11 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)| [Python](./Algorithm/Python/375/0353_Design_Snake_Game.py)|Medium|
+|359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)| [Python](./Algorithm/Python/375/0359_Logger_Rate_Limiter.py)|Easy|
+
+
+
+
 
 ## [Go to Top](#LeetCode-Solutions)
 
