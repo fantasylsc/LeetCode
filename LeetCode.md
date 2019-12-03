@@ -252,8 +252,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|225|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [Python](./Algorithm/Python/225/0205_Isomorphic_Strings.py
-)|Easy|
+|225|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [Python](./Algorithm/Python/225/0205_Isomorphic_Strings.py)|Easy|
 
 ## [Go to Top](#LeetCode-Solutions)
 
