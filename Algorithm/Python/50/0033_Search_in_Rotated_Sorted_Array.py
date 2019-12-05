@@ -22,44 +22,72 @@ Output: -1
 
 '''
 
-
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        if len(nums) == 0:
+        if not nums:
             return -1
-
-        # find pivot
-        left = 0
-        right = len(nums) - 1
-        while left < right:
-            mid = left + (right - left) // 2
-            if nums[mid] > nums[right]:
-                left = mid + 1
-            else:
-                right = mid
-                
-        pivot = left
         
-        # find target, binary search in [0: pivot] and [pivot: len(nums)] respectively
-        res = self.binarySearch(nums, target, 0, pivot)
+        start = 0
+        end = len(nums) - 1
         
-        if res == -1:
-            return self.binarySearch(nums, target, pivot, len(nums))
-        else:
-            return res
-        
-        
-    def binarySearch(self, nums, target, left, right):
-        while left < right:
-            mid = left + (right - left) // 2
+        while start + 1 < end:
+            mid = start + (end - start) // 2
             if nums[mid] == target:
                 return mid
-            elif nums[mid] < target:
-                left = mid + 1
+            if nums[start] < nums[mid]:
+                if nums[start] <= target and target <= nums[mid]:
+                    end = mid
+                else:
+                    start = mid
             else:
-                right = mid
-                
+                if nums[mid] <= target and target <= nums[end]:
+                    start = mid
+                else:
+                    end = mid
+        
+        if nums[start] == target:
+            return start
+        if nums[end] == target:
+            return end
         return -1
+
+# class Solution:
+#     def search(self, nums: List[int], target: int) -> int:
+#         if len(nums) == 0:
+#             return -1
+
+#         # find pivot
+#         left = 0
+#         right = len(nums) - 1
+#         while left < right:
+#             mid = left + (right - left) // 2
+#             if nums[mid] > nums[right]:
+#                 left = mid + 1
+#             else:
+#                 right = mid
+                
+#         pivot = left
+        
+#         # find target, binary search in [0: pivot] and [pivot: len(nums)] respectively
+#         res = self.binarySearch(nums, target, 0, pivot)
+        
+#         if res == -1:
+#             return self.binarySearch(nums, target, pivot, len(nums))
+#         else:
+#             return res
+        
+        
+#     def binarySearch(self, nums, target, left, right):
+#         while left < right:
+#             mid = left + (right - left) // 2
+#             if nums[mid] == target:
+#                 return mid
+#             elif nums[mid] < target:
+#                 left = mid + 1
+#             else:
+#                 right = mid
+                
+#         return -1
         
 
 
