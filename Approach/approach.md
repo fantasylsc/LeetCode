@@ -35,7 +35,7 @@
 
 ## 3. Binary Search and Sorted Array
 
-|[Binary Search](./Classification/Binary_Search.py)
+|[Binary Search](./Classification/Binary_Search.py) | [Binary Search (NineChapter)]()
 
 ## 4. Binary Tree, Divide Conquer, DFS, and BFS
 
