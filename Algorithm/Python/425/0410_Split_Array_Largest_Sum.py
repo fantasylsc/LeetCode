@@ -23,8 +23,45 @@ where the largest sum among the two subarrays is only 18.
 
 '''
 
+# Binary search
+# Example: nums = [1, 2, 3, 4, 5], m = 3, left = 5, right = 15, seach in [5, 15] to make sure m = 3
+# if subarray cnt > m, left = mid + 1, if cnt <= m, right = mid 
+
+class Solution:
+    def splitArray(self, nums: List[int], m: int) -> int:
+        def can_split(nums, m, sums):
+            cnt = 1
+            curSum = 0
+            for i in range(len(nums)):
+                curSum += nums[i]
+                if curSum > sums:
+                    curSum = nums[i]
+                    cnt += 1
+                    if cnt > m:
+                        return False
+            return True
+    
+        left = 0
+        right = 0
+        for i in range(len(nums)):
+            left = max(left, nums[i])
+            right += nums[i]
+            
+        while left < right:
+            mid = left + (right - left) // 2
+            if can_split(nums, m, mid):
+                right = mid
+            else:
+                left = mid + 1
+        return right
+
+
+
+
+
 # TLE
 # dp f[i][j] split i nums into j parts
+#                              f[k][j - 1] is not affected by nums[k + 1] + ... + nums[i]
 # formula f[i][j] = min(f[i][j], max(f[k][j - 1], nums[k + 1] + ... + nums[i])) 
 # O(n^2 * m)
 class Solution:
