@@ -44,7 +44,7 @@ Binary Search: | search for a target, search for the first target, search for th
 Binary Tree Traversal: Preorder (root, left, right), Postorder (left, right, root), Inorder (left, root, right).
 
 <p align="center">
-<img width="700"  src=./Materials/DFSBFS.png >
+<img width="500"  src=./Materials/DFSBFS.png >
 </p>
                              
 [Preorder](./Algorithm/Python/150/0144_Binary_Tree_Preorder_Traversal.py) (root, left, right): 1 2 4 5 3
