@@ -16,6 +16,7 @@ Output: [1,2,2,3,5,6]
 
 '''
 
+# list slicing: nums[i: j] does not include jth item
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
