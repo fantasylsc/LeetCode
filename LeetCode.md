@@ -113,7 +113,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)| [Python](./algorithms/cpp/maximalRectangle/maximalRectangle.cpp)|Hard|
 |86|[Partition List](https://leetcode.com/problems/partition-list/)| [Python](./algorithms/cpp/partitionList/partitionList.cpp), [Python](./algorithms/python/PartitionList/partition.py)|Medium|
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/)| [Python](./algorithms/cpp/scrambleString/scrambleString.cpp)|Hard|
-|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](./algorithms/cpp/mergeTwoSortedArray/mergeTwoSortedArray.cpp)|Easy|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](./Algorithm/Python/100/0088_Merge_Sorted_Array.py)|Easy|
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)| [Python](./algorithms/cpp/grayCode/grayCode.cpp)|Medium|
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)| [Python](./algorithms/cpp/subsets/subsets.II.cpp), [Java](./algorithms/java/src/subsets/subsetsII.java)|Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)| [Python](./algorithms/cpp/decodeWays/decodeWays.cpp)|Medium|
