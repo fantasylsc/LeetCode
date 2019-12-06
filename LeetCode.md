@@ -92,7 +92,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)| [Python](./Algorithm/Python/50/0071_Simplify_Path.py)|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)| [Python](./algorithms/cpp/editDistance/editDistance.cpp)|Hard|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)| [Python](./Algorithm/Python/50/0073_Set_Matrix_Zeros.py)|Medium|
-|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python](./algorithms/cpp/search2DMatrix/search2DMatrix.cpp), [Java](./algorithms/java/src/search2DMatrix/search2DMatrix.java)|Medium|
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python](./Algorithm/Python/75/0074_Search_a_2D_Matrix.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
 
