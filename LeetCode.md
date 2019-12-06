@@ -208,7 +208,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) &hearts; | [Python](./algorithms/cpp/longestSubstringWithAtMostTwoDistinctCharacters/longestSubstringWithAtMostTwoDistinctCharacters.cpp)|Hard|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./algorithms/cpp/intersectionOfTwoLinkedLists/intersectionOfTwoLinkedLists.cpp)|Easy|
 |161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)&hearts; | [Python](./algorithms/cpp/oneEditDistance/oneEditDistance.cpp)|Medium|
-|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./algorithms/cpp/findPeakElement/findPeakElement.cpp), [Java](./algorithms/java/src/findPeakElement/findPeakElement.java)|Medium|
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./Algorithm/Python/175/0162_Find_Peak_Element.py)|Medium|
 |163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/) &hearts; | [Python](./algorithms/cpp/missingRanges/missingRanges.cpp)|Medium|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Python](./algorithms/cpp/maximumGap/maximumGap.cpp)|Hard|
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | [Python](./algorithms/cpp/compareVersionNumbers/compareVersionNumbers.cpp)|Easy|
