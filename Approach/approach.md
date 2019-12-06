@@ -51,7 +51,7 @@ Example:
                               / \
                              4   5
                              
-Preorder (root, left, right): 1 2 4 5 3
+[Preorder](./Algorithm/Python/150/0144_Binary_Tree_Preorder_Traversal.py) (root, left, right): 1 2 4 5 3
 
 Postorder (left, right, root): 4 5 2 3 1
 
