@@ -57,7 +57,7 @@ Postorder (left, right, root): 4 5 2 3 1
 
 Inorder (left, root, right): 4 2 5 1 3
 
-Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/), [BFS (Level Order Tree Traversal)](https://www.geeksforgeeks.org/level-order-tree-traversal/), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
+Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/)(Iterative: using stack), [BFS (Level Order Tree Traversal)](https://www.geeksforgeeks.org/level-order-tree-traversal/)(Iterative: using queue), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
 
 ## 5. Recursion and Dynamic Programming
 
