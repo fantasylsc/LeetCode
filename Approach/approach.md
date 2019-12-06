@@ -41,17 +41,11 @@ Binary Search: | search for a target, search for the first target, search for th
 
 ## 4. Binary Tree, Divide Conquer, DFS, and BFS
 
-Binary Tree Traversal: Preorder (root, left, right), Postorder (left, right, root), Inorder (left, root, right).
+Binary Tree Traversal: traverse order 1-2-3-4-5. [Preorder](./Algorithm/Python/150/0144_Binary_Tree_Preorder_Traversal.py) (root, left, right), Postorder (left, right, root), Inorder (left, root, right).
 
 <p align="center">
 <img width="500"  src=./Materials/DFSBFS.png >
 </p>
-                             
-[Preorder](./Algorithm/Python/150/0144_Binary_Tree_Preorder_Traversal.py) (root, left, right): 1 2 4 5 3
-
-Postorder (left, right, root): 4 5 2 3 1
-
-Inorder (left, root, right): 4 2 5 1 3
 
 Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/)(Iterative: using stack), [BFS (Level Order Tree Traversal)](https://www.geeksforgeeks.org/level-order-tree-traversal/)(Iterative: using queue), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
 
