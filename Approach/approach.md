@@ -41,6 +41,20 @@ Binary Search: | search for a target, search for the first target, search for th
 
 ## 4. Binary Tree, Divide Conquer, DFS, and BFS
 
+Binary Tree Traversal: Preorder (root, left, right), Postorder (left, right, root), Inorder (left, root, right).
+Example:
+                                 1
+                                / \
+                               2   3
+                              / \
+                             4   5
+                             
+Preorder (root, left, right): 1 2 4 5 3
+
+Postorder (left, right, root): 4 5 2 3 1
+
+Inorder (left, root, right): 4 2 5 1 3
+
 Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/), [BFS (Level Order Tree Traversal)](https://www.geeksforgeeks.org/level-order-tree-traversal/), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
 
 ## 5. Recursion and Dynamic Programming
