@@ -42,11 +42,16 @@ Binary Search: | search for a target, search for the first target, search for th
 ## 4. Binary Tree, Divide Conquer, DFS, and BFS
 
 Binary Tree Traversal: Preorder (root, left, right), Postorder (left, right, root), Inorder (left, root, right).
+
 Example:
                                  1
+                                 
                                 / \
+                                
                                2   3
+                               
                               / \
+                              
                              4   5
                              
 Preorder (root, left, right): 1 2 4 5 3
