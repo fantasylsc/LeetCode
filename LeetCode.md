@@ -278,6 +278,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)| [Python](./Algorithm/Python/300/0278_First_Bad_Version.py)|Easy|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [Python](./Algorithm/Python/300/0297_Serialize_and_Deserialize_Binary_Tree.py)|Hard|
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)| [Python](./Algorithm/Python/300/0299_Bulls_and_Cows.py)|Easy|
 
