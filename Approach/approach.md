@@ -44,6 +44,7 @@ Binary Search: | search for a target, search for the first target, search for th
 Binary Tree Traversal: Preorder (root, left, right), Postorder (left, right, root), Inorder (left, root, right).
 
 Example:
+
                                  1
                                  
                                 / \
