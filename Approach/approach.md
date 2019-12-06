@@ -46,13 +46,9 @@ Binary Tree Traversal: Preorder (root, left, right), Postorder (left, right, roo
 Example:
 
                                  1
-                                 
                                 / \
-                                
                                2   3
-                               
                               / \
-                              
                              4   5
                              
 Preorder (root, left, right): 1 2 4 5 3
