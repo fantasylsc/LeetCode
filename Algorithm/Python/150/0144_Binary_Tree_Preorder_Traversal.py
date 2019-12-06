@@ -23,6 +23,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 #         self.left = None
 #         self.right = None
 
+# Iterative solution:
 
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
