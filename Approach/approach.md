@@ -39,7 +39,7 @@
 
 Binary Search: | search for a target, search for the first target, search for the last target, search for a range, search for [Insert position](Approach/Classification/Binary_Search_Insert_Position.py) | [Search in rotated sorted array](./Algorithm/Python/50/0033_Search_in_Rotated_Sorted_Array.py) | [Search in rotaed sorted array II](./Algorithm/Python/100/0081_Search_in_Rotated_Sorted_Array_II.py) | [Search a 2D matrix](./Algorithm/Python/75/0074_Search_a_2D_Matrix.py) | [Median of two sorted arrays](./Algorithm/Python/25/0004_Median_of_Two_Sorted_Arrays.py) | [Rotated sorted array](https://leetcode.com/problems/rotate-array/) (Three steps rotations)
 
-## 4. Binary Tree, Divide Conquer, DFS, and BFS
+## 4. Binary Tree, DFS, BFS, and Divide & Conquer
 
 Binary Tree Traversal: traverse order 1-2-3-4-5. 
 
@@ -54,6 +54,11 @@ Binary Tree Traversal: traverse order 1-2-3-4-5.
 </p>
 
 Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/)(Iterative: using stack), [BFS (Level Order Tree Traversal)](https://www.geeksforgeeks.org/level-order-tree-traversal/)(Iterative: using queue), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
+
+### Divide & Conquer
+
+Merge Sort, Quick Sort, Most of the Binary Tree Problems.
+
 
 ## 5. Recursion and Dynamic Programming
 
