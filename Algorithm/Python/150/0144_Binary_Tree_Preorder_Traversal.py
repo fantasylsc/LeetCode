@@ -23,7 +23,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 #         self.left = None
 #         self.right = None
 
-# Iterative solution:
+# Iterative solution
 
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
@@ -60,7 +60,21 @@ class Solution:
 #         self.helper(root.left)
 #         self.helper(root.right)
         
+# Divide & Conquer
+
+# class Solution:
+#     def preorderTraversal(self, root: TreeNode) -> List[int]:
+#         res = []
+#         if not root:
+#             return []
         
+#         # Divide
+#         left = self.preorderTraversal(root.left)
+#         right = self.preorderTraversal(root.right)
+        
+#         # Conquer
+#         res.append(root.val)
+#         return res + left + right        
             
         
 
