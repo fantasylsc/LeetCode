@@ -28,17 +28,17 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         res = []
-        stack = []
+        stack = [] # initial stack is empty
         current = root
         
-        while current or stack:
+        while current or stack: # 1. with curr, since initial stack is empty 2. stack is empty, there may be unprocessed nodes
             # go to left most node after processing each node
             while current:
                 stack.append(current)
                 current = current.left
             current = stack.pop()
             res.append(current.val)
-            current = current.right
+            current = current.right # pay attention
         return res
 
 
