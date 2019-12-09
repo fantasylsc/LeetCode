@@ -32,10 +32,9 @@ class Solution:
         for j in range(low , high): 
             # If current element is smaller than the pivot, i == j, no change sequence
             # If larger, i + 1 points to the larger item, next time change i + 1 and j
-            if   nums[j] < pivot: 
-                # increment index of smaller element 
-                i = i + 1 
-                nums[i], nums[j] = nums[j], nums[i] 
+            if   nums[j] < pivot: # nums[j] is smaller
+                i = i + 1 # i + 1 points to the larger item
+                nums[i], nums[j] = nums[j], nums[i] # swap smaller num and larger num
   
         nums[i + 1], nums[high] = nums[high], nums[i + 1] 
         return (i + 1)  
