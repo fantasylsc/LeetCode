@@ -59,7 +59,7 @@ Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-r
 
 Merge Sort, Quick Sort, Most of the Binary Tree Problems.
 
-[Maximum Depth of Binary Tree](../Algorithm/Python/125/0104_Maximum_Depth_of_Binary_Tree.py)
+[Maximum Depth of Binary Tree](../Algorithm/Python/125/0104_Maximum_Depth_of_Binary_Tree.py), [Balanced Binary Tree](../Algorithm/Python/125/0110_Balanced_Binary_Tree.py), 
 
 ## 5. Recursion and Dynamic Programming
 
