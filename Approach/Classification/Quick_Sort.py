@@ -30,7 +30,8 @@ class Solution:
         pivot = nums[high]     # pivot 
   
         for j in range(low , high): 
-            # If current element is smaller than the pivot 
+            # If current element is smaller than the pivot, i == j, no change sequence
+            # If larger, i + 1 points to the larger item, next time change i + 1 and j
             if   nums[j] < pivot: 
                 # increment index of smaller element 
                 i = i + 1 
