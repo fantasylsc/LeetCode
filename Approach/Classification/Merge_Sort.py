@@ -14,7 +14,7 @@ from typing import List
 
 class Solution:
     def mergeSort(self, nums: List[int]):
-        if len(nums) > 1:
+        if len(nums) > 1: # Condition to stop recursion
             mid = len(nums) // 2
             L = nums[:mid]   
             R = nums[mid:] 
