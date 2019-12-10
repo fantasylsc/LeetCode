@@ -55,11 +55,6 @@ Binary Tree Traversal: traverse order 1-2-3-4-5.
 
 Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/)(Iterative: using stack), [BFS (Level Order Tree Traversal)](https://www.geeksforgeeks.org/level-order-tree-traversal/)(Iterative: using queue), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
 
-
-## 5. Linked List
-
-
-
 ### Divide & Conquer
 
 Merge Sort, Quick Sort, Most of the Binary Tree Problems.
@@ -67,6 +62,9 @@ Merge Sort, Quick Sort, Most of the Binary Tree Problems.
 [Maximum Depth of Binary Tree](../Algorithm/Python/125/0104_Maximum_Depth_of_Binary_Tree.py), [Balanced Binary Tree](../Algorithm/Python/125/0110_Balanced_Binary_Tree.py), [Binary Tree Maximum Path Sum](../Algorithm/Python/125/0124_Binary_Tree_Maximum_Path_Sum.py), [Lowest Comman Ancestor](), [Binary Tree Order Level Traversal](../Algorithm/Python/125/0102_Binary_Tree_Level_Order_Traversal.py), [Valid Binary Search Tree](../Algorithm/Python/100/0098_Validate_Binary_Search_Tree.py), [Insert into a Binary Search Tree](../Algorithm/Python/725/0701_Insert_into_a_Binary_Search_Tree.py), [Search Range in a Binary Search Tree](./Classification/searchRange_BST.py), [Binary Search Tree Iterator ](../Algorithm/Python/175/0173_Binary_Search_Tree_Iterator.py), [Delete Node in a BST](), 
 
 [Binary Tree Template](./Classification/Binary%20Tree%20DFS%20Template.py)
+
+## 5. Linked List
+
 
 ## 6. Recursion and Dynamic Programming
 
