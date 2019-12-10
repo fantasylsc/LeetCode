@@ -65,7 +65,7 @@ Merge Sort, Quick Sort, Most of the Binary Tree Problems.
 
 ## 5. Linked List
 
-[Remove Duplicates from Sorted List]() | [Remove Duplicates from Sorted LIst II]() | []()
+[Remove Duplicates from Sorted List]() | [Remove Duplicates from Sorted LIst II]() | [Reverse Linked List]() | [Reverse Linked List II]() | []() |
 
 ## 6. Recursion and Dynamic Programming
 
