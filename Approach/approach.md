@@ -55,6 +55,11 @@ Binary Tree Traversal: traverse order 1-2-3-4-5.
 
 Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/)(Iterative: using stack), [BFS (Level Order Tree Traversal)](https://www.geeksforgeeks.org/level-order-tree-traversal/)(Iterative: using queue), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
 
+
+## 5. Linked List
+
+
+
 ### Divide & Conquer
 
 Merge Sort, Quick Sort, Most of the Binary Tree Problems.
@@ -63,7 +68,7 @@ Merge Sort, Quick Sort, Most of the Binary Tree Problems.
 
 [Binary Tree Template](./Classification/Binary%20Tree%20DFS%20Template.py)
 
-## 5. Recursion and Dynamic Programming
+## 6. Recursion and Dynamic Programming
 
 ### Recursion
 
