@@ -219,7 +219,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) &hearts; | [Python](./algorithms/cpp/twoSum/twoSum.III.cpp)|Easy|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](./algorithms/cpp/excelSheetColumnNumber/excelSheetColumnNumber.cpp)|Easy|
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python](./algorithms/cpp/factorialTrailingZeroes/factorialTrailingZeroes.cpp)|Easy|
-|173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Python](./algorithms/cpp/binarySearchTreeIterator/binarySearchTreeIterator.cpp), [Java](./algorithms/java/src/binarySearchTreeIterator/binarySearchTreeIterator.java), [Python](./algorithms/python/BinarySearchTreeIterator/BSTIterator.py)|Medium|
+|173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Python](./Algorithm/Python/175/0173_Binary_Search_Tree_Iterator.py) [Python](./algorithms/python/BinarySearchTreeIterator/BSTIterator.py)|Medium|
 |174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [Python](./algorithms/cpp/dungeonGame/dungeonGame.cpp)|Hard|
 
 ## [Go to Top](#LeetCode-Solutions)
