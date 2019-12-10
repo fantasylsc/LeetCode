@@ -1,7 +1,7 @@
 
 # LeetCode Solutions
 
-Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [150](#150) | [175](#175) | [200](#200) | [225](#225) | [250](#250) | [275](#275) | [300](#300) | [325](#325) | [350](#350) | [375](#375) | [400](#400) | [425](#425) | [450](#450) | 
+Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [150](#150) | [175](#175) | [200](#200) | [225](#225) | [250](#250) | [275](#275) | [300](#300) | [325](#325) | [350](#350) | [375](#375) | [400](#400) | [425](#425) | [450](#450) | [475](#475) | [500](#500) | [525](#525) | [550](#550) | [575](#575) | [600](#600) | [625](#625) | [650](#650) | [675](#675) | [700](#700) | [725](#725) | [750](#750) | [775](#775) | [800](#800) | [825](#825) | [850](#850) | [875](#875) | [900](#900) | [925](#925) | [950](#950) | [975](#975) | [1000](#1000) | [1025](#1025) | [1050](#1050) | 
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -328,6 +328,11 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 |410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)| [Python](./Algorithm/Python/425/0410_Split_Array_Largest_Sum.py)|Hard|
 
+## 450
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)| [Python](./Algorithm/Python/425/0410_Split_Array_Largest_Sum.py)|Hard|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -345,6 +350,85 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [Python](./Algorithm/Python/525/0509_Fib_Number.py)|Easy|
 |518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)| [Python](./Algorithm/Python/525/0518_Coin_Change_2.py)|Medium|
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 550
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 575
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 600
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 625
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## [Go to Top](#LeetCode-Solutions)
+
+## 650
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## 675
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## 700
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+
+## 725
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## 750
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## 775
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## 800
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+
+## 825
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
 
 
 ## [Go to Top](#LeetCode-Solutions)
@@ -373,11 +457,10 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 ## [Go to Top](#LeetCode-Solutions)
 
-## 975
+## 925
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
 
 
 ## 950
@@ -385,6 +468,49 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)| [Python](./Algorithm/Python/0836_Rectangle)|Hard|
+
+
+## 975
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## 1000
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## 1025
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## 1050
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## 1075
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## 1100
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## 1125
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+## 1150
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 
 
 ## [Go to Top](#LeetCode-Solutions)
