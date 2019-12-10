@@ -387,11 +387,15 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 
 
+## [Go to Top](#LeetCode-Solutions)
+
 ## 675
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 
+
+## [Go to Top](#LeetCode-Solutions)
 
 ## 700
 
@@ -399,6 +403,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 
 
+## [Go to Top](#LeetCode-Solutions)
 
 ## 725
 
@@ -406,10 +411,15 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)| [Python](./Algorithm/Python/725/0701_Insert_into_a_Binary_Search_Tree.py)|Medium|
 
+## [Go to Top](#LeetCode-Solutions)
+
 ## 750
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+
+
+## [Go to Top](#LeetCode-Solutions)
 
 ## 775
 
@@ -417,12 +427,15 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 
 
+## [Go to Top](#LeetCode-Solutions)
+
 ## 800
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 
 
+## [Go to Top](#LeetCode-Solutions)
 
 ## 825
 
