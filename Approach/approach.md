@@ -65,7 +65,7 @@ Merge Sort, Quick Sort, Most of the Binary Tree Problems.
 
 ## 5. Linked List
 
-[Remove Duplicates from Sorted List]() | [Remove Duplicates from Sorted LIst II]() | [Reverse Linked List]() | [Reverse Linked List II]() | [Partition List]() | [Sort List]() | [Reorder List]() | [Linked List Cycle]() | [Linked List Cycle II]() | [Merge K Sorted Lists]() | [Copy List with Random Pointer]() |  
+[Remove Duplicates from Sorted List]() | [Remove Duplicates from Sorted LIst II]() | [Reverse Linked List]() | [Reverse Linked List II]() | [Partition List]() | [Sort List]() | [Reorder List]() | [Linked List Cycle]() | [Linked List Cycle II]() | [Merge K Sorted Lists]() | [Copy List with Random Pointer]() | [Convert Sorted List to Binary Search Tree]() | 
 
 Basic Skills:
 
