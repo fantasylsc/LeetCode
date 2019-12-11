@@ -252,7 +252,10 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|225|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [Python](./Algorithm/Python/225/0205_Isomorphic_Strings.py)|Easy|
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [Python](./Algorithm/Python/225/0205_Isomorphic_Strings.py)|Easy|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](./Algorithm/Python/225/0206_Reverse_Linked_List.py)|Easy|
+
+
 
 ## [Go to Top](#LeetCode-Solutions)
 
