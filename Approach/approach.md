@@ -67,6 +67,18 @@ Merge Sort, Quick Sort, Most of the Binary Tree Problems.
 
 [Remove Duplicates from Sorted List]() | [Remove Duplicates from Sorted LIst II]() | [Reverse Linked List]() | [Reverse Linked List II]() | [Partition List]() |
 
+Basic Skills:
+
+1. Insert a Node in Sorted List
+
+2. Remove a Node from Linked List
+
+3. Reverse a Linked List
+
+4. Merge Two Linked Lists
+
+5. Find the Middle of a Linked List
+
 ## 6. Recursion and Dynamic Programming
 
 ### Recursion
