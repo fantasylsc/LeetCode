@@ -21,16 +21,16 @@ Output: 1->2->3
 
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
-        dummy = head
-        if not head or not head.next:
-            return head
+        dummy = ListNode(0)
+        dummy.next = head
         
         while head and head.next:
             if head.val == head.next.val:
                 head.next = head.next.next
             else:
                 head = head.next
-        return dummy
+                
+        return dummy.next
         
         
         
