@@ -107,7 +107,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |79|[Word Search](https://leetcode.com/problems/word-search/)| [Python](./algorithms/cpp/wordSearch/wordSearch.cpp)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Python](./algorithms/cpp/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.II.cpp)|Medium|
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [Python](./Algorithm/Python/100/0081_Search_in_Rotated_Sorted_Array_II.py)|Medium|
-|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [Python](./algorithms/cpp/removeDuplicatesFromSortedList/removeDuplicatesFromSortedList.II.cpp), [Python](./algorithms/python/RemoveDuplicatesFromSortedListII/deleteDuplicates.py)|Medium|
+|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [Python](./Algorithm/Python/100/0082_Remove_Duplicates_from_Sorted_List_II.py)|Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Python](./Algorithm/Python/100/0083_Remove_Duplicates_from_Sorted_List.py)|Easy|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)| [Python](./algorithms/cpp/largestRectangleInHistogram/largestRectangleInHistogram.cpp)|Hard|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)| [Python](./algorithms/cpp/maximalRectangle/maximalRectangle.cpp)|Hard|
