@@ -9,6 +9,8 @@ Worst case space complexity: O(n)
 
 '''
 
+# 1. Find middle, 2. Sort left and sort right, 3. Merge
+
 import unittest
 from typing import List
 
