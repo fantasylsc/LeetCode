@@ -111,7 +111,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Python](./Algorithm/Python/100/0083_Remove_Duplicates_from_Sorted_List.py)|Easy|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)| [Python](./algorithms/cpp/largestRectangleInHistogram/largestRectangleInHistogram.cpp)|Hard|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)| [Python](./algorithms/cpp/maximalRectangle/maximalRectangle.cpp)|Hard|
-|86|[Partition List](https://leetcode.com/problems/partition-list/)| [Python](./algorithms/cpp/partitionList/partitionList.cpp), [Python](./algorithms/python/PartitionList/partition.py)|Medium|
+|86|[Partition List](https://leetcode.com/problems/partition-list/)| [Python](./Algorithm/Python/100/0086_Partition_List.py)|Medium|
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/)| [Python](./algorithms/cpp/scrambleString/scrambleString.cpp)|Hard|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](./Algorithm/Python/100/0088_Merge_Sorted_Array.py)|Easy|
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)| [Python](./algorithms/cpp/grayCode/grayCode.cpp)|Medium|
