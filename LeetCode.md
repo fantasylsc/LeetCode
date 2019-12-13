@@ -180,7 +180,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| [Python](./algorithms/cpp/copyListWithRandomPointer/copyListWithRandomPointer.cpp), [Python](./algorithms/python/CopyListWithRandomPointer/copyRandomList.py)|Hard|
 |139|[Word Break](https://leetcode.com/problems/word-break/)| [Python](./algorithms/cpp/wordBreak/wordBreak.cpp)|Medium|
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/)| [Python](./algorithms/cpp/wordBreak/wordBreak.II.cpp)|Hard|
-|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Python](./algorithms/cpp/linkedListCycle/linkedListCycle.cpp)|Medium|
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Python](./Algorithm/Python/150/0141_Linked_List_Cycle.py)|Medium|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [Python](./algorithms/cpp/linkedListCycle/linkedListCycle.II.cpp), [Python](./algorithms/python/LinkedListCycleII/detectCycle.py)|Medium|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)| [Python](./algorithms/cpp/reorderList/reorderList.cpp), [Python](./algorithms/python/ReorderList/reorderList.py)|Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)| [Python](./Algorithm/Python/150/0144_Binary_Tree_Preorder_Traversal.py)|Medium|
