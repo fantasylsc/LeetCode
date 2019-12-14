@@ -187,7 +187,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Python](./Algorithm/Python/150/0145_Binary_Tree_Postorder_Traversal.py)|Hard|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)| [Python](./algorithms/cpp/LRUCache/LRUCache.cpp), [Java](./algorithms/java/src/lruCache/LRUCache.java)|Hard|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)| [Python](./algorithms/cpp/insertionSortList/insertionSortList.cpp), [Python](./algorithms/python/InsertionSortList/insertionSortList.py)|Medium|
-|148|[Sort List](https://leetcode.com/problems/sort-list/)| [Python](./algorithms/cpp/sortList/sortList.cpp), [Python](./algorithms/python/SortList/sortList.py)|Medium|
+|148|[Sort List](https://leetcode.com/problems/sort-list/)| [Python](./Algorithm/Python/150/0148_Sort_List.py)|Medium|
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)| [Python](./algorithms/cpp/maxPointsOnALine/maxPointsOnALine.cpp)|Hard|
 
 ## [Go to Top](#LeetCode-Solutions)
