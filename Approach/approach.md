@@ -65,7 +65,7 @@ Merge Sort, Quick Sort, Most of the Binary Tree Problems.
 
 ## 5. Linked List
 
-[Remove Duplicates from Sorted List](../Algorithm/Python/100/0083_Remove_Duplicates_from_Sorted_List.py) | [Remove Duplicates from Sorted LIst II](../Algorithm/Python/100/0082_Remove_Duplicates_from_Sorted_List_II.py) | [Reverse Linked List](../Algorithm/Python/225/0206_Reverse_Linked_List.py) | [Reverse Linked List II](../Algorithm/Python/100/0092_Reverse_Linked_List_II.py) | [Partition List](../Algorithm/Python/100/0086_Partition_List.py) | [Sort List]() | [Reorder List]() | [Linked List Cycle](../Algorithm/Python/150/0141_Linked_List_Cycle.py) | [Linked List Cycle II](../Algorithm/Python/150/0142_Linked_List_Cycle%20II.py) | [Merge K Sorted Lists]() | [Copy List with Random Pointer]() | [Convert Sorted List to Binary Search Tree]() | 
+[Remove Duplicates from Sorted List](../Algorithm/Python/100/0083_Remove_Duplicates_from_Sorted_List.py) | [Remove Duplicates from Sorted LIst II](../Algorithm/Python/100/0082_Remove_Duplicates_from_Sorted_List_II.py) | [Reverse Linked List](../Algorithm/Python/225/0206_Reverse_Linked_List.py) | [Reverse Linked List II](../Algorithm/Python/100/0092_Reverse_Linked_List_II.py) | [Partition List](../Algorithm/Python/100/0086_Partition_List.py) | [Sort List](../Algorithm/Python/150/0148_Sort_List.py) | [Reorder List]() | [Linked List Cycle](../Algorithm/Python/150/0141_Linked_List_Cycle.py) | [Linked List Cycle II](../Algorithm/Python/150/0142_Linked_List_Cycle%20II.py) | [Merge K Sorted Lists]() | [Copy List with Random Pointer]() | [Convert Sorted List to Binary Search Tree]() | 
 
 Basic Skills:
 
