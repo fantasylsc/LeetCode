@@ -93,6 +93,8 @@ Example: [Calculate Fibonacci Number](https://leetcode.com/problems/fibonacci-nu
 
 Dynamic Programming properties: [Overlapping Subproblems Property](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/) and [Optimal Substructure Property](https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/).
 
+DP-NineChapter:[Triangle]() | []()
+
 [Dynamic Progrmming Problem Archives](https://www.geeksforgeeks.org/category/dynamic-programming/)
 
 Coin Change, Coin Change 2 (Review)
