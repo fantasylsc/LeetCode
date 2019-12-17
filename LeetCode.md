@@ -177,7 +177,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |135|[Candy](https://leetcode.com/problems/candy/)| [Python](./algorithms/cpp/candy/candy.cpp)|Hard|
 |136|[Single Number](https://leetcode.com/problems/single-number/)| [Python](./algorithms/cpp/singleNumber/singleNumber.cpp)|Medium|
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii/)| [Python](./algorithms/cpp/singleNumber/singleNumber.II.cpp)|Medium|
-|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| [Python](./algorithms/cpp/copyListWithRandomPointer/copyListWithRandomPointer.cpp), [Python](./algorithms/python/CopyListWithRandomPointer/copyRandomList.py)|Hard|
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| [Python](./Algorithm/Python/150/0138_Copy_List_with_Random_Pointer.py)|Hard|
 |139|[Word Break](https://leetcode.com/problems/word-break/)| [Python](./algorithms/cpp/wordBreak/wordBreak.cpp)|Medium|
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/)| [Python](./algorithms/cpp/wordBreak/wordBreak.II.cpp)|Hard|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Python](./Algorithm/Python/150/0141_Linked_List_Cycle.py)|Medium|
