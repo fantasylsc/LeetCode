@@ -115,7 +115,7 @@ Four categories of DP:
 
 2) Sequence (40%): [Jump Game]() | [Jump Game II]() | [Palindrome Partitioning II]() | [Word Segmentation]() | [Longest Increasing Subsequence]() |
 
-3) Two Sequences:  
+3) Two Sequences: [Longest Common Subsequence]() | 
 
 4) Backpack: 
 
