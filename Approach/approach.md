@@ -105,6 +105,14 @@ When to use DP:
 
 2) Can not sort/Swap (longest consecutive sequence)
 
+Four elements of DP:
+
+1) State, 2) Function, 3) Initialization, 4) Answer.
+
+Four categories of DP:
+
+1) Matrix DP, 2) Sequence, 3) Two Sequences, 4) Backpack.
+
 DP-NineChapter:[Triangle](../Algorithm/Python/125/0120_Triangle.py) | []()
 
 [Dynamic Progrmming Problem Archives](https://www.geeksforgeeks.org/category/dynamic-programming/)
