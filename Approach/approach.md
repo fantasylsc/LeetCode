@@ -93,6 +93,14 @@ Example: [Calculate Fibonacci Number](https://leetcode.com/problems/fibonacci-nu
 
 Dynamic Programming properties: [Overlapping Subproblems Property](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/) and [Optimal Substructure Property](https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/).
 
+When to use DP:
+
+1) Maximum/Minimum
+
+2) Yes/No
+
+3) Count all possible solutions
+
 DP-NineChapter:[Triangle](../Algorithm/Python/125/0120_Triangle.py) | []()
 
 [Dynamic Progrmming Problem Archives](https://www.geeksforgeeks.org/category/dynamic-programming/)
