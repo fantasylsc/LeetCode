@@ -95,11 +95,15 @@ Dynamic Programming properties: [Overlapping Subproblems Property](https://www.g
 
 When to use DP:
 
-1) Maximum/Minimum
+1) One of the following three:
 
-2) Yes/No
+a) Maximum/Minimum
 
-3) Count all possible solutions
+b) Yes/No
+
+c) Count all possible solutions
+
+2) Can not sort/Swap (longest consecutive sequence)
 
 DP-NineChapter:[Triangle](../Algorithm/Python/125/0120_Triangle.py) | []()
 
