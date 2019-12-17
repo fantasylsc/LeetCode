@@ -111,9 +111,14 @@ Four elements of DP:
 
 Four categories of DP:
 
-1) Matrix DP, 2) Sequence, 3) Two Sequences, 4) Backpack.
+1) Matrix DP: [Triangle](../Algorithm/Python/125/0120_Triangle.py) | [Unique Path]() | [Unique Path II]() | [Minimum Path Sum]() |  
 
-DP-NineChapter:[Triangle](../Algorithm/Python/125/0120_Triangle.py) | []()
+2) Sequence: 
+
+3) Two Sequences:  
+
+4) Backpack: 
+
 
 [Dynamic Progrmming Problem Archives](https://www.geeksforgeeks.org/category/dynamic-programming/)
 
