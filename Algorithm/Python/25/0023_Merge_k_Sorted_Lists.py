@@ -21,6 +21,8 @@ Output: 1->1->2->3->4->4->5->6
 #         self.val = x
 #         self.next = None
 
+# solution by merging 2 lists
+
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         def mergeTwo(l1, l2):
@@ -52,6 +54,27 @@ class Solution:
             interval *= 2
         return lists[0] if amount > 0 else None
         
+# solution using heap
 
+# import heapq
+
+# class Solution:
+#     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+#         q = []
+        
+#         for l in lists:
+#             while l:
+#                 heapq.heappush(q, l.val)
+#                 l = l.next
+        
+#         dummy = ListNode(0)
+#         head = dummy
+        
+#         while q:
+#             val =  heapq.heappop(q)
+#             head.next = ListNode(val)
+#             head = head.next
+        
+#         return dummy.next
 
 
