@@ -152,7 +152,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [Python](./algorithms/cpp/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.II.cpp), [Python](./algorithms/python/PopulatingNextRightPointersInEachNodeII/connect.py)|Hard|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)| [Python](./algorithms/cpp/pascalTriangle/pascalTriangle.cpp)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)| [Python](./algorithms/cpp/pascalTriangle/pascalTriangle.II.cpp)|Easy|
-|120|[Triangle](https://leetcode.com/problems/triangle/)| [Python](./algorithms/cpp/triangle/triangle.cpp), [Java](./algorithms/java/src/dynamicProgramming/triangle/triangle.java)|Medium|
+|120|[Triangle](https://leetcode.com/problems/triangle/)| [Python](./Algorithm/Python/125/0120_Triangle.py)|Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Python](./algorithms/cpp/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.cpp)|Medium|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./algorithms/cpp/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.II.cpp)|Medium|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [Python](./algorithms/cpp/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.III.cpp)|Hard|
