@@ -113,11 +113,11 @@ Four categories of DP:
 
 1) Matrix DP (10%): [Triangle](../Algorithm/Python/125/0120_Triangle.py) | [Unique Path]() | [Unique Path II]() | [Minimum Path Sum]() |  
 
-2) Sequence (40%): [Jump Game]() | [Jump Game II]() | [Palindrome Partitioning II]() | [Word Segmentation]() | [Longest Increasing Subsequence]() |
+2) Sequence (40%): [Climbing Stairs]() | [Jump Game]() | [Jump Game II]() | [Palindrome Partitioning II]() | [Word Segmentation]() | [Longest Increasing Subsequence]() | [Combination Sum IV]() |
 
-3) Two Sequences: [Longest Common Subsequence]() | [Edit Distance]() |
+3) Two Sequences (40%): [Longest Common Subsequence]() | [Longest Common Substring]() | [Edit Distance]() | [Distinct Subsequences]() | [Interleaving String]() |
 
-4) Backpack: 
+4) Backpack (10%): [Backpack]() | [K Sum]() | [Minimum Adjustment Cost]() |
 
 
 [Dynamic Progrmming Problem Archives](https://www.geeksforgeeks.org/category/dynamic-programming/)
