@@ -97,11 +97,11 @@ When to use DP:
 
 1) One of the following three:
 
-a) Maximum/Minimum
+      a) Maximum/Minimum
 
-b) Yes/No
+      b) Yes/No
 
-c) Count all possible solutions
+      c) Count all possible solutions
 
 2) Can not sort/Swap (longest consecutive sequence)
 
