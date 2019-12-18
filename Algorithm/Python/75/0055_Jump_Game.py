@@ -22,22 +22,37 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum
 
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
-        if len(nums) == 0:
-            return True
-        
-        cur = 0
-        i = 0
         n = len(nums)
+        dp = [False] * n
+        dp[0] = True
         
-        while cur < n - 1:
-            pre = cur
-            while i <= pre:
-                cur = max(cur, i + nums[i])
-                i += 1
-            if pre == cur:
+        for i in range(1, n):
+            for j in range(i - 1, -1, -1):
+                if nums[j] >= i - j:
+                    dp[i] = True
+                    break
+            if dp[i] == False:
                 return False
+        return dp[-1]
+
+# class Solution:
+#     def canJump(self, nums: List[int]) -> bool:
+#         if len(nums) == 0:
+#             return True
+        
+#         cur = 0
+#         i = 0
+#         n = len(nums)
+        
+#         while cur < n - 1:
+#             pre = cur
+#             while i <= pre:
+#                 cur = max(cur, i + nums[i])
+#                 i += 1
+#             if pre == cur:
+#                 return False
             
-        return True    
+#         return True    
 
 
         
