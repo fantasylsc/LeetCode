@@ -2,7 +2,7 @@
 
 ## [LeetCode Solutions](/LeetCode.md)
 
-## [Approach Classification](./Approach/approach.md)
+## [Data Structure & Algorithms Classification](./Approach/approach.md)
 
 
 
