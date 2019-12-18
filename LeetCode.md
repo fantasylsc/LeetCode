@@ -84,14 +84,14 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)| [Python](./Algorithm/Python/75/0063_Unique_PathsII.py)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)| [Python](./Algorithm/Python/75/0064_Minimum_Path_Sum.py)|Medium|
 |65|[Valid Number](https://leetcode.com/problems/valid-number/)| [Python](./algorithms/cpp/validNumber/validNumber.cpp)|Easy|
-|66|[Plus One](https://leetcode.com/problems/plus-one/)| [Python](./Algorithm/Python/50/0066_Plus_One.py)|Easy|
-|67|[Add Binary](https://leetcode.com/problems/add-binary/)| [Python](./Algorithm/Python/50/0067_Add_Binary.py)|Easy|
+|66|[Plus One](https://leetcode.com/problems/plus-one/)| [Python](./Algorithm/Python/75/0066_Plus_One.py)|Easy|
+|67|[Add Binary](https://leetcode.com/problems/add-binary/)| [Python](./Algorithm/Python/75/0067_Add_Binary.py)|Easy|
 |68|[Text Justification](https://leetcode.com/problems/text-justification/)| [Python](./Algorithm/Python/75/0068_Text_Justification.py)|Hard|
-|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python](./Algorithm/Python/50/0069_Sqrt(x).py)|Medium|
-|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python](./Algorithm/Python/50/0070_Climbing_Stairs.py)|Easy|
-|71|[Simplify Path](https://leetcode.com/problems/simplify-path/)| [Python](./Algorithm/Python/50/0071_Simplify_Path.py)|Medium|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python](./Algorithm/Python/75/0069_Sqrt(x).py)|Medium|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python](./Algorithm/Python/75/0070_Climbing_Stairs.py)|Easy|
+|71|[Simplify Path](https://leetcode.com/problems/simplify-path/)| [Python](./Algorithm/Python/75/0071_Simplify_Path.py)|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)| [Python](./algorithms/cpp/editDistance/editDistance.cpp)|Hard|
-|73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)| [Python](./Algorithm/Python/50/0073_Set_Matrix_Zeros.py)|Medium|
+|73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)| [Python](./Algorithm/Python/75/0073_Set_Matrix_Zeros.py)|Medium|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python](./Algorithm/Python/75/0074_Search_a_2D_Matrix.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
