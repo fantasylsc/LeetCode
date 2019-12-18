@@ -113,7 +113,7 @@ Four categories of DP:
 
 1) Matrix DP (10%): [Triangle](../Algorithm/Python/125/0120_Triangle.py) | [Unique Path](../Algorithm/Python/75/0062_Unique_Paths.py) | [Unique Path II](../Algorithm/Python/75/0063_Unique_PathsII.py) | [Unique Path III](../Algorithm/Python/1000/0980_Unique_Paths_III.py) | [Minimum Path Sum](../Algorithm/Python/75/0064_Minimum_Path_Sum.py) |  
 
-2) Sequence (40%): [Climbing Stairs]() | [Jump Game]() | [Jump Game II]() | [Palindrome Partitioning II]() | [Word Segmentation]() | [Longest Increasing Subsequence]() | [Combination Sum IV]() |
+2) Sequence (40%): [Climbing Stairs](../Algorithm/Python/75/0070_Climbing_Stairs.py) | [Jump Game]() | [Jump Game II]() | [Palindrome Partitioning II]() | [Word Segmentation]() | [Longest Increasing Subsequence]() | [Combination Sum IV]() |
 
 3) Two Sequences (40%): [Longest Common Subsequence]() | [Longest Common Substring]() | [Edit Distance]() | [Distinct Subsequences]() | [Interleaving String]() |
 
