@@ -128,7 +128,17 @@ Typical Dynamic Programming Problems: [Traveling Salesman Problem](https://www.g
 
 ## 7. Graph & Search
 
+Graph:
 
+   Clone graph
+   
+   Topological sorting
+   
+Search:
+
+   Depth First Search
+   
+   
 
 ## Class Design
 
