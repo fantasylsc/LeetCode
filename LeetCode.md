@@ -469,6 +469,8 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 
 
+## [Go to Top](#LeetCode-Solutions)
+
 ## 900
 
 | # | Title | Solution | Difficulty |
@@ -483,6 +485,8 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 
 
+## [Go to Top](#LeetCode-Solutions)
+
 ## 950
 
 | # | Title | Solution | Difficulty |
@@ -490,31 +494,49 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)| [Python](./Algorithm/Python/0836_Rectangle)|Hard|
 
 
+## [Go to Top](#LeetCode-Solutions)
+
 ## 975
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 
 
+## [Go to Top](#LeetCode-Solutions)
+
 ## 1000
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|980|[Unique Path III](https://leetcode.com/problems/unique-paths-iii/)| [Python](./Algorithm/Python/1000/0980_Unique_Paths_III.py
+)|Hard|
+
+
+## [Go to Top](#LeetCode-Solutions)
 
 ## 1025
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 
+
+## [Go to Top](#LeetCode-Solutions)
+
 ## 1050
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 
+
+## [Go to Top](#LeetCode-Solutions)
+
 ## 1075
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+
+
+## [Go to Top](#LeetCode-Solutions)
 
 ## 1100
 
@@ -522,10 +544,15 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 
 
+## [Go to Top](#LeetCode-Solutions)
+
 ## 1125
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+
+
+## [Go to Top](#LeetCode-Solutions)
 
 ## 1150
 
