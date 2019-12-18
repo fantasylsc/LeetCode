@@ -128,6 +128,8 @@ Typical Dynamic Programming Problems: [Traveling Salesman Problem](https://www.g
 
 ## 7. Graph & Search
 
+Graph: [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) and [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
 Graph:
 
   1) Clone graph
