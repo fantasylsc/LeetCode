@@ -33,30 +33,28 @@ class Solution:
         m = len(obstacleGrid)
         n = len(obstacleGrid[0])
         
-        if obstacleGrid[m  -1][n - 1] == 1 or (obstacleGrid[m - 2] == 1 and obstacleGrid[n - 2] == 1):
+        dp = [[1]*n for _ in range(m)]
+        
+        if obstacleGrid[0][0] == 1:
             return 0
         
-        dp = [[1] * n for _ in range(m)]
-        
-        for i in range(m):
-            if obstacleGrid[i][0] == 1:
-                for row in range(i, m):
-                    dp[row][0] = 0
-                break
         for j in range(n):
             if obstacleGrid[0][j] == 1:
-                dp[0][j:n] = [0] * (n - j)
+                dp[0][j:] = [0]*(n - j)
                 break
-   
+        for i in range(m):
+            if obstacleGrid[i][0] == 1:
+                for k in range(i, m):
+                    dp[k][0] = 0
+                break
+        
         for i in range(1, m):
             for j in range(1, n):
-                if obstacleGrid[i - 1][j] == 1:
-                    dp[i - 1][j] = 0
-                if obstacleGrid[i][j - 1] == 1:
-                    dp[i][j - 1] = 0    
-                
-                dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+                if obstacleGrid[i][j] == 1:
+                    dp[i][j] = 0
+                else:
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
         
-        return dp[m - 1][n - 1]
+        return dp[-1][-1]
         
 
