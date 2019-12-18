@@ -111,7 +111,7 @@ Four elements of DP:
 
 Four categories of DP:
 
-1) Matrix DP (10%): [Triangle](../Algorithm/Python/125/0120_Triangle.py) | [Unique Path]() | [Unique Path II]() | [Minimum Path Sum]() |  
+1) Matrix DP (10%): [Triangle](../Algorithm/Python/125/0120_Triangle.py) | [Unique Path](../Algorithm/Python/75/0062_Unique_Paths.py) | [Unique Path II]() | [Minimum Path Sum]() |  
 
 2) Sequence (40%): [Climbing Stairs]() | [Jump Game]() | [Jump Game II]() | [Palindrome Partitioning II]() | [Word Segmentation]() | [Longest Increasing Subsequence]() | [Combination Sum IV]() |
 
