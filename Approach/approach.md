@@ -1,4 +1,4 @@
-# Approach Classification
+# Data Strucutre & Algorithms Classification
 
 ## 1. Data Structures
 
