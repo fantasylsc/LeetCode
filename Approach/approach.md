@@ -130,13 +130,13 @@ Typical Dynamic Programming Problems: [Traveling Salesman Problem](https://www.g
 
 Graph:
 
-      Clone graph
+  1) Clone graph
    
-      Topological sorting
+  2) Topological sorting
    
 Search:
 
-      Depth First Search
+  1) Depth First Search
    
    
 
