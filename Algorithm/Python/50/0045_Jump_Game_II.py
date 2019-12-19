@@ -17,19 +17,18 @@ Explanation: The minimum number of jumps to reach the last index is 2.
 
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        res = 0 # jump steps
+        jumps = 0
         n = len(nums)
         i = 0
-        cur = 0 # current maximum jump range
+        reach = 0
         
-        while cur < n - 1:
-            res += 1
-            pre = cur
-            while i <= pre:
-                cur = max(cur, i + nums[i])
+        while reach < n - 1:
+            jumps += 1
+            pre = reach
+            while i <= pre: # iterate through i to reach, find next reach range
+                reach = max(reach, i + nums[i])
                 i += 1
-                
-        return res
+        return jumps
 
 
 
