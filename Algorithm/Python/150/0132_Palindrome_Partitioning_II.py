@@ -23,10 +23,10 @@ class Solution:
         
         for i in range(n):
             dp[i] = i
-            for j in range(i + 1):
+            for j in range(i + 1): # Search minimum partition, s[0:j], s[j:i]
                 if s[i] == s[j] and (i - j < 2 or isPalindrome[j + 1][i - 1]):
                     isPalindrome[j][i] = True
-                    dp[i] = 0 if j == 0 else min(dp[i], dp[j - 1] + 1)
+                    dp[i] = 0 if j == 0 else min(dp[i], dp[j - 1] + 1) # j == 0 means current string is a palindrome, so dp = 0
         return dp[n - 1]
         
         
