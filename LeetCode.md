@@ -510,8 +510,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|980|[Unique Path III](https://leetcode.com/problems/unique-paths-iii/)| [Python](./Algorithm/Python/1000/0980_Unique_Paths_III.py
-)|Hard|
+|980|[Unique Path III](https://leetcode.com/problems/unique-paths-iii/)| [Python](./Algorithm/Python/1000/0980_Unique_Paths_III.py)|Hard|
 
 
 ## [Go to Top](#LeetCode-Solutions)
