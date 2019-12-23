@@ -15,24 +15,50 @@ Note:
 You may assume that you have an infinite number of each kind of coin.
 
 '''
-
 # DP
+
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        # initialize dp table
-        max_value = amount + 1
-        dp = [max_value] * max_value
-        dp[0] = 0
+        dp = [0] + [float('inf')] * amount
         
-        # for every amount, try every coin to update dp table
         for i in range(1, amount + 1):
             for coin in coins:
                 if coin <= i:
-                    dp[i] = min(dp[i], dp[i - coin] + 1)
-        if dp[amount] > amount:
-            return -1
-        else:
-            return dp[amount]
+                    dp[i] = min(dp[i], dp[i-coin]+1)
+        
+        return dp[-1] if dp[-1] != float('inf') else -1        
+        
+
+# Optimized DP
+
+# class Solution:
+#     def coinChange(self, coins: List[int], amount: int) -> int:
+#         dp = [0] + [float('inf')] * amount
+        
+#         for coin in coins:
+#             for i in range(coin, amount+1):
+#                 dp[i] = min(dp[i], dp[i-coin]+1)
+        
+#         return dp[-1] if dp[-1] != float('inf') else -1  
+
+        
+        
+# Recursion without return value
+
+# class Solution:
+#     def coinChange(self, coins: List[int], amount: int) -> int:
+#         self.res = float('inf')
+#         coins.sort()
+#         self.helper(coins, amount, len(coins) - 1, 0)
+#         return self.res if self.res != float('inf') else -1
+        
+#     def helper(self, coins, target, start, curr_res):
+#         if target < 0:
+#             return
+#         if target == 0:
+#             self.res = min(self.res, curr_res)
+#         for i in range(start, -1, -1):
+#             self.helper(coins, target - coins[i], i, curr_res + 1)
 
 
 # Recusion without memoization
