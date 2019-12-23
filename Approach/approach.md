@@ -85,9 +85,10 @@ Basic Skills:
 
 Example: [Calculate Fibonacci Number](https://leetcode.com/problems/fibonacci-number/): [Approach Compare](https://github.com/fantasylsc/LeetCode/blob/master/Algorithm/Python/525/0509_Fib_Number.py) (1. Recusion without memoization, 2. Recursion with memoization, 3. Bottom up Dynamic Programming)
 
+Backtrachking: Combinatinos]() | 
 [322. Coin Change](https://leetcode.com/problems/coin-change/)
 
-[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [39. Combination Sum]() | [46. Permutations]() | [47. Permutations II]() | [77. Combinatinos]() | [90. Subsets II]() | [113. Path Sum II]() |
+[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [39. Combination Sum]() | [46. Permutations]() | [47. Permutations II]() | [90. Subsets II]() | [113. Path Sum II]() |
 
 ### Dynamic Programming
 
