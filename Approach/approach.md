@@ -122,7 +122,7 @@ Four categories of DP:
 
 [Dynamic Progrmming Problem Archives](https://www.geeksforgeeks.org/category/dynamic-programming/)
 
-Coin Change, Coin Change 2 (Review)
+Coin Change, [Coin Change 2](../Algorithm/Python/525/0518_Coin_Change_2.py) (Review)
 
 Typical Dynamic Programming Problems: [Traveling Salesman Problem](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/) ([Video](https://www.youtube.com/watch?v=Q4zHb-Swzro), [Image](./Materials/TSP.md))
 
