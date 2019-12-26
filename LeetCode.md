@@ -561,7 +561,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
+|1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)| [Python](./Algorithm/Python/1150/1143_Longest_Common_Subsequence.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
 
