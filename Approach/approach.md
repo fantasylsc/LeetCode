@@ -115,7 +115,7 @@ Four categories of DP:
 
 2) Sequence (40%): [Climbing Stairs](../Algorithm/Python/75/0070_Climbing_Stairs.py) | [Jump Game](../Algorithm/Python/75/0055_Jump_Game.py) | [Jump Game II](../Algorithm/Python/50/0045_Jump_Game_II.py) | [Palindrome Partitioning II](../Algorithm/Python/150/0132_Palindrome_Partitioning_II.py) | [Word Break](../Algorithm/Python/150/0139_Word_Break.py) | [Longest Increasing Subsequence](../Algorithm/Python/300/0300_Longest_Increasing_Subsequence.py) | [Combination Sum IV](../Algorithm/Python/400/0377_Combination_Sum_IV.py) |
 
-3) Two Sequences (40%): [Longest Common Subsequence](../Algorithm/Python/1150/1143_Longest_Common_Subsequence.py) | [Longest Common Substring]() | [Edit Distance]() | [Distinct Subsequences]() | [Interleaving String]() |
+3) Two Sequences (40%): [Longest Common Subsequence](../Algorithm/Python/1150/1143_Longest_Common_Subsequence.py) | [Longest Common Substring](./Classification/Longest_Common_Substring.py) | [Edit Distance]() | [Distinct Subsequences]() | [Interleaving String]() |
 
 4) Backpack (10%): [Backpack]() | [K Sum]() | [Minimum Adjustment Cost]() | [Coin Change](../Algorithm/Python/325/0322_Coin_Change.py) |
 
