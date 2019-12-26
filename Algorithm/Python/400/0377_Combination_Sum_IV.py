@@ -47,8 +47,11 @@ dp[4] = dp[4] + dp[3] when 4 = 1 + 3
 
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
-        dp = [0] * (target + 1)
-        dp[0] = 1
+        if len(nums) == 0:
+            return 0
+        
+        dp = [1] + [0]*target
+        
         for i in range(1, target + 1):
             for num in nums:
                 if num <= i:
