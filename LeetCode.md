@@ -172,7 +172,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python](./algorithms/cpp/surroundedRegions/surroundedRegions.cpp)|Medium|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [Python](./algorithms/cpp/palindromePartitioning/palindromePartitioning.cpp)|Medium|
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)| [Python](./Algorithm/Python/150/0132_Palindrome_Partitioning_II.py)|Hard|
-|133|[Clone Graph](https://leetcode.com/problems/clone-graph/)| [Python](./algorithms/cpp/cloneGraph/cloneGraph.cpp)|Medium|
+|133|[Clone Graph](https://leetcode.com/problems/clone-graph/)| [Python](./Algorithm/Python/150/0133_Clone_Graph.py)|Medium|
 |134|[Gas Station](https://leetcode.com/problems/gas-station/)| [Python](./algorithms/cpp/gasStation/gasStation.cpp)|Medium|
 |135|[Candy](https://leetcode.com/problems/candy/)| [Python](./algorithms/cpp/candy/candy.cpp)|Hard|
 |136|[Single Number](https://leetcode.com/problems/single-number/)| [Python](./algorithms/cpp/singleNumber/singleNumber.cpp)|Medium|
