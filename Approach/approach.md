@@ -132,13 +132,11 @@ Graph: [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph
 
 Graph:
 
-  1) Clone graph
-   
-  2) Topological sorting
+  [Clone graph](../Algorithm/Python/150/0133_Clone_Graph.py) | [Topological sorting]() 
    
 Search:
 
-  1) Depth First Search
+  DFS | BFS 
    
    
 
