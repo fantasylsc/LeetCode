@@ -137,6 +137,7 @@ Search (DFS and BFS): [Permutations]() | [Subsets]() | [N Queens]() | [Subsets I
 DFS  (O(2^n), O(n!)) (idea: construct search tree + judge feasibility)
    1. Find all possible solutions
    2. Permutations / Subsets
+
 BFS  (O(m), O(n))
    1. Graph traversal (Visit each node once)
    2. Find shortest path in a simple graph 
