@@ -20,7 +20,7 @@ class Graph:
         for i in self.graph[v]: 
             if visited[i] == False: 
                 self.topologicalSortUtil(i,visited,stack) 
-        # 
+        # append node to stack after visiting all adjacent vertices
         stack.append(v) 
   
     # The function to do Topological Sort. It uses recursive  
