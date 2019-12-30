@@ -130,7 +130,7 @@ Typical Dynamic Programming Problems: [Traveling Salesman Problem](https://www.g
 
 Graph: [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) and [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
-Graph: [Clone graph](../Algorithm/Python/150/0133_Clone_Graph.py) | [Topological sorting]() 
+Graph: [Clone Graph](../Algorithm/Python/150/0133_Clone_Graph.py) | [Topological Sorting]() 
    
 Search (DFS and BFS): [Permutations]() | [Subsets]() | [N Queens]() | [Subsets II]() | [Palindrome Partitioning]() | [Combination Sum]() | [Combination Sum II]() | [Word Ladder]() | [Word Ladder II]() |     
 
