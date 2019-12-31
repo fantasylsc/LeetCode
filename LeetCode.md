@@ -103,7 +103,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)| [Python](./algorithms/cpp/sortColors/sortColors.cpp)|Medium|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [Python](./algorithms/cpp/minimumWindowSubstring/minimumWindowSubstring.cpp)|Hard|
 |77|[Combinations](https://leetcode.com/problems/combinations/)| [Python](./Algorithm/Python/100/0077_Combinations.py)|Medium|
-|78|[Subsets](https://leetcode.com/problems/subsets/)| [Python](./algorithms/cpp/subsets/subsets.cpp), [Java](./algorithms/java/src/subsets/subsets.java), [Python](./algorithms/python/Subsets/subsets.py)|Medium|
+|78|[Subsets](https://leetcode.com/problems/subsets/)| [Python](./Algorithm/Python/100/0078_Subsets.py)|Medium|
 |79|[Word Search](https://leetcode.com/problems/word-search/)| [Python](./algorithms/cpp/wordSearch/wordSearch.cpp)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Python](./algorithms/cpp/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.II.cpp)|Medium|
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [Python](./Algorithm/Python/100/0081_Search_in_Rotated_Sorted_Array_II.py)|Medium|
