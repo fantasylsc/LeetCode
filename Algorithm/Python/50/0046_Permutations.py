@@ -37,6 +37,21 @@ class Solution:
         backtrack()
         return output
 
+# class Solution:
+#     def permute(self, nums: List[int]) -> List[List[int]]:
+#         n = len(nums)
+#         self.nums = nums
+#         self.res = []
+#         self.helper(0, n)
+#         return self.res
+        
+#     def helper(self, start, n):
+#         if start == n:
+#             self.res.append(self.nums[:])
+#         for i in range(start, n):
+#             self.nums[start], self.nums[i] = self.nums[i], self.nums[start]
+#             self.helper(start + 1, n)
+#             self.nums[start], self.nums[i] = self.nums[i], self.nums[start]
 
 
 
