@@ -115,7 +115,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/)| [Python](./algorithms/cpp/scrambleString/scrambleString.cpp)|Hard|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](./Algorithm/Python/100/0088_Merge_Sorted_Array.py)|Easy|
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)| [Python](./algorithms/cpp/grayCode/grayCode.cpp)|Medium|
-|90|[Subsets II](https://leetcode.com/problems/subsets-ii/)| [Python](./algorithms/cpp/subsets/subsets.II.cpp), [Java](./algorithms/java/src/subsets/subsetsII.java)|Medium|
+|90|[Subsets II](https://leetcode.com/problems/subsets-ii/)| [Python](./Algorithm/Python/100/0090_Subsets_II.py)|Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)| [Python](./algorithms/cpp/decodeWays/decodeWays.cpp)|Medium|
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Python](./Algorithm/Python/100/0092_Reverse_Linked_List_II.py)|Medium|
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)| [Python](./algorithms/cpp/restoreIPAddresses/restoreIPAddresses.cpp)|Medium|
