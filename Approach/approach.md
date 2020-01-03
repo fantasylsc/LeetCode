@@ -14,7 +14,7 @@
 
 - Heap
 
-- * Interval Tree
+- Interval Tree
 
 
 
