@@ -4,9 +4,9 @@
 
 ### Linear Data Structure
 
-- Queue
+- Queue BFS
 
-- Stack  [Min-Stack]() | []()
+- Stack  [Min-Stack]() | [Implement a Queue by two stacks]() | 
 
 - Hash
 
@@ -14,14 +14,7 @@
 
 - Heap
 
-- Interval Tree
-
-
-
-### Linked List
-
-| Delete node | Have a cycle | Reverse a linked list | Kth to last node | Go in a cycle, find length of cycle, find first node in a cylce |
-
+- Trie
 
 
 
@@ -72,7 +65,7 @@ Merge Sort, Quick Sort, Most of the Binary Tree Problems.
 [Binary Tree Template](./Classification/Binary%20Tree%20DFS%20Template.py)
 
 ## 5. Linked List
-
+| Delete node | Have a cycle | Reverse a linked list | Kth to last node | Go in a cycle, find length of cycle, find first node in a cylce |
 [Remove Duplicates from Sorted List](../Algorithm/Python/100/0083_Remove_Duplicates_from_Sorted_List.py) | [Remove Duplicates from Sorted LIst II](../Algorithm/Python/100/0082_Remove_Duplicates_from_Sorted_List_II.py) | [Reverse Linked List](../Algorithm/Python/225/0206_Reverse_Linked_List.py) | [Reverse Linked List II](../Algorithm/Python/100/0092_Reverse_Linked_List_II.py) | [Partition List](../Algorithm/Python/100/0086_Partition_List.py) | [Sort List](../Algorithm/Python/150/0148_Sort_List.py) | [Reorder List](../Algorithm/Python/150/0143_Reorder_List.py) | [Linked List Cycle](../Algorithm/Python/150/0141_Linked_List_Cycle.py) | [Linked List Cycle II](../Algorithm/Python/150/0142_Linked_List_Cycle%20II.py) | [Merge K Sorted Lists](../Algorithm/Python/25/0023_Merge_k_Sorted_Lists.py) | [Copy List with Random Pointer](../Algorithm/Python/150/0138_Copy_List_with_Random_Pointer.py) | [Convert Sorted List to Binary Search Tree](../Algorithm/Python/125/0109_Convert_Sorted_List_to_Binary_Search_Tree.py) | 
 
 Basic Skills:
