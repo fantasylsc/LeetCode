@@ -6,7 +6,7 @@
 
 - Queue
 
-- Stack
+- Stack  [Min-Stack]() | []()
 
 - Hash
 
