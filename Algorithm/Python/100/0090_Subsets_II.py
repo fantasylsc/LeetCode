@@ -35,6 +35,25 @@ class Solution:
             
         return res
         
+'''
+
+                        []        
+                   /          \        
+                  /            \     
+                 /              \
+              [1]                []
+           /       \           /    \
+          /         \         /      \        
+       [1 2]       [1]       [2]     []
+      /     \     /   \     /   \    / \
+  [1 2 2] [1 2]  X   [1]  [2 2] [2] X  []
+
+
+'''
+
+
+
+
 # class Solution:        
 #     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
 #         def backtrack(first = 0, curr = []):
