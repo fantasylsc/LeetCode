@@ -2,19 +2,27 @@
 
 ## 1. Data Structures
 
-### List
+### Linear Data Structure
 
-### Sets
+- Queue
+
+- Stack
+
+- Hash
+
+### Tree Data Structure
+
+- Heap
+
+- * Interval Tree
+
 
 
 ### Linked List
 
 | Delete node | Have a cycle | Reverse a linked list | Kth to last node | Go in a cycle, find length of cycle, find first node in a cylce |
 
-### Hash Tables
 
-
-### Tree
 
 
 
