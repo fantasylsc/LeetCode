@@ -170,7 +170,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [Python](./algorithms/cpp/longestConsecutiveSequence/longestConsecutiveSequence.cpp)|Hard|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)| [Python](./algorithms/cpp/sumRootToLeafNumber/sumRootToLeafNumber.cpp), [Python](./algorithms/python/SumRootToLeafNumbers/sumNumbers.py)|Medium|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python](./algorithms/cpp/surroundedRegions/surroundedRegions.cpp)|Medium|
-|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [Python](./algorithms/cpp/palindromePartitioning/palindromePartitioning.cpp)|Medium|
+|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [Python](./Algorithm/Python/150/0131_Palindrome_Partitioning.py)|Medium|
 |132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)| [Python](./Algorithm/Python/150/0132_Palindrome_Partitioning_II.py)|Hard|
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph/)| [Python](./Algorithm/Python/150/0133_Clone_Graph.py)|Medium|
 |134|[Gas Station](https://leetcode.com/problems/gas-station/)| [Python](./algorithms/cpp/gasStation/gasStation.cpp)|Medium|
