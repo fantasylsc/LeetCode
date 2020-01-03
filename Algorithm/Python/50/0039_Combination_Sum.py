@@ -47,6 +47,26 @@ class Solution:
                 return
             self.DFS(candidates, target - candidates[i], i, valuelist + [candidates[i]]) 
         
-
+# backtrack
+# class Solution:
+#     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+#         self.res = []
+#         curr = []
+#         self.helper(candidates, target, curr, 0)
+#         return self.res
+        
+#     def helper(self, candidates, target, curr, start):
+#         Curr_sum = sum(curr)
+#         if Curr_sum > target:
+#             return
+        
+#         if Curr_sum == target:
+#             self.res.append(curr[:])
+#             return
+        
+#         for i in range(start, len(candidates)):
+#             curr.append(candidates[i])
+#             self.helper(candidates, target, curr, i)
+#             curr.pop()
 
 
