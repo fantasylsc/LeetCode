@@ -4,17 +4,17 @@
 
 ### Linear Data Structure
 
-- Queue BFS
+- Queue: BFS
 
-- Stack  [Min Stack](../Algorithm/Python/175/0155_Min_Stack.py) | [Implement a Queue by Two Stacks]() | [Largest Rectangle in Histogram]() |  [Construct MaxTree]() | 
+- Stack:  [Min Stack](../Algorithm/Python/175/0155_Min_Stack.py) | [Implement a Queue by Two Stacks]() | [Largest Rectangle in Histogram]() |  [Construct MaxTree]() | 
 
-- Hash [LRU Cache]() | [Longest Consecutive Sequence]() | 
+- Hash: [LRU Cache]() | [Longest Consecutive Sequence]() | 
 
 ### Tree Data Structure
 
-- Heap [Median Number]() | [Building Outline]() | []() |  
+- Heap: [Median Number]() | [Building Outline]() | []() |  
 
-- Trie [Word Search II]() |
+- Trie: [Word Search II]() |
 
 
 
