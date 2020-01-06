@@ -6,7 +6,7 @@
 
 - Queue BFS
 
-- Stack  [Min-Stack]() | [Implement a Queue by Two Stacks]() | [Largest Rectangle in Histogram]() |  [Construct MaxTree]() | 
+- Stack  [Min Stack]() | [Implement a Queue by Two Stacks]() | [Largest Rectangle in Histogram]() |  [Construct MaxTree]() | 
 
 - Hash [LRU Cache]() | [Longest Consecutive Sequence]() | 
 
