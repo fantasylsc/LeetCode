@@ -6,7 +6,7 @@
 
 - Queue: BFS
 
-- Stack:  [Min Stack](../Algorithm/Python/175/0155_Min_Stack.py) | [Implement a Queue by Two Stacks]() | [Largest Rectangle in Histogram]() |  [Construct MaxTree]() | 
+- Stack:  [Min Stack](../Algorithm/Python/175/0155_Min_Stack.py) | [Implement Queue using Stacks]() | [Largest Rectangle in Histogram]() |  [Construct MaxTree]() | 
 
 - Hash: [LRU Cache]() | [Longest Consecutive Sequence]() | 
 
