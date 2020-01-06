@@ -6,15 +6,15 @@
 
 - Queue BFS
 
-- Stack  [Min-Stack]() | [Implement a Queue by two stacks]() | 
+- Stack  [Min-Stack]() | [Implement a Queue by Two Stacks]() | [Largest Rectangle in Histogram]() |  [Construct MaxTree]() | 
 
-- Hash
+- Hash [LRU Cache]() | [Longest Consecutive Sequence]() | 
 
 ### Tree Data Structure
 
-- Heap
+- Heap [Median Number]() | [Building Outline]() | []() |  
 
-- Trie
+- Trie [Word Search II]() |
 
 
 
