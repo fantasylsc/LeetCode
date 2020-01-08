@@ -185,7 +185,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)| [Python](./Algorithm/Python/150/0143_Reorder_List.py)|Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)| [Python](./Algorithm/Python/150/0144_Binary_Tree_Preorder_Traversal.py)|Medium|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Python](./Algorithm/Python/150/0145_Binary_Tree_Postorder_Traversal.py)|Hard|
-|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)| [Python](./Algorithm/Python/150/0146_LRU_Cache.py)|Hard|
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)| [Python](./Algorithm/Python/150/0146_LRU_Cache.py)|Medium|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)| [Python](./algorithms/cpp/insertionSortList/insertionSortList.cpp), [Python](./algorithms/python/InsertionSortList/insertionSortList.py)|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)| [Python](./Algorithm/Python/150/0148_Sort_List.py)|Medium|
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)| [Python](./algorithms/cpp/maxPointsOnALine/maxPointsOnALine.cpp)|Hard|
