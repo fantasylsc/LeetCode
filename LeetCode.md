@@ -404,7 +404,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)| [Python](./Algorithm/Python/675/0654_Maximum_Binary_Tree.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
 
