@@ -12,7 +12,7 @@
 
 ### Tree Data Structure
 
-- Heap: [Median Number]() | [Building Outline]() | []() |  
+- Heap: [Find Median from Data Stream]() | [Building Outline]() | []() |  
 
 - Trie: [Word Search II]() |
 
