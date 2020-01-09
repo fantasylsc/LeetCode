@@ -8,7 +8,7 @@
 
 - Stack:  [Min Stack](../Algorithm/Python/175/0155_Min_Stack.py) | [Implement Queue using Stacks](../Algorithm/Python/250/0232_Implement_Queue_using_Stacks.py) | [Largest Rectangle in Histogram](../Algorithm/Python/100/0084_Largest_Rectangle_in_Histogram.py) | [Maximum Binary Tree](../Algorithm/Python/675/0654_Maximum_Binary_Tree.py) | 
 
-- Hash: [LRU Cache](../Algorithm/Python/150/0146_LRU_Cache.py) | [Longest Consecutive Sequence]() | 
+- Hash: [LRU Cache](../Algorithm/Python/150/0146_LRU_Cache.py) | [Longest Consecutive Sequence](../Algorithm/Python/150/0128_Longest_Consecutive_Sequence.py) | 
 
 ### Tree Data Structure
 
