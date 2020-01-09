@@ -167,7 +167,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [Python](./algorithms/cpp/validPalindrome/validPalindrome.cpp), [Java](./algorithms/java/src/validPalindrome/ValidPalindrome.java)|Easy|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)| [Python](./algorithms/cpp/wordLadder/wordLadder.II.cpp)|Hard|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/)| [Python](./Algorithm/Python/150/0127_Word_Ladder.py)|Medium|
-|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [Python](./algorithms/cpp/longestConsecutiveSequence/longestConsecutiveSequence.cpp)|Hard|
+|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [Python](./Algorithm/Python/150/0128_Longest_Consecutive_Sequence.py)|Hard|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)| [Python](./algorithms/cpp/sumRootToLeafNumber/sumRootToLeafNumber.cpp), [Python](./algorithms/python/SumRootToLeafNumbers/sumNumbers.py)|Medium|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python](./algorithms/cpp/surroundedRegions/surroundedRegions.cpp)|Medium|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [Python](./Algorithm/Python/150/0131_Palindrome_Partitioning.py)|Medium|
