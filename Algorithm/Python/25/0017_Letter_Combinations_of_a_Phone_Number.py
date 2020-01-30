@@ -14,23 +14,23 @@ Although the above answer is in lexicographical order, your answer could be in a
 
 '''
 
+# pass temporary result and left digits as parameters
+
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         if len(digits) == 0:
-            return []
-        
+            return ''
+        self.dic = {'2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'}
         self.res = []
-        self.m = {'2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'}
-        if digits:
-            self.nextDigitCombination('', digits)
+        self.helper('', digits)
         return self.res
         
-    def nextDigitCombination(self, combination, next_Digits):
-        if len(next_Digits) == 0:
-            self.res.append(combination)
+    def helper(self, current, digits):
+        if digits:
+            for digit in self.dic[digits[0]]:
+                self.helper(current + digit, digits[1:])
         else:
-            for letter in self.m[next_Digits[0]]:
-                self.nextDigitCombination(combination + letter, next_Digits[1:])
+            self.res.append(current)
 
 
 
