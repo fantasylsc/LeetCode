@@ -16,8 +16,10 @@ The median is 2.0
 '''
 # for a sorted list with k numbers, the median is the average of the (k + 1)//2 th number and (k + 2)//2 the number. 
 # So the question is converted to find the (k + 1)//2 th number and (k + 2)//2 the number.
-# Find kth:
-# 
+# Find kth: findKth(self, nums1, i, nums2, j, k)
+# Base case for recursion: i, len(nums1), j, len(nums2), k == 1
+# See if k/2th item exists, midVal1, midVal2, if not exist, set midVal = float('int')
+# Eliminate the smaller k/2th number
 
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
