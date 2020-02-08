@@ -14,12 +14,16 @@ nums2 = [2]
 The median is 2.0
 
 '''
+# for a sorted list with k numbers, the median is the average of the (k + 1)//2 th number and (k + 2)//2 the number. 
+# So the question is converted to find the (k + 1)//2 th number and (k + 2)//2 the number.
+# Find kth:
+# 
 
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         m = len(nums1)
         n = len(nums2)
-        # for a sorted list with k numbers, the median is the average of the (k + 1)//2 th number and (k + 2)//2 the number.
+        
         left = (m + n + 1) // 2
         right = (m + n + 2) // 2
         
