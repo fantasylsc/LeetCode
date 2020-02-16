@@ -10,6 +10,9 @@ Explanation: The answer is "abc", with the length of 3.
 
 '''
 
+# use dictionary to record visited
+# use enumerate(s) to speed up
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         visited = {}
