@@ -14,8 +14,11 @@ nums2 = [2]
 The median is 2.0
 
 '''
+
+
 # find (m + n + 1)//2 and (m + n + 2)//2
 # findkth(nums1, i, nums2, j, k)
+# base case for recursion i >=len(nums1), j >= len(nums2), k == 1
 # 1) if i >= len(nums1) 2) if i + k//2 - 1 < len(nums1) 3) if midVal1 < midVal2
 
 
