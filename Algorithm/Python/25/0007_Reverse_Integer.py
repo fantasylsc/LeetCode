@@ -41,6 +41,33 @@ class Solution:
         else:    
             return res
 
-
+# Reverse list of string
+class Solution:
+    def reverse(self, x: int) -> int:
+        s = list(str(x))
+        flag = True
+        if s[0] == '-':
+            flag = False
+            s = s[1:]
+        
+        i = 0
+        j = len(s) - 1
+        while i < j:
+            s[i], s[j] = s[j], s[i]
+            i += 1
+            j -= 1
+        
+        while s[0] == 0:
+            s = s[1:]
+        
+        res = ''
+        res = int(res.join(s))
+        if flag == False:
+            res = - res
+            
+        if res <= - 2**31 or res >= 2**31 - 1:
+            return 0
+        else:
+            return res
 
 
