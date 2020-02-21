@@ -52,3 +52,53 @@ class Solution:
                     
         return res
 
+# DP
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        if not s:
+            return s
+        
+        n = len(s) # get length of input string 
+
+        dp = [[0]*n for _ in range(n)]  
+
+        # All substrings of length 1 are 
+        # palindromes 
+        maxLength = 1
+        for i in range(n):
+            dp[i][i] = True
+
+        # check for sub-string of length 2. 
+        start = 0
+        for i in range(n - 1):
+            if s[i] == s[i + 1]:
+                dp[i][i + 1] = True
+                start = i
+                maxLength = 2
+
+        for i in range(n - 2, -1, -1):
+            for j in range(i + 1, n):
+                if s[i] == s[j] and dp[i + 1][j - 1] == True:
+                    dp[i][j] = True
+                    if j - i + 1 > maxLength:
+                        maxLength = j - i + 1
+                        start = i
+        return s[start: start + maxLength]
+        
+# using for loop 
+# Check for lengths greater than 2.  
+# k is length of substring 
+#         k = 3
+#         while k <= n : 
+#             # Fix the starting index 
+#             i = 0
+#             while i < (n - k + 1) : 
+#                 if (dp[i + 1][j - 1] and 
+#                           s[i] == s[j]) : 
+#                     dp[i][j] = True
+
+#                     if (k > maxLength) : 
+#                         start = i 
+#                         maxLength = k 
+#                 i = i + 1
+#             k = k + 1
