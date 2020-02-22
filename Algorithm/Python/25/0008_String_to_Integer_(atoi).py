@@ -80,6 +80,38 @@ class Solution:
         
         return res
 
-
+# small optimization
+class Solution:
+    def myAtoi(self, str: str) -> int:
+        n = len(str)
+        if n == 0:
+            return 0
+        
+        i = 0
+        while i < n and str[i] == ' ': # pay attention to index range when using while loop
+            i += 1
+        
+        Negative = False
+        if i < n and (str[i] == '-' or str[i] == '+'):
+            if str[i] == '-':
+                Negative = True
+            i += 1
+        elif i < n and not str[i].isnumeric():
+            return 0
+        
+        res = 0
+        while i < n and str[i].isnumeric():
+            res = 10 * res + int(str[i])
+            i += 1
+            
+        if Negative:
+            res = - res
+        
+        if res <= - 2 ** 31:
+            return - 2 ** 31
+        elif res >= 2 ** 31 - 1:
+            return 2 ** 31 - 1
+        else:
+            return res
 
 
