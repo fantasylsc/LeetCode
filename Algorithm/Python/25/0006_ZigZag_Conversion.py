@@ -21,7 +21,7 @@ Output: "PAHNAPLSIIGYIR"
 
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
-        if numRows <= 1:
+        if numRows <= 1: # check numRows
             return s
         
         res =  ''
@@ -29,16 +29,16 @@ class Solution:
         n = len(s)
         i = 0
         
-        while i < numRows:
+        while i < numRows: # scan from each row
             j = i
             while j < n:
-                res += s[j]
-                pos = j - i + (size - i)
+                res += s[j] # append letter in vertical line
+                pos = j - i + (size - i) # j - i is the first letter in each V section, size - i is the relative position in this V section
                 if i!= 0 and i != numRows - 1 and pos < n:
-                    res += s[pos]
-                j += size
+                    res += s[pos] # add letter not in vertical line
+                j += size # increase to next vertical position of this row 
                 
-            i += 1
+            i += 1 # increase row num
             
         return res
 
