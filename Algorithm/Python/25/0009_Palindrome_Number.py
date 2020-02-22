@@ -34,7 +34,23 @@ class Solution:
         
         return reverse == original
 
-
+# Two pointers
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        s = str(x)
+        n = len(s)
+        if n == 0 or n == 1:
+            return True
+        
+        i = 0
+        j = n - 1
+        while i < n and j >= 0:
+            if s[i] == s[j]:
+                i += 1
+                j -= 1
+            else:
+                return False
+        return True
     
 # Haha
 class Solution:
