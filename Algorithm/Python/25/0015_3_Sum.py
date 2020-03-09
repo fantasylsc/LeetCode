@@ -19,7 +19,7 @@ A solution set is:
 '''
 
 # Initial condition
-# Using pointers, When to skip
+# 1) Check fixed number equals to prevous or not 2) Using set
 
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
