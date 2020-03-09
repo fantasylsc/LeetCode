@@ -42,6 +42,32 @@ class Solution:
         
         return closest_sum
 
+# New version
 
+class Solution:
+    def threeSumClosest(self, nums: List[int], target: int) -> int:
+        nums.sort()
+        res = nums[0] + nums[1] + nums[-1]
+        diff = abs(target - res)
+        
+        for i in range(len(nums) - 2):
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
+            left = i + 1
+            right = len(nums) - 1
+            while left < right:
+                summ = nums[i] + nums[left] + nums[right]
+                newDiff = abs(target - summ)
+                if newDiff < diff:
+                    res= summ
+                    diff = newDiff
+                if summ == target:
+                    return summ
+                elif summ < target:
+                    left += 1    
+                else:
+                    right -= 1
+        return res
+        
 
 
