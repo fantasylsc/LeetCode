@@ -18,6 +18,9 @@ A solution set is:
 
 '''
 
+# Initial condition
+# Using pointers, When to skip
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = []
