@@ -19,7 +19,7 @@ A solution set is:
 
 '''
 
-# using list
+# using list, condiser avoiding duplicates
 
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
@@ -56,7 +56,7 @@ class Solution:
 
 
 
-# using set
+# using set, don't need to consider duplicates
 
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
