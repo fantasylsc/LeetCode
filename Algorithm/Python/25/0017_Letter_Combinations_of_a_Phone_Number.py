@@ -52,5 +52,21 @@ class Solution:
         for i in range(len(letters)):
             self.DFS(level + 1, current + letters[i])
 
+# BFS
 
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        if not digits:
+            return []
+        res = ['']
+        dic = {'2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'}
+        
+        for i in range(len(digits)):
+            temp = []
+            letters = dic[digits[i]]
+            for j in range(len(letters)):
+                for s in res:
+                    temp.append(s + letters[j])
+            res = temp
+        return res
 
