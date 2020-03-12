@@ -32,6 +32,25 @@ class Solution:
         else:
             self.res.append(current)
 
+# DFS, recursion
+
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        if not digits:
+            return []
+        self.digits = digits
+        self.res = []
+        self.dic = {'2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl', '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'}
+        self.DFS(0, '')
+        return self.res
+        
+    def DFS(self, level, current):
+        if level == len(self.digits):
+            self.res.append(current)
+            return
+        letters = self.dic[self.digits[level]]
+        for i in range(len(letters)):
+            self.DFS(level + 1, current + letters[i])
 
 
 
