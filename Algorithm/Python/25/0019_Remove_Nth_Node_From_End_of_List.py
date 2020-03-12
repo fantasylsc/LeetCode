@@ -55,5 +55,32 @@ class Solution:
         
         return head
 
+# Variation, handle delete first node
+    
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
 
+class Solution:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        if not head or not head.next:
+            return None
+        dummy = ListNode(-1)
+        dummy.next = head
+        start = dummy
+        end = dummy
+        
+        for _ in range(n):
+            end = end.next
+            
+        while end.next:
+            start = start.next
+            end = end.next
+            
+        start.next = start.next.next
+        
+        return dummy.next
+        
 
