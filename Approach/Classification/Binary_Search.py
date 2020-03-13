@@ -11,6 +11,8 @@ https://www.zhihu.com/question/36132386
 
 '''
 
+# This method return the first value that larger or equal than the target
+
 import unittest
 from typing import List
 
