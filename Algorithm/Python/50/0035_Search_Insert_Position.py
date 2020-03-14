@@ -24,6 +24,8 @@ Output: 0
 
 '''
 
+# For this approach, finally nums[left] == nums[right] is the first value larger of equal to target
+# if nums[left] >= target: return left   else: return left + 1
 
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
