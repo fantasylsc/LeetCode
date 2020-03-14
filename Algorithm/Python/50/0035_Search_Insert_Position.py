@@ -44,6 +44,31 @@ class Solution:
         else:
             return left
         
+# Nine chapter approach
 
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        if len(nums) == 0:
+            return 0
+        
+        left = 0
+        right = len(nums) - 1
+        
+        while left + 1 < right:
+            mid = left + (right - left)//2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] < target:
+                left = mid
+            else:
+                right = mid
+                
+        if target > nums[right]:
+            return right + 1
+        if target == nums[right]:
+            return right
+        if target > nums[left]:
+            return right
+        return left
 
 
