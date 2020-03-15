@@ -22,6 +22,23 @@ Output: -1
 
 '''
 
+# Approach 1) take the original nums as a line, rotated nums as two line segments
+# original line, [1,2,3,4,5,6]
+        /6
+       /5
+      /4
+     /3
+    /2
+   /1
+# rotated two line segments, [4,5,6] [1,2,3]
+
+#   /6
+#  /5
+# /4
+#      /3
+#     /2
+#    /1
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums:
@@ -34,15 +51,15 @@ class Solution:
             mid = start + (end - start) // 2
             if nums[mid] == target:
                 return mid
-            if nums[start] < nums[mid]:
-                if nums[start] <= target and target <= nums[mid]:
+            if nums[start] < nums[mid]: # nums[mid] in the left segment
+                if nums[start] <= target and target <= nums[mid]: # target in the left segment
                     end = mid
-                else:
+                else: # target in the right side of nums[mid]
                     start = mid
-            else:
-                if nums[mid] <= target and target <= nums[end]:
+            else: # nums[mid] in the right segment 
+                if nums[mid] <= target and target <= nums[end]: # target in the right segment
                     start = mid
-                else:
+                else: # target in the left segment
                     end = mid
         
         if nums[start] == target:
@@ -51,6 +68,8 @@ class Solution:
             return end
         return -1
 
+# Approach 2) find pivot, then use binary search two times
+    
 # class Solution:
 #     def search(self, nums: List[int], target: int) -> int:
 #         if len(nums) == 0:
