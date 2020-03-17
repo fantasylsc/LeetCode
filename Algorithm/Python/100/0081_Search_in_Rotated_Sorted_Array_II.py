@@ -22,9 +22,12 @@ Would this affect the run-time complexity? How and why?
 '''
 
 # consider conditions like:
-# nums[start] == nums[mid] and nums[end] == nums[mid], end -= 1
-# nums[start] == nums[mid], discard [start, mid]
-# nums[end] == nums[mid], discard [mid, end]
+# 1) nums[start] == nums[mid] and nums[end] == nums[mid],
+#    can't decide, end -= 1
+# 2) nums[start] == nums[mid],
+#    [start, mid] are duplicates, start = mid
+# 3) nums[end] == nums[mid], 
+#    [mid, end] are duplicates, end = mid
 
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
@@ -54,7 +57,6 @@ class Solution:
                     start = mid
                 else:
                     end = mid
-        print(start, end)
         if nums[start] == target:
             return True
         if nums[end] == target:
@@ -62,8 +64,3 @@ class Solution:
         return False
         
         
-        
-        
-
-
-
