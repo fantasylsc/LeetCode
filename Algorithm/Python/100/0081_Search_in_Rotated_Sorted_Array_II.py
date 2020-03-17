@@ -41,12 +41,14 @@ class Solution:
             mid = start + (end - start) // 2
             if nums[mid] == target:
                 return True
+            # consider duplicates situations
             if nums[start] == nums[mid] and nums[end] == nums[mid]:
                 end -= 1
             elif nums[start] == nums[mid]:
                 start = mid
             elif nums[end] == nums[mid]:
                 end = mid
+            # same as rotated array I
             elif nums[mid] > nums[start]:
                 if nums[start] <= target and target <= nums[mid]:
                     end = mid
