@@ -232,7 +232,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |186|[Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) &hearts; | [Python](./algorithms/cpp/reverseWordsInAString/reverseWordsInAString.II.cpp)|Medium|
 |187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)| [Python](./algorithms/cpp/repeatedDNASequences/repeatedDNASequences.cpp)|Medium|
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [Python](./algorithms/cpp/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.IV.cpp)|Hard|
-|189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [Python](./algorithms/cpp/rotateArray/rotateArray.cpp), [Java](./algorithms/java/src/rotateArray/RotateArray.java)|Easy|
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [Python](./Algorithm/Python/175/0189_ Rotate_Array.py)|Easy|
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)| [Python](./algorithms/cpp/reverseBits/reverseBits.cpp)|Easy|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [Python](./algorithms/cpp/numberOf1Bits/numberOf1Bits.cpp)|Easy|
 |198|[House Robber](https://leetcode.com/problems/house-robber/)| [Python](./algorithms/cpp/houseRobber/houseRobber.cpp), [Python](./algorithms/python/HouseRobber/rob.py)|Easy|
