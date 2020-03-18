@@ -50,15 +50,15 @@ class Solution:
 # class Solution:
 #     def preorderTraversal(self, root: TreeNode) -> List[int]:
 #         self.res = []
-#         self.helper(root)
+#         self.preorder(root)
 #         return self.res
-    
-#     def helper(self, root):
+        
+#     def preorder(self, root):
 #         if root == None:
 #             return
 #         self.res.append(root.val)
-#         self.helper(root.left)
-#         self.helper(root.right)
+#         self.preorder(root.left)
+#         self.preorder(root.right)
         
 # Divide & Conquer
 
@@ -75,9 +75,4 @@ class Solution:
 #         # Conquer
 #         res.append(root.val)
 #         return res + left + right        
-            
-        
-
-
-
-
+     
