@@ -28,7 +28,8 @@ Output: false
 '''
 
 # 1. using two binary search
-# 2. regard the 2D Matrix as a list, row = idx // n , col = idx % n, n = len(matrix[0])
+# 2. take the 2D Matrix as a list, row = idx // n , col = idx % n, n = len(matrix[0])
+# 3. search from the left down corner
 
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
