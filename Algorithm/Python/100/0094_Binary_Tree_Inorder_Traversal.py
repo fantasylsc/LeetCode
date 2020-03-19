@@ -30,8 +30,9 @@ class Solution:
         res = []
         stack = [] # initial stack is empty
         current = root
-        
-        while current or stack: # 1. with curr, since initial stack is empty 2. stack is empty, there may be unprocessed nodes
+        # 1. with curr, since initial stack is empty 
+        # 2. curr is True, right node to be processed; stack is True, left and mid node to be processed 
+        while current or stack: 
             # go to left most node after processing each node
             while current:
                 stack.append(current)
