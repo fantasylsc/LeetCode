@@ -31,6 +31,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 # Iterative solution 1
 # postorder (left, right, root),  use traversal order (root, right, left) and append node reversely
 
+# use deque for queue implementation
 from collections import deque
 
 class Solution:
