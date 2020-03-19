@@ -48,7 +48,9 @@ Binary Tree Traversal: traverse order 1-2-3-4-5.
 
 [Postorder](../Algorithm/Python/150/0145_Binary_Tree_Postorder_Traversal.py) (left, right, root) 
 
-[Inorder](../Algorithm/Python/100/0094_Binary_Tree_Inorder_Traversal.py) (left, root, right).
+[Inorder](../Algorithm/Python/100/0094_Binary_Tree_Inorder_Traversal.py) (left, root, right)
+
+[Level order](../Algorithm/Python/125/0102_Binary_Tree_Level_Order_Traversal.py)
 
 <p align="center">
 <img width="500"  src=./Materials/DFSBFS.png >
