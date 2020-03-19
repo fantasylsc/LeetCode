@@ -35,7 +35,7 @@ class Solution:
         
         while stack:
             temp = stack.pop()
-            res.append(temp.val)
+            res.append(temp.val) # append temp.val not temp
             
             # for preorder traversal, append right first, then left
             if temp.right:
