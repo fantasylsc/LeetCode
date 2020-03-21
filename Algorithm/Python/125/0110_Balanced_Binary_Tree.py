@@ -74,7 +74,8 @@ class Solution:
 #             left = getDepth(root.left)
 #             right = getDepth(root.right)
 #             return max(left, right) + 1
-        
+
+          # Return True if haven't find unbalanced subtree
 #         if not root:
 #             return True
         
