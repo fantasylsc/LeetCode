@@ -37,6 +37,9 @@ Explanation: The LCA of nodes 5 and 4 is 5, since a node can be a descendant of 
 #         self.left = None
 #         self.right = None
 
+
+# use left, right, mid to represent whether it contains target
+
 class Solution:
 
     def __init__(self):
@@ -56,20 +59,21 @@ class Solution:
             if not current_node:
                 return False
 
-            # Left Recursion
+            # check if the left branch contains target
             left = recurse_tree(current_node.left)
 
-            # Right Recursion
+            # check if the right branch contains target
             right = recurse_tree(current_node.right)
 
-            # If the current node is one of p or q
+            # check if the current node is the target
             mid = current_node == p or current_node == q
 
             # If any two of the three flags left, right or mid become True.
+            # It means the current node is the lowest common ancester
             if mid + left + right >= 2:
                 self.ans = current_node
 
-            # Return True if either of the three bool values is True.
+            # Return True if at least one of the current node, left branch or right branch contains target.
             return mid or left or right
 
         # Traverse the tree
