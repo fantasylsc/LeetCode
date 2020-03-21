@@ -39,9 +39,12 @@ class Solution:
         def helper(root):
             if not root:
                 return 0
+            # get left and right path sum, only include the positive one
             left = max(helper(root.left), 0)
             right = max(helper(root.right), 0)
+            # get current max path sum
             self.res = max(self.res, left + right + root.val)
+            # get current path sum starting from current root
             return max(left, right) + root.val
             
             
