@@ -43,9 +43,11 @@ This tree is also valid:
 
 class Solution:
     def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
+        # leaf node, insert TreeNode
         if not root:
             return TreeNode(val)
-        
+
+        # search insert position
         if val < root.val:
             root.left = self.insertIntoBST(root.left, val)
         else:
@@ -53,6 +55,7 @@ class Solution:
         return root
 
 # Iteration
+# Different from tree traverse, without using stack
 
 # class Solution:
 #     def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
