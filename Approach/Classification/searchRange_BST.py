@@ -24,6 +24,7 @@ def searchRange(root, k1, k2):
     if not root:
         return
     
+    # search the first node that less than k1
     if root.val > k1:
         searchRange(root.left, k1, k2)
     if root.val >= k1 and root.val <= k2:
