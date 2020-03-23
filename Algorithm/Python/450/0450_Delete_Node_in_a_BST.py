@@ -75,6 +75,7 @@ class Solution:
     
     # recursively find the node to delete until to None or the leaf node
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
+        # if root is None, don't have to delete node, return None
         if not root:
             return None
 
