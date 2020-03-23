@@ -92,7 +92,9 @@ class Solution:
                 root = None
             # the node is not a leaf and has a right child
             elif root.right:
+                # update current node value to successor
                 root.val = self.successor(root)
+                # delete used successor's node
                 root.right = self.deleteNode(root.right, root.val)
             # the node is not a leaf, has no right child, and has a left child    
             else:
