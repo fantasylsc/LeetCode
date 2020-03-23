@@ -49,7 +49,7 @@ Another valid answer is [5,2,6,null,4,null,7].
 # to keep the BST in order after deleting the node
 # fill the node with the successor at the right
 # or fill the node with the predecessor at the left
-# then recursively 
+# then recursively delete used nodes
 
 
 class Solution:
