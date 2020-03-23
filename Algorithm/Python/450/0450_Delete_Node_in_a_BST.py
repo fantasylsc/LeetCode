@@ -56,6 +56,7 @@ class Solution:
     def successor(self, root):
         """
         One step right and then always left
+        return successor's value
         """
         root = root.right
         while root.left:
@@ -65,6 +66,7 @@ class Solution:
     def predecessor(self, root):
         """
         One step left and then always right
+        return predecessor's value
         """
         root = root.left
         while root.right:
