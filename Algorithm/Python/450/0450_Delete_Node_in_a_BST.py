@@ -46,6 +46,12 @@ Another valid answer is [5,2,6,null,4,null,7].
 #         self.left = None
 #         self.right = None
 
+# to keep the BST in order after deleting the node
+# fill the node with the successor at the right
+# or fill the node with the predecessor at the left
+# then recursively 
+
+
 class Solution:
     def successor(self, root):
         """
@@ -64,7 +70,8 @@ class Solution:
         while root.right:
             root = root.right
         return root.val
-
+    
+    # recursively find the node to delete until to None or the leaf node
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
         if not root:
             return None
@@ -90,8 +97,4 @@ class Solution:
                 root.left = self.deleteNode(root.left, root.val)
 
         return root
-
-
-
-
 
