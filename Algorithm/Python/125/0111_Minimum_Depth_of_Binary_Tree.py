@@ -65,6 +65,8 @@ class Solution:
 #             return 1
         
 #         min_depth = float('inf')
+#         # include if statement, if node is None, it should not be included 
+#         # or the result will be always 1 
 #         if root.left:
 #             min_depth = min(min_depth, self.minDepth(root.left))
 #         if root.right:
