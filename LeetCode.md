@@ -264,7 +264,8 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)| [Python](./Algorithm/Python/250/0232_Implement_Queue_using_Stacks.py)|Easy|
-|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [Python](./Algorithm/Python/225/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.py)|Medium|
+|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| [Python](./Algorithm/Python/250/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py)|Easy|
+|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [Python](./Algorithm/Python/250/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.py)|Medium|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)| [Python](./Algorithm/Python/250/0240_Search_a_2D_Matrix_II.py)|Medium|
 
 
