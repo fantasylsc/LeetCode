@@ -53,6 +53,8 @@ class Solution:
         :type q: TreeNode
         :rtype: TreeNode
         """
+        
+        # input: root node. If the subtree started from root contains target, return True, else return False.
         def recurse_tree(current_node):
 
             # If reached the end of a branch, return False.
