@@ -73,7 +73,7 @@ class Solution:
             root = root.right
         return root.val
     
-    # recursively find the node to delete until to None or the leaf node
+    # input: root, key. output: root
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
         # if root is None, don't have to delete node, return None
         if not root:
