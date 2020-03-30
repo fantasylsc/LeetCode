@@ -24,6 +24,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 #         self.right = None
 
 # Iterative solution
+# when comes to a new node, always go to the left most, then pop, then go to right
 
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
