@@ -40,7 +40,7 @@ This tree is also valid:
 #         self.right = None
 
 # Recursion
-
+# only insert at leaf node
 class Solution:
     def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
         # leaf node, insert TreeNode
