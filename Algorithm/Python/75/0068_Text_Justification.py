@@ -88,5 +88,79 @@ class Solution:
         
         return res
             
+# 4/2/2020 personal solutioni
+
+# class Solution:
+#     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
+#         res = []
+#         row_list = []
+#         n = len(words)
+#         space = maxWidth
+#         char_length = 0
         
+#         for i in range(n):
+#             print(i)
+#             if len(words[i]) <= space: # space can hold new word
+#                 row_list.append(words[i])
+#                 space = space - (len(words[i]) + 1)
+#                 char_length += len(words[i])
+#                 if i == n - 1:
+#                     row_string = ''
+#                     for k in range(len(row_list)):
+#                         if k == len(row_list) - 1:
+#                             row_string += row_list[k]
+#                             row_string += ' ' * (maxWidth - len(row_string))
+#                         else:
+#                             row_string += row_list[k] + ' '
+#                     print(row_string)
+#                     res.append(row_string)
+#                     print('res:', res)
+#                     return res
+                
+#             else: # process current row_list if space can't hold new word
+#                 row_string = ''
+#                 if len(row_list) == 1:
+#                     n_space = maxWidth - len(row_list[0])
+#                     row_string += row_list[0] + ' ' * n_space
+#                     print(row_string)
+#                     res.append(row_string)
+#                 else:
+#                     if (maxWidth - char_length) % (len(row_list) - 1) == 0:
+#                         n_space = (maxWidth - char_length) // (len(row_list) - 1)
+#                         row_string += row_list[0]
+#                         for k in range(1, len(row_list)):
+#                             row_string += ' ' * n_space + row_list[k]
+#                         print(row_string)
+#                         res.append(row_string)
+#                     else:
+#                         n_space1 = (maxWidth - char_length) // (len(row_list) - 1)
+#                         n_space2 = (maxWidth - char_length) % (len(row_list) - 1)
+#                         row_string += row_list[0]
+#                         for k in range(1, len(row_list)):
+#                             if n_space2:
+#                                 n_space = n_space1 + 1
+#                                 n_space2 -= 1
+#                                 row_string += ' ' * n_space + row_list[k]
+#                             else:
+#                                 row_string += ' ' * n_space1 + row_list[k]
+#                         print(row_string)
+#                         res.append(row_string)
+                    
+#                 # add new word to row_list after processing row_list
+#                 row_list = []
+#                 space = maxWidth
+#                 char_length = 0
+#                 char_length += len(words[i])
+#                 row_list.append(words[i])
+#                 space = space - (len(words[i]) + 1)
+#                 if i == n - 1:
+#                     row_string = ''
+#                     n_space = maxWidth - char_length
+#                     row_string += row_list[0] + ' ' * n_space
+#                     print(row_string)
+#                     res.append(row_string)
+#                     print(res)
+#                     return res
+                    
+
 
