@@ -42,6 +42,8 @@ Explanation: Note that the last line is "shall be    " instead of "shall     be"
 
 '''
 
+# This approach is much clearer than the second one
+
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         # 1. number of words in a line
