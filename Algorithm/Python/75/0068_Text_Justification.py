@@ -46,9 +46,12 @@ Explanation: Note that the last line is "shall be    " instead of "shall     be"
 
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
-        # 1. number of words in a line
-        # 2. last line or not
-        # 3. adjuste each line
+        # 1. loop through all words
+        # 2. find end index of current line
+        # 3. process current line
+        #   3.1 append current word
+        #   3.2 process the space: 1) if this is the last line, then if this is the last word
+        #                          2) if this is not the last line:
         
         res = []
         len_words = len(words)
@@ -76,12 +79,12 @@ class Solution:
                         else:
                             n_space = 1
                     else:
-                        if (j - 1) - k > 0: # if k is not the last word in this line
+                        if (j - 1) - k > 0: # if k is not the last word in this line, j - 1 is the last index of current line
                             if space % (j - k - 1) == 0: # if space is divisable
                                 n_space = space // (j - k - 1)
                             else:
                                 n_space = space // (j - k - 1) + 1
-                        else: # k is the last word in this line
+                        else: # k is the last word in this line, there is only one word in this line
                             n_space = space
                     line += ' ' * n_space
                     space -= n_space
