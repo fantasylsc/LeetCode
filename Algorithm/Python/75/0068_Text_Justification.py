@@ -50,8 +50,9 @@ class Solution:
         # 2. find end index of current line
         # 3. process current line
         #   3.1 append current word
-        #   3.2 process the space: 1) if this is the last line, then if this is the last word
-        #                          2) if this is not the last line:
+        #   3.2 process the space if space > 0: 
+        #                          1) if this is the last line, then if this is the last word
+        #                          2) if this is not the last line: last word or not; space divisable or not
         
         res = []
         len_words = len(words)
