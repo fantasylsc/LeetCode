@@ -58,7 +58,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)| [Python](./Algorithm/Python/50/0044_Wildcard_Matching.py)|Hard|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [Python](./Algorithm/Python/50/0045_Jump_Game_II.py)|Hard|
 |46|[Permutations](https://leetcode.com/problems/permutations/)| [Python](./Algorithm/Python/50/0046_Permutations.py)|Medium|
-|47|[Permutations II--](https://leetcode.com/problems/permutations-ii/)| [Python](./algorithms/cpp/permutations/permutations.II.cpp)|Hard|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python](./Algorithm/Python/50/0047_Permutations_II.py)|Medium|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)| [Python](./Algorithm/Python/50/0048_Rotate_Image.py)|Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [Python](./Algorithm/Python/50/0049_Group_Anagrams.py)|Medium|
 
