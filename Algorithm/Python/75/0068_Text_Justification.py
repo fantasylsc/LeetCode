@@ -61,7 +61,8 @@ class Solution:
             while j < len_words and cur_len + len(words[j]) + j - i <= maxWidth:
                 cur_len += len(words[j])
                 j += 1
-                
+            # when jump out of while loop, j - 1 is the last index of current line
+            
             line = ''
             space = maxWidth - cur_len
             # add ith to jth words and space into current line
