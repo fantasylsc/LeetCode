@@ -90,7 +90,7 @@ class Solution:
         
         return res
             
-# 4/2/2020 personal solutioni
+# 4/2/2020 personal solution
 
 # class Solution:
 #     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
