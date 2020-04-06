@@ -17,6 +17,8 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
 
 '''
 
+# compare new interval with last item in output[-1][1]
+
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         # init data
@@ -25,7 +27,7 @@ class Solution:
         output = []
         
         # add all intervals starting before newInterval
-        while idx < n and new_start > intervals[idx][0]:
+        while idx < n and intervals[idx][0] < new_start:
             output.append(intervals[idx])
             idx += 1
             
