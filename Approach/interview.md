@@ -2,7 +2,7 @@
 
 ## OA
 
-[Min Amplitude](./Interview/Min_Amplitude.py) [Split String]() [New Grad] 🆕
+[Min Amplitude](./Interview/Min_Amplitude.py), [Split String]() [New Grad] 🆕
 
 Ways to Split String [New Grad] 🆕
 
