@@ -42,8 +42,6 @@ class Solution:
             if A[i] > A[maxIndex]:
                 maxIndex = i
 
-        print('maxIndex:',maxIndex)
-
         return A[maxIndex: maxIndex + K]
 
 
