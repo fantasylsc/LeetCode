@@ -1,6 +1,6 @@
 # Google
 
-    [Min Amplitude](/Interview/Min_Amplitude.py) [New Grad] 🆕
+    [Min Amplitude](../Approach/Interview/Min_Amplitude.py) [New Grad] 🆕
     
     Ways to Split String [New Grad] 🆕
     
