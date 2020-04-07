@@ -1,6 +1,6 @@
 # Google
 
-    Min Amplitude [New Grad] 🆕
+    [Min Amplitude](./Interview/Min_Amplitude.py) [New Grad] 🆕
     
     Ways to Split String [New Grad] 🆕
     
