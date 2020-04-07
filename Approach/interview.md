@@ -6,7 +6,7 @@
 
 [Ways to Split String](./Interview/Split_String.py) [New Grad] 🆕
 
-Compare Strings [Intern]
+[Compare Strings](./Interview/Compare_String.py) [Intern]
 
 Largest Subarray Length K ⭐⭐⭐[Intern]
 
