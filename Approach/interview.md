@@ -14,7 +14,7 @@
 
 [Min Abs Difference of Server Loads]() ⭐ [Intern]
 
-Most Booked Hotel Room ⭐⭐⭐ [Intern]
+[Most Booked Hotel Room]() ⭐⭐⭐ [Intern]
 
 Watering Flowers [New Grad]
 
