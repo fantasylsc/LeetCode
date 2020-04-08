@@ -12,7 +12,7 @@
 
 [Maximum Time](./Interview/Maximum_Time.py) ⭐⭐⭐ [Intern]
 
-Min Abs Difference of Server Loads ⭐ [Intern]
+[Min Abs Difference of Server Loads]() ⭐ [Intern]
 
 Most Booked Hotel Room ⭐⭐⭐ [Intern]
 
