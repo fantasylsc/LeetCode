@@ -42,11 +42,12 @@ class Solution:
         
         for i in range(1, n + 1):
             for j in range(1, m + 1):
-                if j == A[i - 1]:
+                if j == A[i - 1]: # ith item size = backpack size
                     dp[i][j] = True
-                elif j > A[i - 1]:
+                elif j > A[i - 1]: # item size < backpack size
+                    # not put ith item in backpack or put in backpack
                     dp[i][j] = dp[i - 1][j] or dp[i - 1][j - A[i - 1]]
-                else:
+                else: # item size > backpack size, can't put in
                     dp[i][j] = dp[i - 1][j]
         
         for j in range(m, -1, -1):
