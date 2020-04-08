@@ -24,6 +24,8 @@ You can not divide any item into small pieces.
 '''
 
 # Approach 1
+# More direct approach than approach 2.
+# dp[i][j] represents the maximum size we can put for first i items in backpack size of j
 
 import unittest
 
