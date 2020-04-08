@@ -29,7 +29,7 @@ class Solution:
     @param A: Given n items with size A[i]
     @return: The maximum size
     
-    state: dp[i][j] whether backpack size of j can be filled by first i items 
+    state: dp[i][j] whether backpack size of j can be exactly filled by first i items 
     function: dp[i][j] = dp[i - 1][j] or dp[i - 1][j - A[i - 1]]
     initialize: dp[0][0] = True, dp[0][:] = False
     """
