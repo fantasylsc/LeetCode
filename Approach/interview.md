@@ -14,7 +14,7 @@
 
 [Min Abs Difference of Server Loads](./Interview/Min_Abs_Difference_of_Server_Loads.py) ⭐ [Intern]
 
-[Most Booked Hotel Room]() ⭐⭐⭐ [Intern]
+[Most Booked Hotel Room](./Interview/Most_Booked_Hotel_Room.py) ⭐⭐⭐ [Intern]
 
 Watering Flowers [New Grad]
 
