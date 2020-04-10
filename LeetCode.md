@@ -526,7 +526,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
+|1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)| [Python](./Algorithm/Python/1025/1007_Minimum_Domino_Rotations_For_Equal_Row.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
 
