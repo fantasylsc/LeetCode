@@ -16,7 +16,7 @@
 
 [Most Booked Hotel Room](./Interview/Most_Booked_Hotel_Room.py) ⭐⭐⭐ [Intern]
 
-Watering Flowers [New Grad]
+[Watering Flowers](./Interview/Watering_Flower.py) [New Grad]
 
 Minimum Domino Rotations For Equal Row [New Grad]
 
