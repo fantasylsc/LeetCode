@@ -35,4 +35,14 @@ class Solution:
             self.backtrack(n, current + '(', left + 1, right)
         if right < left:
             self.backtrack(n, current + ')', left, right + 1)
-         
+        
+        # Note:
+        # this is backtrack because the above two recursions are like:
+        # if left < n:
+        #     s.append('(')
+        #     self.backtrack(n, s , left + 1, right)
+        #     s.pop()
+        # if right < left:
+        #     s.append(')')
+        #     self.backtrack(n, s, left, right + 1)
+        
