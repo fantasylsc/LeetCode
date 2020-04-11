@@ -18,7 +18,7 @@
 
 [Watering Flowers](./Interview/Watering_Flower.py) [New Grad]
 
-Minimum Domino Rotations For Equal Row [New Grad]
+[Minimum Domino Rotations For Equal Row](../Algorithm/Python/1025/1007_Minimum_Domino_Rotations_For_Equal_Row.py) [New Grad]
 
 Time to Type a String
 
