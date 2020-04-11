@@ -583,6 +583,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)| [Python](./Algorithm/Python/1200/1161_Maximum_Level_Sum_of_a_Binary_Tree.py)|Medium|
 |1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)| [Python](./Algorithm/Python/1200/1165_Single-Row_Keyboard.py)|Easy|
 |1192|[Ctitical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)| [Python](./Algorithm/Python/1200/1192_Critical_Connections_in_a_Network.py)|Hard|
 
