@@ -20,7 +20,7 @@
 
 [Minimum Domino Rotations For Equal Row](../Algorithm/Python/1025/1007_Minimum_Domino_Rotations_For_Equal_Row.py) [New Grad]
 
-Time to Type a String
+[Time to Type a String (LeetCode 1165)](../Algorithm/Python/1200/1165_Single-Row_Keyboard.py)
 
 Maximum Level Sum of a Binary Tree
 
