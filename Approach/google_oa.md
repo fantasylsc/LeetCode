@@ -24,7 +24,7 @@
 
 [Maximum Level Sum of a Binary Tree](../Algorithm/Python/1200/1161_Maximum_Level_Sum_of_a_Binary_Tree.py)
 
-Min Number of Chairs
+[Min Number of Chairs (same as LeetCode 253)](../Algorithm/Python/275/0253_Meeting_Rooms_II.py)
 
 K Closest Points to Origin
 
