@@ -22,7 +22,7 @@
 
 [Time to Type a String (LeetCode 1165)](../Algorithm/Python/1200/1165_Single-Row_Keyboard.py)
 
-Maximum Level Sum of a Binary Tree
+[Maximum Level Sum of a Binary Tree](../Algorithm/Python/1200/1161_Maximum_Level_Sum_of_a_Binary_Tree.py)
 
 Min Number of Chairs
 
