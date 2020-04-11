@@ -46,3 +46,25 @@ Max Distance
 
 Stores and Houses
 
+Singapore
+
+Greatest Common Divisor
+
+Relative Sort
+
+Maximum Number of Strawberries
+
+Delayed Projects
+
+Min Cost to Keep Employees
+
+Statistics
+
+Pizza Shop
+
+Min Distance To The Farthest Node
+
+Cut The Cake 🆕
+
+Best Fruit 🆕
+
