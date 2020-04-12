@@ -510,7 +510,7 @@ Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)|Medium|
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)| [Python](./Algorithm/Python/975/)|Hard|
+|975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)| [Python](./Algorithm/Python/975/0975_Odd_Even_Jump.py)|Hard|
 
 
 ## [Go to Top](#LeetCode-Solutions)
