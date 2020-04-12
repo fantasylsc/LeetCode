@@ -28,7 +28,7 @@
 
 [K Closest Points to Origin](../Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)
 
-Odd Even Jump
+[Odd Even Jump](../Algorithm/Python/975/0975_Odd_Even_Jump.py)
 
 License Key Formatting
 
