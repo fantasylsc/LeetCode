@@ -36,11 +36,84 @@ Note:
 
 '''
 
-# python doesn't have map data structure, using SortedDict and biset instead
 
 from sortedcontainers import SortedDict
-from bisect import bisect_left, bisect_right
 
+class Solution:
+    def oddEvenJumps(self, A: List[int]) -> int:
+        n = len(A)
+        m = SortedDict()
+        dp = [[0] * 2 for _ in range(n)]
+        dp[n - 1][0] = dp[n - 1][1] = 1
+        m[A[n - 1]] = n - 1
+        res = 1
+        
+        for i in range(n - 2, -1, -1):
+            # return index of lower bound, eg, first item >= A[i]
+            o = self.lowerBound(m.keys(), A[i])
+            if o != -1:
+                dp[i][0] = dp[m[o]][1]
+            # index of first item <= A[i]
+            e = self.upperBound(m.keys(), A[i])
+            if e != -1:
+                dp[i][1] = dp[m[e]][0]
+            if dp[i][0]:
+                res += 1
+            m[A[i]] = i
+        return res
+    
+    def lowerBound(self, nums, target):
+        if target > nums[-1]:
+            return -1
+        if target < nums[0]:
+            return nums[0]
+        
+        start = 0
+        end = len(nums) - 1
+
+        while start + 1 < end:
+            mid = start + (end - start) // 2
+            if nums[mid] == target:
+                return nums[mid]
+            elif nums[mid] < target:
+                start = mid
+            else:
+                end = mid
+                
+        if nums[start] == target:
+            return nums[start]
+        if nums[end] == target:
+            return nums[end]
+
+        return nums[end]
+    
+    def upperBound(self, nums, target):
+        if target < nums[0]:
+            return -1
+        if target > nums[-1]:
+            return nums[-1]
+        
+        start = 0
+        end = len(nums) - 1
+
+        while start + 1 < end:
+            mid = start + (end - start) // 2
+            if nums[mid] == target:
+                return nums[mid]
+            elif nums[mid] < target:
+                start = mid
+            else:
+                end = mid
+                
+        if nums[start] == target:
+            return nums[start]
+        if nums[end] == target:
+            return nums[end]
+        
+        return nums[start]
+    
+    
+    
 
 
 # C++ code
