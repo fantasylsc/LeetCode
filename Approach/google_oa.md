@@ -46,8 +46,6 @@ Max Distance
 
 Stores and Houses
 
-Singapore
-
 Greatest Common Divisor
 
 Relative Sort
