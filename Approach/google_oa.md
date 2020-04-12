@@ -26,7 +26,7 @@
 
 [Min Number of Chairs (same as LeetCode 253)](../Algorithm/Python/275/0253_Meeting_Rooms_II.py)
 
-K Closest Points to Origin
+[K Closest Points to Origin](../Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)
 
 Odd Even Jump
 
