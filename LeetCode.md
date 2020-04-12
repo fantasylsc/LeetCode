@@ -509,6 +509,8 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)| [Python](./
+Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)|Medium|
 
 
 ## [Go to Top](#LeetCode-Solutions)
