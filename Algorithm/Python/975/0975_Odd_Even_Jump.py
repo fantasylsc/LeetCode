@@ -35,6 +35,7 @@ Note:
 # approach 1, dp + binary search
 
 from sortedcontainers import SortedDict
+# there is OrderedDict, it keeps the insertion order but can't sort by itself.
 
 class Solution:
     def oddEvenJumps(self, A: List[int]) -> int:
