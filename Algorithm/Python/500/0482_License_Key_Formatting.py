@@ -29,7 +29,6 @@ String S is non-empty.
 class Solution:
     def licenseKeyFormatting(self, S: str, K: int) -> str:
         res = []
-        count = 0
         
         # preprocessing to reduce complexity
         S = S.upper() 
@@ -49,13 +48,9 @@ class Solution:
                 res.append('-')
         
         return ''.join(res)
-
         
 # using list 1320 ms
 # using deque 76 ms appendleft
 # using deque with preprocessing 52 ms
 # this version 40 ms
-
-
-
 
