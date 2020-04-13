@@ -14,7 +14,6 @@ A starting index is good if, starting from that index, you can reach the end of 
 Return the number of good starting indexes.
 
  
-
 Example 1:
 
 Input: [10,13,12,14,15]
@@ -31,11 +30,9 @@ Note:
     1 <= A.length <= 20000
     0 <= A[i] < 100000
 
-
-
-
 '''
 
+# approach 1, dp + binary search
 
 from sortedcontainers import SortedDict
 
@@ -50,71 +47,97 @@ class Solution:
         
         for i in range(n - 2, -1, -1):
             # return index of lower bound, eg, first item >= A[i]
-            o = self.lowerBound(m.keys(), A[i])
-            if o != -1:
-                dp[i][0] = dp[m[o]][1]
+            # bisect_left return item >= value
+            o = m.bisect_left(A[i]) 
+            if o != len(m):
+                dp[i][0] = dp[m.items()[o][1]][1]
             # index of first item <= A[i]
-            e = self.upperBound(m.keys(), A[i])
-            if e != -1:
-                dp[i][1] = dp[m[e]][0]
+            # bisect_right return item > val
+            # so e - 1 represents item <= val
+            e = m.bisect_right(A[i])
+            if e != 0:
+                dp[i][1] = dp[m.items()[e - 1][1]][0]
             if dp[i][0]:
                 res += 1
             m[A[i]] = i
         return res
-    
-    def lowerBound(self, nums, target):
-        if target > nums[-1]:
-            return -1
-        if target < nums[0]:
-            return nums[0]
-        
-        start = 0
-        end = len(nums) - 1
 
-        while start + 1 < end:
-            mid = start + (end - start) // 2
-            if nums[mid] == target:
-                return nums[mid]
-            elif nums[mid] < target:
-                start = mid
-            else:
-                end = mid
+# class Solution:
+#     def oddEvenJumps(self, A: List[int]) -> int:
+#         n = len(A)
+#         m = SortedDict()
+#         dp = [[0] * 2 for _ in range(n)]
+#         dp[n - 1][0] = dp[n - 1][1] = 1
+#         m[A[n - 1]] = n - 1
+#         res = 1
+        
+#         for i in range(n - 2, -1, -1):
+#             # return index of lower bound, eg, first item >= A[i]
+#             o = self.lowerBound(m.keys(), A[i])
+#             if o != -1:
+#                 dp[i][0] = dp[m[o]][1]
+#             # index of first item <= A[i]
+#             e = self.upperBound(m.keys(), A[i])
+#             if e != -1:
+#                 dp[i][1] = dp[m[e]][0]
+#             if dp[i][0]:
+#                 res += 1
+#             m[A[i]] = i
+#         return res
+    
+#     def lowerBound(self, nums, target):
+#         if target > nums[-1]:
+#             return -1
+#         if target < nums[0]:
+#             return nums[0]
+        
+#         start = 0
+#         end = len(nums) - 1
+
+#         while start + 1 < end:
+#             mid = start + (end - start) // 2
+#             if nums[mid] == target:
+#                 return nums[mid]
+#             elif nums[mid] < target:
+#                 start = mid
+#             else:
+#                 end = mid
                 
-        if nums[start] == target:
-            return nums[start]
-        if nums[end] == target:
-            return nums[end]
+#         if nums[start] == target:
+#             return nums[start]
+#         if nums[end] == target:
+#             return nums[end]
 
-        return nums[end]
+#         return nums[end]
     
-    def upperBound(self, nums, target):
-        if target < nums[0]:
-            return -1
-        if target > nums[-1]:
-            return nums[-1]
+#     def upperBound(self, nums, target):
+#         if target < nums[0]:
+#             return -1
+#         if target > nums[-1]:
+#             return nums[-1]
         
-        start = 0
-        end = len(nums) - 1
+#         start = 0
+#         end = len(nums) - 1
 
-        while start + 1 < end:
-            mid = start + (end - start) // 2
-            if nums[mid] == target:
-                return nums[mid]
-            elif nums[mid] < target:
-                start = mid
-            else:
-                end = mid
+#         while start + 1 < end:
+#             mid = start + (end - start) // 2
+#             if nums[mid] == target:
+#                 return nums[mid]
+#             elif nums[mid] < target:
+#                 start = mid
+#             else:
+#                 end = mid
                 
-        if nums[start] == target:
-            return nums[start]
-        if nums[end] == target:
-            return nums[end]
+#         if nums[start] == target:
+#             return nums[start]
+#         if nums[end] == target:
+#             return nums[end]
         
-        return nums[start]
+#         return nums[start]
     
     
     
-
+        
 
 # C++ code
 
