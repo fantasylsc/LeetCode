@@ -32,7 +32,7 @@
 
 [License Key Formatting](../Algorithm/Python/500/0482_License_Key_Formatting.py)
 
-Unique Email Addresses
+[Unique Email Addresses](../Algorithm/Python/950/0929_Unique_Email_Addresses.py)
 
 Fruit Into Baskets
 
