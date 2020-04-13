@@ -30,7 +30,7 @@
 
 [Odd Even Jump](../Algorithm/Python/975/0975_Odd_Even_Jump.py)
 
-License Key Formatting
+[License Key Formatting](../Algorithm/Python/500/0482_License_Key_Formatting.py)
 
 Unique Email Addresses
 
