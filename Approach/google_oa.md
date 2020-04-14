@@ -34,7 +34,7 @@
 
 [Unique Email Addresses](../Algorithm/Python/950/0929_Unique_Email_Addresses.py)
 
-Fruit Into Baskets
+[Fruit Into Baskets](../Algorithm/Python/925/0904_Fruit_Into_Baskets.py)
 
 Min Days to Bloom
 
