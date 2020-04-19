@@ -30,7 +30,7 @@ Note:
 
 '''
 
-# using list
+# approach 1
 
 class MaxStack:
 
@@ -59,6 +59,50 @@ class MaxStack:
                 index = i
                 break
         return self.stack.pop(index)
+
+# approach 2
+
+class MaxStack:
+    def __init__(self):
+        """
+        initialize your data structure here.
+        """
+        self.stack = []
+        self.max = float('-inf')
+
+    def push(self, x: int) -> None:
+        self.max = max(x, self.stack[-1][1] if self.stack else x)
+        self.stack.append((x, self.max))
+
+    def pop(self) -> int:
+        return self.stack.pop()[0]
+
+    def top(self) -> int:
+        return self.stack[-1][0]
+
+    def peekMax(self) -> int:
+        return self.stack[-1][1]
+
+    def popMax(self) -> int:
+        m = self.stack[-1][1]
+        b = []
+        while self.stack[-1][0] != m:
+            b.append(self.stack.pop()[0])
+        self.stack.pop()
+        while b:
+            item = b.pop()
+            curr_m = max(item, self.stack[-1][1] if self.stack else item)
+            self.stack.append((item, curr_m))
+        return m
+
+# Your MaxStack object will be instantiated and called as such:
+# obj = MaxStack()
+# obj.push(x)
+# param_2 = obj.pop()
+# param_3 = obj.top()
+# param_4 = obj.peekMax()
+# param_5 = obj.popMax()
+
 
 
 # Your MaxStack object will be instantiated and called as such:
