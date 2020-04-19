@@ -33,6 +33,7 @@ Constraints:
 
 # approach 1 deque
 # understand why deq[0] is the largest 
+# left item in deque must <= right, else item in left will pop out
 
 from collections import deque
 
