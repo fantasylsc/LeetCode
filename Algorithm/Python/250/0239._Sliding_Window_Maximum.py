@@ -31,7 +31,7 @@ Constraints:
 
 '''
 
-# deque
+# approach 1 deque
 # understand why deq[0] is the largest 
 
 from collections import deque
@@ -73,12 +73,14 @@ class Solution:
             output.append(nums[deq[0]])
         return output
         
-# dp
+# approach 2 dp
     
 # class Solution:
 #     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         
-# naive deque O(nk)
+ 
+ 
+# approach 3 naive deque O(nk)
 
 # class Solution:
 #     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
@@ -98,7 +100,7 @@ class Solution:
 #         return res
             
 
-# similar brute force O(nk)
+# approach 4 similar brute force O(nk)
     
 # class Solution:
 #     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
