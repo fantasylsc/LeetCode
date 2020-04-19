@@ -32,6 +32,7 @@ Constraints:
 '''
 
 # deque
+# understand why deq[0] is the largest 
 
 from collections import deque
 
