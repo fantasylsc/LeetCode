@@ -33,33 +33,42 @@ class Solution:
 
         '''
         def fillMax(windowKmax, r, k):
-        	deq = deque()
-        	for i in range(len(r)):
-        		if i >= k and r[i - k] == deq[0]:
-        			deq.popleft()
-        		while deq and r[i] > deq[-1]:
-        			deq.pop()
-        		deq.append(r[i])
-        		if i >= k - 1:
-        			windowKmax[i - k + 1] = deq[0]
+            deq = deque()
+            for i in range(len(r)):
+                if i >= k and r[i - k] == deq[0]:
+                    deq.popleft()
+                while deq and r[i] > deq[-1]:
+                    deq.pop()
+                deq.append(r[i])
+                if i >= k - 1:
+                    windowKmax[i - k + 1] = deq[0]
 
         windowKmax = [0] * (len(roses) - k + 1)
         fillMax(windowKmax, roses, k)
-        dp = [[float('inf')]*(n + 1) for _ in range(len(roses) + 1)]
+        print(windowKmax)
+        dp = [[float('inf')] * (len(roses) + 1) for _ in range(n + 1)]
+        dp[0] = [0] * (len(roses) + 1)
 
         for i in range(1, n + 1):
-        	for j in range(k, len(roses) + 1):
-        		# dp[i][j] means the min time we need to wait by getting i bouquets from preivous j roses
-        		# dp[i][j - 1] min time getting i bouquets from preivous j - 1 roses, means not to use jth rose
-        		# max(dp[i - 1][j - k], windowKmax[j - k]) means time by using j - k roses and 
-        		# windowKmax[j - k] means max time at first j roses
-        		# dp[i - 1][j - k] means min time by getting i - 1 bouquets from previous j - k roses
-        		dp[i][j] = min(dp[i][j - 1], max(dp[i - 1][j - k], windowKmax[j - k]))
-
+            for j in range(k, len(roses) + 1):
+                # dp[i][j] means the min time we need to wait by getting i bouquets from preivous j roses
+                # we can get i bouquets from previous j - 1 roses
+                # or we can get i - 1 bouquets from previous j - k roses and get 1 bouquets from (j - k, j) roses
+                dp[i][j] = min(dp[i][j - 1], max(dp[i - 1][j - k], windowKmax[j - k]))
+        print(dp)
         return dp[n][len(roses)]
 
 '''
 
+Test results:
+windowKmax = [2, 4, 9, 9, 4, 4]
+dp = [[0, 0, 0, 0, 0, 0, 0, 0], [inf, inf, 2, 2, 2, 2, 2, 2], [inf, inf, inf, inf, 9, 9, 4, 4]]
+
+'''
+
+
+
+'''
     1.union-find is not a good solution, both for code complexity and time complexity are not competitive. if u doubt, show me the code
     2.binary search wrote code more, time complexity is O (L * log(max-min) )
     3.dp wrote little code, time complexity is O(n*L), dp[i][j] means the min time we need to wait by preivous j roses to get i bouquets
@@ -130,7 +139,7 @@ class Solution:
 5.follow up : could u do it better, if n*k nearly equal to L
 time complexity O(n * (L - n * k))
 
-	int minDaysBloomByDp(int[] roses, int k, int n) {
+    int minDaysBloomByDp(int[] roses, int k, int n) {
         int[] windowKmax = new int[roses.length - k + 1];
         fillmax(windowKmax,roses,k);
         int[][] dp = new int[n+1][roses.length + 1];
