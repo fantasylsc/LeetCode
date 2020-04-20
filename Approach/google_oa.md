@@ -36,7 +36,7 @@
 
 [Fruit Into Baskets](../Algorithm/Python/925/0904_Fruit_Into_Baskets.py)
 
-Min Days to Bloom
+[Min Days to Bloom](../Approach/Interview/MIn_Days_to_Bloom.py)
 
 Fill Matrix
 
