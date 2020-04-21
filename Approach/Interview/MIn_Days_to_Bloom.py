@@ -23,6 +23,8 @@ Here the last three bloom roses make a bouquet, meeting the required n = 2 bouqu
 import unittest
 from collections import deque
 
+# dp
+
 class Solution:
     def minDaysBloom(self, roses, k, n):
         '''
@@ -66,6 +68,57 @@ dp = [[0, 0, 0, 0, 0, 0, 0, 0], [inf, inf, 2, 2, 2, 2, 2, 2], [inf, inf, inf, in
 
 '''
 
+# binary search
+
+# class Solution:
+#     def minDaysBloom(self, roses, k, n):
+#         '''
+#         : type roses: list[int]
+#         : type k : int
+#         : type n : int
+#         : rtype : int
+
+#         '''
+#         def fillMax(windowKmax, r, k):
+#             deq = deque()
+#             for i in range(len(r)):
+#                 if i >= k and r[i - k] == deq[0]:
+#                     deq.popleft()
+#                 while deq and r[i] > deq[-1]:
+#                     deq.pop()
+#                 deq.append(r[i])
+#                 if i >= k - 1:
+#                     windowKmax[i - k + 1] = deq[0]
+        
+#         # n <= 0 means answer <= day, then move search interval left 
+#         def search(windowKmax, n, k, day):
+#             i = 0
+#             while i < len(windowKmax):
+#                 if day >= windowKmax[i]:
+#                     n -= 1
+#                     i += k
+#                 else:
+#                     i += 1
+#             return n <= 0
+
+#         r_min = float('inf')
+#         r_max = -1
+#         for r in roses:
+#             r_max = max(r_max, r)
+#             r_min = min(r_min, r)
+
+#         windowKmax = [0] * (len(roses) - k + 1)
+#         fillMax(windowKmax, roses, k)
+        
+#         s = r_min
+#         e = r_max
+#         while s < e:
+#             mid = s + (e - s)//2
+#             if search(windowKmax, n, k, mid):
+#                 e = mid
+#             else:
+#                 s = mid + 1
+#         return e
 
 
 '''
