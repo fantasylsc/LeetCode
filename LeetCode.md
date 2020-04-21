@@ -83,7 +83,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)| [Python](./Algorithm/Python/75/0062_Unique_Paths.py)|Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)| [Python](./Algorithm/Python/75/0063_Unique_PathsII.py)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)| [Python](./Algorithm/Python/75/0064_Minimum_Path_Sum.py)|Medium|
-|65|[Valid Number](https://leetcode.com/problems/valid-number/)| [Python](./algorithms/cpp/validNumber/validNumber.cpp)|Easy|
+|65|[Valid Number](https://leetcode.com/problems/valid-number/)| [Python](./Algorithm/Python/75/0065_Valid_Number.py)|Hard|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)| [Python](./Algorithm/Python/75/0066_Plus_One.py)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)| [Python](./Algorithm/Python/75/0067_Add_Binary.py)|Easy|
 |68|[Text Justification](https://leetcode.com/problems/text-justification/)| [Python](./Algorithm/Python/75/0068_Text_Justification.py)|Hard|
