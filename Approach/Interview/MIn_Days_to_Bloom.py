@@ -128,6 +128,7 @@ dp = [[0, 0, 0, 0, 0, 0, 0, 0], [inf, inf, 2, 2, 2, 2, 2, 2], [inf, inf, inf, in
     4.both depend on calculate max window in O(n) algorithm https://leetcode.com/problems/sliding-window-maximum/
     5. bottom have follow up.
 
+Java code 
 
 //DP
     int minDaysBloomByDp(int[] roses, int k, int n) {
