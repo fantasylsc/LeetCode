@@ -35,12 +35,35 @@ Constraints:
 
 '''
 
-# approach 1 deque
+# approach 1.1 deque
 # understand why deq[0] is the largest 
 # left item in deque must <= right, else item in left will pop out
 
 from collections import deque
 
+class Solution:
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+        # base cases
+        n = len(nums)
+        if n * k == 0:
+            return []
+        if k == 1:
+            return nums
+        
+        deq = deque()
+        output = [0]*(n - k + 1)
+        
+        for i in range(n):
+            if i >= k and nums[i - k] == deq[0]:
+                deq.popleft()
+            while deq and nums[i] > deq[-1]:
+                deq.pop()
+            deq.append(nums[i])
+            if i >= k - 1:
+                output[i - k + 1] = deq[0]
+        return output
+
+# approach 1.2 deque
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         # base cases
