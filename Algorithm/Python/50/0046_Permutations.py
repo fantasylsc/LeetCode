@@ -19,23 +19,33 @@ Output:
 
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        def backtrack(first = 0):
-            # if all integers are used up
-            if first == n:  
-                output.append(nums[:])
-            for i in range(first, n):
-                # place i-th integer first 
-                # in the current permutation
-                nums[first], nums[i] = nums[i], nums[first]
-                # use next integers to complete the permutations
-                backtrack(first + 1)
-                # backtrack
-                nums[first], nums[i] = nums[i], nums[first]
-        
         n = len(nums)
-        output = []
-        backtrack()
-        return output
+        ans = []
+        used = [0] * n
+        current = []
+        
+        def dfs():
+            if len(current) == n:
+                ans.append(current[:])
+                return
+            for i in range(n):
+                if used[i]:
+                    continue
+                used[i] = 1
+                current.append(nums[i])
+                dfs()
+                current.pop()
+                used[i] = 0
+        dfs()
+        return ans
+      
+'''
+
+[1]                   [2]            [3]
+[1,2][1,3]        [2,1][2,3]      [3,1][3,2]
+[1,2,3][1,3,2]  [2,1,3][2,3,1]  [3,1,2][3,2,1]
+
+'''
 
 # class Solution:
 #     def permute(self, nums: List[int]) -> List[List[int]]:
