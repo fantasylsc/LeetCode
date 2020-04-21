@@ -31,9 +31,10 @@ Of course, the context of these characters also matters in the input.
 '''
 
 '''
-- 空格： 我们需要排除的情况是，当前位置是空格而后面一位不为空格，但是之前有数字，小数点，自然底数或者符号出现时返回false。
+Consider the following cases:
+- 空格： 空格可以出现在开头和结尾，不能出现在中间。
 - 符号：符号前面如果有字符的话必须是空格或者是自然底数，标记sign为true。
-- 数字：标记num和numAfterE为true。
+- 数字：标记num和numAfterE为true，numAfterE表示自然底数后面是否有数字。
 - 小数点：如果之前出现过小数点或者自然底数，返回false，否则标记dot为true。
 - 自然底数：如果之前出现过自然底数或者之前从未出现过数字，返回false，否则标记exp为true，numAfterE为false。
 - 其他字符：返回false。
