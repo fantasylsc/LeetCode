@@ -50,6 +50,7 @@ class Solution:
 #                 self.res.append(self.nums[:])
 #             return
 #         for i in range(start, len(self.nums)):
+              # can only prevent duplication when nums[start] == nums[i]
 #             if i != start and self.nums[start] == self.nums[i]: # pruning
 #                 continue
 #             self.nums[start], self.nums[i] = self.nums[i], self.nums[start]
@@ -69,21 +70,19 @@ class Solution:
         
 #     def permuteDFS(self, nums, level, visited, out, res):
 #         if level >= len(nums):
-#             print('put in result:', out[:])
 #             res.append(out[:])
 #             return
 #         for i in range(len(nums)):
 #             if visited[i] == 1: # nums[i] was appended before, skip
-#                 print('skip 1:', 'i:', i, 'level:', level, 'visited:', visited, out)
 #                 continue
 #             if i > 0 and nums[i] == nums[i - 1] and visited[i - 1] == 0:
-#                 print('skip 2:', 'i:', i, 'level:', level, 'visited:', visited, out)
 #                 continue
 #             visited[i] = 1
 #             out.append(nums[i])
-#             print('append:', 'i:', i, 'level:', level, 'visited:', visited, out)
 #             self.permuteDFS(nums, level + 1, visited, out, res)
 #             out.pop()
 #             visited[i] = 0
-#             print('pop:', 'i:', i, 'level:', level, 'visited:', visited, out)
+
+
+
 
