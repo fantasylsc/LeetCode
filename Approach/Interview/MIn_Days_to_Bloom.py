@@ -126,7 +126,7 @@ dp = [[0, 0, 0, 0, 0, 0, 0, 0], [inf, inf, 2, 2, 2, 2, 2, 2], [inf, inf, inf, in
     2.binary search wrote code more, time complexity is O (L * log(max-min) )
     3.dp wrote little code, time complexity is O(n*L), dp[i][j] means the min time we need to wait by preivous j roses to get i bouquets
     4.both depend on calculate max window in O(n) algorithm https://leetcode.com/problems/sliding-window-maximum/
-    5. bottom have follow up.
+    5.bottom have follow up.
 
 Java code 
 
