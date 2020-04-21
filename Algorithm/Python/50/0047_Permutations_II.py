@@ -16,24 +16,43 @@ Output:
 
 '''
 
-# backtrack with checking duplicates
-
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
-        self.nums = nums
-        self.res = []
-        self.backtrack(0)
-        return self.res
+        n = len(nums)
+        nums.sort()
+        ans = []
+        used = [0] * n
+        current = []
         
-    def backtrack(self, start):
-        if start == len(self.nums):
-            if self.nums[:] not in self.res:
-                self.res.append(self.nums[:])
-            return
-        for i in range(start, len(self.nums)):
-            self.nums[start], self.nums[i] = self.nums[i], self.nums[start]
-            self.backtrack(start + 1)
-            self.nums[start], self.nums[i] = self.nums[i], self.nums[start]
+        def dfs():
+            if len(current) == n:
+                ans.append(current[:])
+                return
+            # if nums[i] is used, skip
+            for i in range(n):
+                if used[i]:
+                    continue
+                # same number can only be used once at each depth
+                if i > 0 and nums[i] == nums[i - 1] and not used[i - 1]:
+                    continue
+                used[i] = 1
+                current.append(nums[i])
+                dfs()
+                current.pop()
+                used[i] = 0
+            
+        dfs()
+        return ans
+                
+'''
+[1,2,2]
+
+      [1]                   [2]                [2] X
+ [1,2]   [1,2] X       [2,1]   [2,2]      
+[1,2,2]              [2,1,2]  [2,2,1]  
+
+'''
+        
 
 # backtrack with checking duplicates and pruning
 
