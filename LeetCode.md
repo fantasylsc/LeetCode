@@ -101,7 +101,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)| [Python](./Algorithm/Python/75/0075_Sort_Colors.py)|Medium|
-|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [Python](./algorithms/cpp/minimumWindowSubstring/minimumWindowSubstring.cpp)|Hard|
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [Python](./Python/100/0076_Minimum_Window_Substring.py)|Hard|
 |77|[Combinations](https://leetcode.com/problems/combinations/)| [Python](./Algorithm/Python/100/0077_Combinations.py)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/)| [Python](./Algorithm/Python/100/0078_Subsets.py)|Medium|
 |79|[Word Search](https://leetcode.com/problems/word-search/)| [Python](./algorithms/cpp/wordSearch/wordSearch.cpp)|Medium|
