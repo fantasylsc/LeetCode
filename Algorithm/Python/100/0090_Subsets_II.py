@@ -21,19 +21,40 @@ Output:
 
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
-        nums.sort()
-        res = [[]]
-        last = None
-        
-        for num in nums:
-            if last != num:
-                last = num
-                size = len(res)
-            newSize = len(res)
-            for i in range(newSize - size, newSize):
-                res.append(res[i] + [num])
+        def backtrack(start):
+            ans.append(current[:])
+            if len(current) == len(nums):
+                return
             
-        return res
+            for i in range(start, len(nums)):
+                if i > start and nums[i] == nums[i - 1]:
+                    continue
+                current.append(nums[i])
+                backtrack(i + 1)
+                current.pop()
+                
+        nums.sort()
+        ans = []
+        current = []
+        backtrack(0)
+        return ans
+
+
+# class Solution:
+#     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+#         nums.sort()
+#         res = [[]]
+#         last = None
+        
+#         for num in nums:
+#             if last != num:
+#                 last = num
+#                 size = len(res)
+#             newSize = len(res)
+#             for i in range(newSize - size, newSize):
+#                 res.append(res[i] + [num])
+            
+#         return res
         
 '''
 
