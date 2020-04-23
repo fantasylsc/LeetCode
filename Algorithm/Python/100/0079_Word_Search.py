@@ -28,6 +28,16 @@ Constraints:
 
 '''
 
+'''
+1. loop to choose start point
+2. backtrack recursion end condition
+3. check current status, boundary, board[row][col] == suffix[0]
+4. mark visited point
+5. loop through four directions for backtracking
+6. recover the change (backtrack)
+
+'''
+
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         """
