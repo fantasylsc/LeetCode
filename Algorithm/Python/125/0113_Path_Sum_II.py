@@ -51,4 +51,33 @@ class Solution:
         path = []
         dfs(root, 0, path)
         return ans
+
+
+# class Solution:
+#     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
+#         self.ans = []
+#         self.path = []
+#         self.sum = sum
+#         self.dfs(root, 0)
+#         return self.ans
+#     '''
+#     whenever use backtrack, if there is an append, there should be a pop.
+#     so make sure it's recovered after append
+    
+#     '''
+
+#     def dfs(self, root, s):
+#         if not root:
+#             return
+#         if not root.left and not root.right and (s + root.val) == self.sum:
+#             self.path.append(root.val)
+#             self.ans.append(self.path[:])
+#             self.path.pop()
+#             return
         
+#         self.path.append(root.val)
+#         self.dfs(root.left, s + root.val)
+#         self.dfs(root.right, s + root.val)
+#         self.path.pop()
+
+
