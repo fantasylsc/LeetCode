@@ -15,6 +15,36 @@ There must be no consecutive horizontal lines of equal height in the output skyl
 
 # Heap
 
+'''
+Pseudo code:
+
+events = { {x: L, height: H, type: entering},
+           {x: R, height H, type leaving}
+          }
+
+events.sortByX*() # taking care of the corner cases when buildings overlap
+ds = new DS()
+
+for e in envents:
+    if entering(e):
+        if e.height > ds.max():
+            ans += [e.height]
+        ds.add(e.height)
+    if leaving(e):
+        ds.remove(e.height)
+        if e.height > ds.max():
+            ans += [ds.max()]
+
+DS candidate:
+heap: max O(1), add O(logn), remove_by_key ??? O(n)/O(logn)
+balanced binary search tree: max, add, remove O(logn)
+
+'''
+
+
+
+
+
 # Divide and Conquer
 
 class Solution:
