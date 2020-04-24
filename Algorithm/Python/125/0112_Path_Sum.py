@@ -28,12 +28,27 @@ return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 
 class Solution:
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
-        if root == None:
-            return False
+        def dfs(root, s):
+            if not root:
+                return False
+            if not root.left and not root.right and (s + root.val) == sum:
+                return True
+            
+            left = dfs(root.left, s + root.val)
+            right = dfs(root.right, s + root.val)
+            
+            return left or right
         
-        if root.val == sum and root.left == None and root.right == None:  #leaf node .left and .right == None
-            return True
-        return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
+        return dfs(root, 0)
+
+# class Solution:
+#     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
+#         if root == None:
+#             return False
+        
+#         if root.val == sum and root.left == None and root.right == None:  #leaf node .left and .right == None
+#             return True
+#         return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
 
 
 
