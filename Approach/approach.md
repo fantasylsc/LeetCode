@@ -12,7 +12,7 @@
 
 ### Tree Data Structure
 
-- Heap: [Find Median from Data Stream](../Algorithm/Python/300/0295_Find_Median_from_Data_Stream.py) | [The Skyline Problem]() ([Ref](https://zxi.mytechroad.com/blog/tree/leetcode-218-the-skyline-problem/)) | 
+- Heap: [Find Median from Data Stream](../Algorithm/Python/300/0295_Find_Median_from_Data_Stream.py) | [The Skyline Problem](..//Algorithm/Python/225/0218_The_Skyline_Problem.py) ([Ref](https://zxi.mytechroad.com/blog/tree/leetcode-218-the-skyline-problem/)) | 
 
 - Trie: [Implement Trie (Prefix Tree)]() | [Word Search II]() |
 
