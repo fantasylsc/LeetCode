@@ -41,7 +41,56 @@ balanced binary search tree: max, add, remove O(logn)
 
 '''
 
+# todo: implement heap with remove by key function
 
+from functools import cmp_to_key
+
+class Solution:
+    def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
+        def cmpFunc(a, b):
+            '''
+            for all x overlapping situations
+            process x[2] * x[3] larger value first
+            '''
+            if a[1] < b[1]:
+                return -1
+            elif a[1] > b[1]:
+                return 1
+            else:
+                if a[2] * a[3] < b[2] * b[3]:
+                    return 1
+                else:
+                    return -1
+                
+                
+        # events[][0], events[][1], events[][2], events[][3]
+        # index,          x,           h,         , type
+        events = []
+        
+        for i in range(len(buildings)):
+            events.append([i, buildings[i][0], buildings[i][2], 1])
+            events.append([i, buildings[i][1], buildings[i][2], -1])
+        
+        events = sorted(events, key = cmp_to_key(cmpFunc))
+        
+        ans = []
+        heap = []
+        
+        for e in events:
+            index = events[0]
+            x = events[1]
+            h = events[2]
+            tp = events[3]
+            
+            if tp == 1:
+                if h > headp.max():
+                    ans.append([x, h])
+                heap.append([h, index])
+            else:
+                heap.remove(index)
+                if h > heap.max():
+                    ans.append([x, heap.max()])
+        return ans     
 
 
 
