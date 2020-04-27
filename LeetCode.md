@@ -256,6 +256,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](./Algorithm/Python/225/0206_Reverse_Linked_List.py)|Easy|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)| [Python](./Algorithm/Python/225/0218_The_Skyline_Problem.py)|Hard|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)| [Python](./Algorithm/Python/225/0221_Maximal_Square.py)|Medium|
+|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [Python](./Algorithm/Python/225/0225_Implement_Stack_using_Queues.py)|Easy|
 
 
 
