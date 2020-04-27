@@ -9,6 +9,10 @@ Output: 10
 
 '''
 
+# naive brute force O(n^3) -> optimized brute force O(n^2), optimized calculate minHeight
+# divide and conquer O(nlogn)
+# stack O(n)
+
 # using stack
 
 class Solution:
