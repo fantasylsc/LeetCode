@@ -35,8 +35,10 @@ class Solution:
         stack = []
         for num in nums:
             node = TreeNode(num)
+            # if increasing, current node is the parent node
             while stack and num > stack[-1].val:
                 node.left = stack.pop()
+            # if stack, and decreasing (or will be poped in last step), right subtree 
             if stack:
                 stack[-1].right = node
             stack.append(node)
