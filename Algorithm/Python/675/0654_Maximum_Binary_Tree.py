@@ -58,11 +58,9 @@ class Solution:
 #         return root
 
 #     def findLargest(self, nums):
-#         B = list(nums)
-#         B.sort()
-#         largest = B[-1]
-#         index = nums.index(largest)
-#         return largest, index
+#         max_num = max(nums)
+#         max_index = nums.index(max_num)
+#         return max_num, max_index
 
 
 
