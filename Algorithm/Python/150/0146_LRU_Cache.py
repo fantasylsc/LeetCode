@@ -60,9 +60,7 @@ class LRUCache:
         else:
             if len(self.dic) == self.capacity:
                 self.dic.popitem(last = False) # dic.popitem()
-                self.dic[key] = value
-            else:
-                self.dic[key] = value
+            self.dic[key] = value
 
 
 # Your LRUCache object will be instantiated and called as such:
