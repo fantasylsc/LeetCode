@@ -61,6 +61,7 @@ class MaxStack:
         return self.stack.pop(index)
 
 # approach 2
+# store (item, current_max) in stack
 
 class MaxStack:
     def __init__(self):
