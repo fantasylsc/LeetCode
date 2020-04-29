@@ -6,7 +6,7 @@
 
 - Queue: BFS
 
-- Stack:  [Min Stack](../Algorithm/Python/175/0155_Min_Stack.py) | [Max Stack](../Algorithm/Python/725/0716_Max_Stack.py) |[Implement Queue using Stacks](../Algorithm/Python/250/0232_Implement_Queue_using_Stacks.py) | [Implement Stack using Queues](../Algorithm/Python/225/0225_Implement_Stack_using_Queues.py) | [Largest Rectangle in Histogram](../Algorithm/Python/100/0084_Largest_Rectangle_in_Histogram.py) | [Maximum Binary Tree](../Algorithm/Python/675/0654_Maximum_Binary_Tree.py) | [Monotone Stack Summary](https://www.cnblogs.com/grandyang/p/8887985.html) |
+- Stack:  [Min Stack](../Algorithm/Python/175/0155_Min_Stack.py) | [Max Stack](../Algorithm/Python/725/0716_Max_Stack.py) | [Implement Queue using Stacks](../Algorithm/Python/250/0232_Implement_Queue_using_Stacks.py) | [Implement Stack using Queues](../Algorithm/Python/225/0225_Implement_Stack_using_Queues.py) | [Largest Rectangle in Histogram](../Algorithm/Python/100/0084_Largest_Rectangle_in_Histogram.py) | [Maximum Binary Tree](../Algorithm/Python/675/0654_Maximum_Binary_Tree.py) | [Monotone Stack Summary](https://www.cnblogs.com/grandyang/p/8887985.html) |
 
 - Hash: [LRU Cache](../Algorithm/Python/150/0146_LRU_Cache.py) | [Longest Consecutive Sequence](../Algorithm/Python/150/0128_Longest_Consecutive_Sequence.py) | 
 
