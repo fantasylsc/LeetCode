@@ -73,6 +73,7 @@ class Test(unittest.TestCase):
         actual = s.searchFirstTarget(nums, target)
         expected = -1
         self.assertEqual(actual, expected)
+        
     def test5(self):
         nums = [1, 2]
         target = 1
