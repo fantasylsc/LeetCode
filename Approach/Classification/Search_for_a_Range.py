@@ -35,12 +35,12 @@ from typing import List
 
 class Solution:
     def searchRange(self, nums, target):
-        left = self.SearchFirstTarget(nums, target)
-        right = self.SearchLastTarget(nums, target)
+        left = self.searchFirstTarget(nums, target)
+        right = self.searchLastTarget(nums, target)
         return [left, right]
 
 
-    def SearchFirstTarget(self, nums: List[int], target: int) -> int:
+    def searchFirstTarget(self, nums: List[int], target: int) -> int:
         if len(nums) == 0:
             return -1
         
@@ -63,7 +63,7 @@ class Solution:
 
         return -1
 
-    def SearchLastTarget(self, nums: List[int], target: int) -> int:
+    def searchLastTarget(self, nums: List[int], target: int) -> int:
         if len(nums) == 0:
             return -1
         
