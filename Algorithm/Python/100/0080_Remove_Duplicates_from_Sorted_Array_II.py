@@ -63,6 +63,8 @@ class Solution:
 
 # pop duplicate item
 
+# version 1:
+
 # class Solution:
 #     def removeDuplicates(self, nums: List[int]) -> int:
 #         i, count = 1, 1
@@ -80,7 +82,23 @@ class Solution:
             
 #         return len(nums)
                     
+# clear version 2:           
                 
-                
+# class Solution:
+#     def removeDuplicates(self, nums: List[int]) -> int:
+#         i, count = 1, 1
         
+#         while i < len(nums):
+#             if nums[i] == nums[i - 1]:
+#                 count += 1
+                
+#                 if count <= 2:
+#                     i += 1
+#                 else:
+#                     nums.pop(i)
+#             else:
+#                 count = 1
+#                 i += 1
+        
+#         return len(nums)        
         
