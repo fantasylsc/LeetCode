@@ -12,12 +12,20 @@ https://www.zhihu.com/question/36132386
 '''
 
 # This method return the first value that larger or equal than the target
+# Difference with NineChapter template: 
+# left < right vs. left + 1 < right
+# if nums[mid] == target: left or right = mid
+# when loop is finished, if nums[left] == target or if nums[right] == target, return left or right or -1
+
 
 import unittest
 from typing import List
 
 class Solution:
     def binarySearch(self, nums: List[int], target: int) -> int:
+        if len(nums) == 0:
+            return -1
+        
         left = 0
         right = len(nums) - 1
 
@@ -29,8 +37,10 @@ class Solution:
                 left = mid + 1
             else:
                 right = mid
-
-        return right
+        if nums[left] == target:
+            return left
+        else:
+            return -1
 
 
 class Test(unittest.TestCase):
