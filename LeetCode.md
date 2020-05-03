@@ -307,7 +307,6 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python](./Algorithm/Python/300/0300_Longest_Increasing_Subsequence.py)|Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/solution/)| [Python](./Algorithm/Python/325/0322_Coin_Change.py)|Medium|
 
