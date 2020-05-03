@@ -245,6 +245,10 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [Python](./Algorithm/Python/225/0205_Isomorphic_Strings.py)|Easy|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](./Algorithm/Python/225/0206_Reverse_Linked_List.py)|Easy|
+|218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)| [Python](./Algorithm/Python/225/0218_The_Skyline_Problem.py)|Hard|
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)| [Python](./Algorithm/Python/225/0221_Maximal_Square.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -252,11 +256,25 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [Python](./Algorithm/Python/225/0205_Isomorphic_Strings.py)|Easy|
-|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](./Algorithm/Python/225/0206_Reverse_Linked_List.py)|Easy|
-|218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)| [Python](./Algorithm/Python/225/0218_The_Skyline_Problem.py)|Hard|
-|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)| [Python](./Algorithm/Python/225/0221_Maximal_Square.py)|Medium|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [Python](./Algorithm/Python/225/0225_Implement_Stack_using_Queues.py)|Easy|
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [Python](./algorithms/cpp/invertBinaryTree/InvertBinaryTree.cpp)|Easy|
+|227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)| [Python](./algorithms/cpp/basicCalculator/BasicCalculator.II.cpp)|Medium|
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)| [Python](./algorithms/cpp/summaryRanges/SummaryRanges.cpp)|Easy|
+|229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Python](./algorithms/cpp/majorityElement/majorityElement.II.cpp)|Medium|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)| [Python](./algorithms/cpp/kthSmallestElementInaBST/KthSmallestElementInABst.cpp), [Python](./algorithms/python/KthSmallestElementInABST/kthSmallest.py)|Medium|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)| [Python](./algorithms/cpp/powerOfTwo/PowerOfTwo.cpp)|Easy|
+|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)| [Python](./Algorithm/Python/250/0232_Implement_Queue_using_Stacks.py)|Easy|
+|233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)| [Python](./algorithms/cpp/numberOfDigitOne/NumberOfDigitOne.cpp)|Medium|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)| [Python](./algorithms/cpp/palindromeLinkedList/PalindromeLinkedList.cpp)|Easy|
+|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| [Python](./Algorithm/Python/250/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py)|Easy|
+|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [Python](./Algorithm/Python/250/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.py)|Medium|
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)| [Python](./algorithms/cpp/deleteNodeInALinkedList/DeleteNodeInALinkedList.cpp)|Easy|
+|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| [Python](./algorithms/cpp/productOfArrayExceptSelf/ProductOfArrayExceptSelf.cpp)|Medium|
+|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)| [Python](./Algorithm/Python/250/0239._Sliding_Window_Maximum.py)|Hard|
+|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)| [Python](./Algorithm/Python/250/0240_Search_a_2D_Matrix_II.py)|Medium|
+|241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[Python](./algorithms/cpp/differentWaysToAddParentheses/DifferentWaysToAddParentheses.cpp), [Python](./algorithms/python/DifferentWaysToAddParentheses/diffWaysToCompute.py)|Medium|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)| [Python](./algorithms/cpp/anagrams/ValidAnagram.cpp), [Java](./algorithms/java/src/validAnagram/ValidAnagram.java)|Easy|
+
 
 
 
@@ -266,11 +284,10 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)| [Python](./Algorithm/Python/250/0232_Implement_Queue_using_Stacks.py)|Easy|
-|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| [Python](./Algorithm/Python/250/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py)|Easy|
-|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [Python](./Algorithm/Python/250/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.py)|Medium|
-|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)| [Python](./Algorithm/Python/250/0239._Sliding_Window_Maximum.py)|Hard|
-|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)| [Python](./Algorithm/Python/250/0240_Search_a_2D_Matrix_II.py)|Medium|
+|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)| [Python](./Algorithm/Python/275/0253_Meeting_Rooms_II.py)|Medium|
+
+
+
 
 
 
@@ -280,7 +297,9 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|253|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)| [Python](./Algorithm/Python/275/0253_Meeting_Rooms_II.py)|Medium|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)| [Python](./Algorithm/Python/300/0278_First_Bad_Version.py)|Easy|
+|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [Python](./Algorithm/Python/300/0297_Serialize_and_Deserialize_Binary_Tree.py)|Hard|
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)| [Python](./Algorithm/Python/300/0299_Bulls_and_Cows.py)|Easy|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -288,11 +307,9 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)| [Python](./Algorithm/Python/300/0278_First_Bad_Version.py)|Easy|
-|297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [Python](./Algorithm/Python/300/0297_Serialize_and_Deserialize_Binary_Tree.py)|Hard|
-|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)| [Python](./Algorithm/Python/300/0299_Bulls_and_Cows.py)|Easy|
-|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python](./Algorithm/Python/300/0300_Longest_Increasing_Subsequence.py)|Medium|
 
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python](./Algorithm/Python/300/0300_Longest_Increasing_Subsequence.py)|Medium|
+|322|[Coin Change](https://leetcode.com/problems/coin-change/solution/)| [Python](./Algorithm/Python/325/0322_Coin_Change.py)|Medium|
 
 
 ## [Go to Top](#LeetCode-Solutions)
@@ -301,7 +318,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|322|[Coin Change](https://leetcode.com/problems/coin-change/solution/)| [Python](./Algorithm/Python/325/0322_Coin_Change.py)|Medium|
+|348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)| [Python](./Algorithm/Python/350/0348_Design_Tic-Tac-Toe.py)|Medium|
 
 
 ## [Go to Top](#LeetCode-Solutions)
@@ -310,7 +327,8 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)| [Python](./Algorithm/Python/350/0348_Design_Tic-Tac-Toe.py)|Medium|
+|353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)| [Python](./Algorithm/Python/375/0353_Design_Snake_Game.py)|Medium|
+|359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)| [Python](./Algorithm/Python/375/0359_Logger_Rate_Limiter.py)|Easy|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -318,8 +336,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)| [Python](./Algorithm/Python/375/0353_Design_Snake_Game.py)|Medium|
-|359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)| [Python](./Algorithm/Python/375/0359_Logger_Rate_Limiter.py)|Easy|
+|377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [Python](./Algorithm/Python/400/0377_Combination_Sum_IV.py)|Medium|
 
 
 
@@ -331,7 +348,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [Python](./Algorithm/Python/400/0377_Combination_Sum_IV.py)|Medium|
+|410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)| [Python](./Algorithm/Python/425/0410_Split_Array_Largest_Sum.py)|Hard|
 
 
 ## [Go to Top](#LeetCode-Solutions)
@@ -346,14 +363,14 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)| [Python](./Algorithm/Python/425/0410_Split_Array_Largest_Sum.py)|Hard|
+
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)| [Python](./Algorithm/Python/450/0450_Delete_Node_in_a_BST.py)|Medium|
 
 ## 475
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
+|482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)| [Python](./Algorithm/Python/500/0482_License_Key_Formatting.py)|Easy|
 
 
 ## [Go to Top](#LeetCode-Solutions)
@@ -362,7 +379,8 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)| [Python](./Algorithm/Python/500/0482_License_Key_Formatting.py)|Easy|
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [Python](./Algorithm/Python/525/0509_Fib_Number.py)|Easy|
+|518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)| [Python](./Algorithm/Python/525/0518_Coin_Change_2.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -370,8 +388,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [Python](./Algorithm/Python/525/0509_Fib_Number.py)|Easy|
-|518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)| [Python](./Algorithm/Python/525/0518_Coin_Change_2.py)|Medium|
+
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -407,7 +424,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)| [Python](./Algorithm/Python/675/0654_Maximum_Binary_Tree.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -415,7 +432,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)| [Python](./Algorithm/Python/675/0654_Maximum_Binary_Tree.py)|Medium|
+
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -423,7 +440,8 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
+|701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)| [Python](./Algorithm/Python/725/0701_Insert_into_a_Binary_Search_Tree.py)|Medium|
+|716|[Max Stack](https://leetcode.com/problems/max-stack/)| [Python](./Algorithm/Python/725/0716_Max_Stack.py)|Easy|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -431,8 +449,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)| [Python](./Algorithm/Python/725/0701_Insert_into_a_Binary_Search_Tree.py)|Medium|
-|716|[Max Stack](https://leetcode.com/problems/max-stack/)| [Python](./Algorithm/Python/725/0716_Max_Stack.py)|Easy|
+
 
 
 ## [Go to Top](#LeetCode-Solutions)
@@ -465,7 +482,8 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
+|836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
+|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)| [Python](./Algorithm/Python/850/0844_Backspace_String_Compare.py)|Easy|
 
 
 
@@ -475,8 +493,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)| [Python](./Algorithm/Python/0836_Rectangle_Overlap.py)|Easy|
-|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)| [Python](./Algorithm/Python/850/0844_Backspace_String_Compare.py)|Easy|
+
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -485,7 +502,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
+|887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Python](./Algorithm/Python/900/0887_Super_Egg_Drop.py)|Hard|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -493,19 +510,11 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Python](./Algorithm/Python/900/0887_Super_Egg_Drop.py)|Hard|
+
 
 ## [Go to Top](#LeetCode-Solutions)
 
 ## 925
-
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
-
-
-## [Go to Top](#LeetCode-Solutions)
-
-## 950
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -515,12 +524,20 @@ Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
 
+## 950
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+
+
+## [Go to Top](#LeetCode-Solutions)
+
 ## 975
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)| [Python](./Algorithm/Python/975/0975_Odd_Even_Jump.py)|Hard|
-
+|980|[Unique Path III](https://leetcode.com/problems/unique-paths-iii/)| [Python](./Algorithm/Python/1000/0980_Unique_Paths_III.py)|Hard|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -528,7 +545,7 @@ Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)|Medium|
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|980|[Unique Path III](https://leetcode.com/problems/unique-paths-iii/)| [Python](./Algorithm/Python/1000/0980_Unique_Paths_III.py)|Hard|
+|1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)| [Python](./Algorithm/Python/1025/1007_Minimum_Domino_Rotations_For_Equal_Row.py)|Medium|
 
 
 ## [Go to Top](#LeetCode-Solutions)
@@ -537,7 +554,7 @@ Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)|Medium|
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)| [Python](./Algorithm/Python/1025/1007_Minimum_Domino_Rotations_For_Equal_Row.py)|Medium|
+
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -569,7 +586,7 @@ Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)|Medium|
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-
+|1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)| [Python](./Algorithm/Python/1150/1143_Longest_Common_Subsequence.py)|Medium|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -577,7 +594,7 @@ Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)|Medium|
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)| [Python](./Algorithm/Python/1150/1143_Longest_Common_Subsequence.py)|Medium|
+|1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)| [Python](./Algorithm/Python/1175/1170_Compare_String_by_Frequency_of_Smallest_Character.py)|Easy|
 
 ## [Go to Top](#LeetCode-Solutions)
 
@@ -585,7 +602,9 @@ Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)|Medium|
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)| [Python](./Algorithm/Python/1175/1170_Compare_String_by_Frequency_of_Smallest_Character.py)|Easy|
+|1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)| [Python](./Algorithm/Python/1200/1161_Maximum_Level_Sum_of_a_Binary_Tree.py)|Medium|
+|1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)| [Python](./Algorithm/Python/1200/1165_Single-Row_Keyboard.py)|Easy|
+|1192|[Ctitical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)| [Python](./Algorithm/Python/1200/1192_Critical_Connections_in_a_Network.py)|Hard|
 
 
 ## [Go to Top](#LeetCode-Solutions)
@@ -594,9 +613,7 @@ Algorithm/Python/975/0973_K_Closest_Points_to_Origin.py)|Medium|
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)| [Python](./Algorithm/Python/1200/1161_Maximum_Level_Sum_of_a_Binary_Tree.py)|Medium|
-|1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)| [Python](./Algorithm/Python/1200/1165_Single-Row_Keyboard.py)|Easy|
-|1192|[Ctitical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)| [Python](./Algorithm/Python/1200/1192_Critical_Connections_in_a_Network.py)|Hard|
+
 
 
 
