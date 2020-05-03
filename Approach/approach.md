@@ -36,9 +36,9 @@
 
 ## 3. Binary Search and Sorted Array
 
-|[Binary Search](./Classification/Binary_Search.py) | [Binary Search (NineChapter)](./Classification/Binary_Search_NineChapter.py) | Search Lower Bound | Search Upper Bound |
+|[Binary Search Template](./Classification/Binary_Search.py) | [Binary Search Template(NineChapter)](./Classification/Binary_Search_NineChapter.py) | Search Lower Bound | Search Upper Bound |
 
-Binary Search: | search for a target, search for the first target, search for the last target, search for a range | [Search Insert Position](../Algorithm/Python/50/0035_Search_Insert_Position.py) | [Search in rotated sorted array](../Algorithm/Python/50/0033_Search_in_Rotated_Sorted_Array.py) | [Search in rotaed sorted array II](../Algorithm/Python/100/0081_Search_in_Rotated_Sorted_Array_II.py) | [Search a 2D matrix](../Algorithm/Python/75/0074_Search_a_2D_Matrix.py) | [Median of two sorted arrays](../Algorithm/Python/25/0004_Median_of_Two_Sorted_Arrays.py) | [Rotate Array](../Algorithm/Python/175/0189_Rotate_Array.py) |
+Binary Search: | [Binary Search](../Algorithm/Python/700/0704_Binary_Search.py) | search for a target, search for the first target, search for the last target, search for a range | [Search Insert Position](../Algorithm/Python/50/0035_Search_Insert_Position.py) | [Search in rotated sorted array](../Algorithm/Python/50/0033_Search_in_Rotated_Sorted_Array.py) | [Search in rotaed sorted array II](../Algorithm/Python/100/0081_Search_in_Rotated_Sorted_Array_II.py) | [Search a 2D matrix](../Algorithm/Python/75/0074_Search_a_2D_Matrix.py) | [Median of two sorted arrays](../Algorithm/Python/25/0004_Median_of_Two_Sorted_Arrays.py) | [Rotate Array](../Algorithm/Python/175/0189_Rotate_Array.py) |
 
 ## 4. Binary Tree, DFS, BFS, and Divide & Conquer
 
