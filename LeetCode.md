@@ -438,6 +438,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|70|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python](./Algorithm/Python/700/0704_Binary_Search.py)|Easy|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)| [Python](./Algorithm/Python/725/0701_Insert_into_a_Binary_Search_Tree.py)|Medium|
 |716|[Max Stack](https://leetcode.com/problems/max-stack/)| [Python](./Algorithm/Python/725/0716_Max_Stack.py)|Easy|
 
