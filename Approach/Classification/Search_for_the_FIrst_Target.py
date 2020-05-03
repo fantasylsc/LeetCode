@@ -17,7 +17,7 @@ import unittest
 from typing import List
 
 class Solution:
-    def SearchFirstTarget(self, nums: List[int], target: int) -> int:
+    def searchFirstTarget(self, nums: List[int], target: int) -> int:
         if len(nums) == 0:
             return -1
         
@@ -46,7 +46,7 @@ class Test(unittest.TestCase):
         nums = [1, 2, 3, 3, 8, 9]
         target = 3
         s = Solution()
-        actual = s.SearchFirstTarget(nums, target)
+        actual = s.searchFirstTarget(nums, target)
         expected = 2
         self.assertEqual(actual, expected)
 
@@ -54,7 +54,7 @@ class Test(unittest.TestCase):
         nums = [1, 2, 3, 4, 4, 6, 7, 8, 9]
         target = 4
         s = Solution()
-        actual = s.SearchFirstTarget(nums, target)
+        actual = s.searchFirstTarget(nums, target)
         expected = 3
         self.assertEqual(actual, expected)
 
@@ -62,7 +62,7 @@ class Test(unittest.TestCase):
         nums = [1, 2, 2, 2, 2, 7, 8, 9]
         target = 2
         s = Solution()
-        actual = s.SearchFirstTarget(nums, target)
+        actual = s.searchFirstTarget(nums, target)
         expected = 1
         self.assertEqual(actual, expected)
 
@@ -70,7 +70,7 @@ class Test(unittest.TestCase):
         nums = [1, 7, 8, 9]
         target = 2
         s = Solution()
-        actual = s.SearchFirstTarget(nums, target)
+        actual = s.searchFirstTarget(nums, target)
         expected = -1
         self.assertEqual(actual, expected)
 
