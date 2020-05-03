@@ -26,7 +26,7 @@ class Solution:
 
         while start + 1 < end:
             mid = start + (end - start) // 2
-            if nums[mid] == target:
+            if nums[mid] == target: # sqeeze the interval to the left
                 end = mid
             elif nums[mid] < target:
                 start = mid
