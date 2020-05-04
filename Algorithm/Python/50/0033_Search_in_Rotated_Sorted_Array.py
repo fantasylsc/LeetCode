@@ -55,12 +55,12 @@ class Solution:
             if nums[start] < nums[mid]: # nums[mid] in the left segment
                 if nums[start] <= target and target <= nums[mid]: # target between start and mid
                     end = mid
-                else: # target in the right side of nums[mid]
+                else:
                     start = mid
             else: # nums[mid] in the right segment 
                 if nums[mid] <= target and target <= nums[end]: # target between mid and end
                     start = mid
-                else: # target in the left segment
+                else:
                     end = mid
         
         if nums[start] == target:
