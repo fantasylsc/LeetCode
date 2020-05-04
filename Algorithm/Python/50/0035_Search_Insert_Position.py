@@ -31,8 +31,15 @@ class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if len(nums) == 0:
             return 0
+        
+        if nums[0] >= target:
+            return 0
+        if nums[-1] < target:
+            return len(nums)
+        
         left = 0
         right = len(nums) - 1
+        
         while left < right:
             mid = left + (right - left) // 2
             if nums[mid] == target:
@@ -41,10 +48,8 @@ class Solution:
                 left = mid + 1
             else:
                 right = mid
-        if nums[left] < target:
-            return left + 1
-        else:
-            return left
+        
+        return left
         
 # Nine chapter approach
 
