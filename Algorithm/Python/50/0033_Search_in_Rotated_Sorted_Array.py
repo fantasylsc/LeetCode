@@ -23,6 +23,7 @@ Output: -1
 '''
 
 # Approach 1) take the original nums as a line, rotated nums as two line segments
+
 # original line, [1,2,3,4,5,6]
 #         /6
 #        /5
@@ -30,8 +31,8 @@ Output: -1
 #      /3
 #     /2
 #    /1
-# rotated two line segments, [4,5,6] [1,2,3]
 
+# rotated two line segments, [4,5,6] [1,2,3]
 #   /6
 #  /5
 # /4
