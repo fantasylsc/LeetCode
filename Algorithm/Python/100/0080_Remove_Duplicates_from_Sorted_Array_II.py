@@ -43,7 +43,8 @@ for (int i = 0; i < len; i++) {
 
 
 # replace duplicate
-
+# one pointer is used to compare nums
+# the other pointer is used to keep insert position
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         j, count = 1, 1
