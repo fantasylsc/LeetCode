@@ -9,30 +9,7 @@ Output: 10
 
 '''
 
-# naive brute force O(n^3) -> optimized brute force O(n^2), optimized calculate minHeight
-# divide and conquer O(nlogn)
-# stack O(n)
-
 # using stack
-
-class Solution:
-    def largestRectangleArea(self, heights: List[int]) -> int:
-        heights.append(0)
-        n = len(heights)
-        s = []
-        ans = 0
-        i = 0
-        
-        while i < n:
-            if not s or heights[i] >= heights[s[-1]]:
-                s.append(i)
-                i += 1
-            else:
-                h = heights[s.pop()]
-                w = i if not s else i - s[-1] - 1
-                ans = max(ans, h * w)
-        
-        return ans
 
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
@@ -76,8 +53,21 @@ O(nlogn), worst case O(n^2)
 #                    self.helper(heights, minindex + 1, end))
         
             
+# Naive brute force
+# class Solution:
+#     def largestRectangleArea(self, heights: List[int]) -> int:
+#         max_area = float('-inf')
         
-# Brute force O(n^2) TLE 
+#         for i in range(len(heights)):
+#             min_height = float('inf')
+#             for j in range(i, len(heights)):
+#                 for k in range(i, j + 1):
+#                     min_height = min(min_height, heights[k])
+#                 max_area = max(max_area, min_height * (j - i + 1))
+#         return max_area        
+
+        
+# Better brute force O(n^2) TLE 
 # iterate all cases and find min height, calculate area
 
 # class Solution:
