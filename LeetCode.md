@@ -465,6 +465,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [Python](./Algorithm/Python/800/0796_Rotate_String.py)|Easy|
 
 
 ## [Go to Top](#LeetCode-Solutions)
@@ -473,7 +474,6 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [Python](./Algorithm/Python/800/0796_Rotate_String.py)|Easy|
 
 
 ## [Go to Top](#LeetCode-Solutions)
