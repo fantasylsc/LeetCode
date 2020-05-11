@@ -32,13 +32,17 @@ class Solution:
         return (self.findkth(nums1, 0, nums2, 0, left) + self.findkth(nums1, 0, nums2, 0, right)) / 2
         
     def findkth(self, nums1, i, nums2, j, k):
+        # if start index >= length, this list is eliminated
         if i >= len(nums1):
             return nums2[j + k - 1]
         if j >= len(nums2):
             return nums1[i + k - 1]
+        # base case
         if k == 1:
             return min(nums1[i], nums2[j])
         
+        # if k//2th item in nums1, choose k//2th mid value
+        # else we can't eliminate items in this list
         if i + k//2 - 1 < len(nums1):
             midVal1 = nums1[i + k//2 - 1]
         else:
@@ -47,7 +51,9 @@ class Solution:
             midVal2 = nums2[j + k//2 - 1]
         else:
             midVal2 = float('inf')
-            
+        
+        # every time eliminate k//2 items from list
+        # smaller one will be eliminated
         if midVal1 < midVal2:
             return self.findkth(nums1, i + k//2, nums2, j, k - k//2)
         else:
