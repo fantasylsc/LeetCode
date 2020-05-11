@@ -17,7 +17,7 @@ import unittest
 from typing import List
 
 class Solution:
-    def searchFirstTarget(self, nums: List[int], target: int) -> int:
+    def SearchFirstTarget(self, nums: List[int], target: int) -> int:
         if len(nums) == 0:
             return -1
         
@@ -40,13 +40,34 @@ class Solution:
 
         return -1
 
+# failed approach, failed test case 2, endless loop
+# class Solution:
+#     def SearchFirstTarget(self, nums: List[int], target: int) -> int:
+#         if len(nums) == 0:
+#             return -1
+        
+#         start = 0
+#         end = len(nums) - 1
+
+#         while start < end:
+#             mid = start + (end - start) // 2
+#             if nums[mid] > target:
+#                 end = mid - 1
+#             else:
+#                 start = mid
+
+#         if nums[start] == target:
+#             return start
+
+#         return -1
+
 
 class Test(unittest.TestCase):
     def test1(self):
         nums = [1, 2, 3, 3, 8, 9]
         target = 3
         s = Solution()
-        actual = s.searchFirstTarget(nums, target)
+        actual = s.SearchFirstTarget(nums, target)
         expected = 3
         self.assertEqual(actual, expected)
 
@@ -54,7 +75,7 @@ class Test(unittest.TestCase):
         nums = [1, 2, 3, 4, 4, 6, 7, 8, 9]
         target = 4
         s = Solution()
-        actual = s.searchFirstTarget(nums, target)
+        actual = s.SearchFirstTarget(nums, target)
         expected = 4
         self.assertEqual(actual, expected)
 
@@ -62,7 +83,7 @@ class Test(unittest.TestCase):
         nums = [1, 2, 2, 2, 2, 7, 8, 9]
         target = 2
         s = Solution()
-        actual = s.searchFirstTarget(nums, target)
+        actual = s.SearchFirstTarget(nums, target)
         expected = 4
         self.assertEqual(actual, expected)
 
@@ -70,15 +91,14 @@ class Test(unittest.TestCase):
         nums = [1, 7, 8, 9]
         target = 2
         s = Solution()
-        actual = s.searchFirstTarget(nums, target)
+        actual = s.SearchFirstTarget(nums, target)
         expected = -1
         self.assertEqual(actual, expected)
-        
     def test5(self):
         nums = [1, 2]
         target = 1
         s = Solution()
-        actual = s.searchFirstTarget(nums, target)
+        actual = s.SearchFirstTarget(nums, target)
         expected = 0
         self.assertEqual(actual, expected)
 
