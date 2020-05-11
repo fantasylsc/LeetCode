@@ -26,12 +26,10 @@ class Solution:
 
         while start + 1 < end:
             mid = start + (end - start) // 2
-            if nums[mid] == target: # sqeeze the interval to the right side
-                start = mid
-            elif nums[mid] < target:
-                start = mid
+            if nums[mid] > target:
+                end = mid - 1
             else:
-                end = mid
+                start = mid
 
         if nums[end] == target:
             return end
