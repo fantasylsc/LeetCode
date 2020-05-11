@@ -53,4 +53,43 @@ class Solution:
         else:
             return self.findkth(nums1, i, nums2, j + k//2, k - k//2)
         
+# huahua's solution
+
+# find m1 nums in nums1, find m2 nums in nums2, so that m1 + m2 = k
+
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        n1 = len(nums1)
+        n2 = len(nums2)
         
+        # choose shorter num list
+        if n1 > n2:
+            return self.findMedianSortedArrays(nums2, nums1)
+        
+        k = (n1 + n2 + 1)//2
+        
+        l = 0
+        r = n1
+        
+        while l < r:
+            m1 = l + (r - l)//2
+            m2 = k - m1
+            # if nums1 is smaller, need to include more nums
+            if nums1[m1] < nums2[m2 - 1]:
+                l = m1 + 1
+            else:
+                r = m1
+        
+        m1 = l
+        m2 = k - l
+        
+        c1 = max(float('-inf') if m1 <= 0 else nums1[m1 - 1],\
+                float('-inf') if m2 <= 0 else nums2[m2 - 1])
+        
+        if (n1 + n2) % 2 == 1:
+            return c1
+        
+        c2 = min(float('inf') if m1 >= n1 else nums1[m1],\
+                float('inf') if m2 >= n2 else nums2[m2])
+        
+        return (c1 + c2)/2        
