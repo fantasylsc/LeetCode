@@ -25,7 +25,7 @@ Your solution should be in logarithmic complexity.
 
 '''
 # binary search 1
-
+# cut the smaller value
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         start = 0
