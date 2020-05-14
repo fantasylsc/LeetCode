@@ -62,16 +62,17 @@ class Solution:
         
 #         res = []
 #         stack = [root]
-#         head = root # record last visited node
+#         head = root # record previous visited node
         
 #         while stack:
-#             t = stack[-1] # check whether need to process t or not
+#             t = stack[-1] # t is current node, check whether need to process t or not
 #             # if t is a leaf node or t.left or t.right was processed, then process node t
 #             if (not t.left and not t.right) or t.left == head or t.right == head:
 #                 res.append(t.val)
 #                 stack.pop()
-#                 head = t
+#                 head = t # record previous visited node
 #             else:
+                  # append node to stack
 #                 # make sure process left first
 #                 if t.right:
 #                     stack.append(t.right)
