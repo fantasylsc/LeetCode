@@ -34,8 +34,7 @@ class Solution:
         # 1. with curr, since initial stack is empty 
         # 2. curr is True, right node to be processed; stack is True, left and mid node to be processed 
         
-        # if current is not None, in next step stack will not be None either. Then pop.
-        # if stack is not empty, of course stack is not empty. Then pop.
+        # stack only stores the left branch, stack may be empty but we have right branch
         while current or stack: 
             # go to left most node after processing each node
             while current:
