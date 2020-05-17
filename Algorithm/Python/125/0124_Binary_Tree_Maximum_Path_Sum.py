@@ -40,7 +40,8 @@ class Solution:
     def maxPathSum(self, root: TreeNode) -> int:
        # function to get one side max path sum 
        def helper(root):
-            if not root:
+           # base case     
+           if not root:
                 return 0
             # get left and right single branch path sum, only include the positive one
             left = max(helper(root.left), 0)
@@ -54,8 +55,4 @@ class Solution:
         self.res = float('-inf')
         helper(root)
         return self.res
-    
-    
-        
-
-
+ 
