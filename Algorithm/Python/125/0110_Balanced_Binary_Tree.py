@@ -85,6 +85,7 @@ class Solution:
         
  
 # Bottom up recursion
+# recursion with pruning
 
 # class Solution:
 #     # Return whether or not the tree at root is balanced while also returning
