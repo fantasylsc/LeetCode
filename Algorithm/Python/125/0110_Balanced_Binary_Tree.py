@@ -42,7 +42,7 @@ Return false.
 #         self.right = None
 
 # There is no need to check depth of other subtrees once we find a unbalanced subtree
-# in checkDepth function return -1 if find subtree is not balanced 
+# pruning: in checkDepth function return -1 if find subtree is not balanced 
 
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
