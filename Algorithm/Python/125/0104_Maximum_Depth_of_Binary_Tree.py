@@ -39,7 +39,7 @@ class Solution:
         
         
 # Recursion 2
-# Recursive tree traversal approach. Use max to track maxDpeth of the tree.
+# Recursive tree traversal approach. Track and update maxDpeth of the tree.
 
 # class Solution:
 #     def maxDepth(self, root: TreeNode) -> int:
