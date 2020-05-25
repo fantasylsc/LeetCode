@@ -15,6 +15,9 @@ Output: 5->4->3->2->1->NULL
 #         self.val = x
 #         self.next = None
 
+# newHead = None
+# save head.next, reverse pointer, update newHead, update head
+
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         if not head:
