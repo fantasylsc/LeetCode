@@ -38,6 +38,30 @@ class Solution:
         return dummy.next
         
         
+# 
+# class Solution:
+#     def deleteDuplicates(self, head: ListNode) -> ListNode:
+#         if not head or not head.next:
+#             return head
+        
+#         dummy = ListNode(0)
+#         dummy.next = head
+#         pre = dummy
+#         start = head
+        
+#         while start and start.next:
+#             if start.val == start.next.val:
+#                 value = start.val
+#                 while start and start.val == value:
+#                     start = start.next
+#                 pre.next = start
+#             else:
+#                 pre.next = start
+#                 pre = start
+#                 start = start.next
+                
+#         return dummy.next
+        
         
         
         
