@@ -65,11 +65,12 @@ class Solution:
 
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        # pay attention
         if not head or not head.next:
             return None
         dummy = ListNode(-1)
         dummy.next = head
-        start = dummy
+        start = dummy # pay attention
         end = dummy
         
         for _ in range(n):
