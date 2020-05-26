@@ -64,7 +64,7 @@ class Solution:
         
         while list1 and list2:
             if list1.val < list2.val:
-                head.next = list1
+                head.next = list1# use current node, other than creating new node
                 list1 = list1.next
             else:
                 head.next = list2
