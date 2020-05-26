@@ -36,6 +36,7 @@ class Solution:
         
         mid = self.findMiddle(head)
         
+        # use mid.next, if use mid, 1,2,3, mid = 2, mid = 2, endless loop
         list1 = self.sortList(mid.next)
         mid.next = None
         list2 = self.sortList(head)
