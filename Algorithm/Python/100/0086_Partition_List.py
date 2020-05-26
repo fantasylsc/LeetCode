@@ -22,6 +22,7 @@ class Solution:
         if not head:
             return None
         
+        # dummy node and head node for each list
         dummy1 = ListNode(0)
         head1 = dummy1
         dummy2 = ListNode(0)
