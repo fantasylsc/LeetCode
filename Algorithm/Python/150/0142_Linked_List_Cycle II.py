@@ -10,6 +10,10 @@ Given a linked list, return the node where the cycle begins. If there is no cycl
 #         self.val = x
 #         self.next = None
 
+# approach 1 hash
+
+# approach 2 slow fast pointer
+
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
         if not head:
