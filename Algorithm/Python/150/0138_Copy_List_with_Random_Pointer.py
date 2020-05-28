@@ -32,8 +32,9 @@ class Solution:
         self.copyNext(head)
         self.copyRandom(head)
         return self.splitList(head)
-        
-    def copyNext(self, head): # actually insert a node
+    
+    # copy and insert node to current list
+    def copyNext(self, head):
         while head:
             newNode = Node(head.val, None, None)
             newNode.random = head.random
@@ -41,12 +42,14 @@ class Solution:
             head.next = newNode
             head = head.next.next
     
+    # copy random pointer
     def copyRandom(self, head):
         while head:
             if head.next.random:
                 head.next.random = head.random.next
             head = head.next.next
     
+    # recover next pointer for original list and copied list
     def splitList(self, head):
         newHead = head.next
         while head:
