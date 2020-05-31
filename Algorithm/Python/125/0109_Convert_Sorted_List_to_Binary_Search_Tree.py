@@ -1,36 +1,20 @@
 '''
 
-Given a binary tree, determine if it is height-balanced.
+Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
 
-For this problem, a height-balanced binary tree is defined as:
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
 
-a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+Example:
 
- 
+Given the sorted linked list: [-10,-3,0,5,9],
 
-Example 1:
+One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:
 
-Given the following tree [3,9,20,null,null,15,7]:
-
-    3
-   / \
-  9  20
-    /  \
-   15   7
-Return true.
-
-Example 2:
-
-Given the following tree [1,2,2,3,3,null,null,4,4]:
-
-       1
-      / \
-     2   2
-    / \
-   3   3
-  / \
- 4   4
-Return false.
+      0
+     / \
+   -3   9
+   /   /
+ -10  5
 
 '''
 
