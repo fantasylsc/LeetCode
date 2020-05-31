@@ -27,6 +27,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 #         self.left = None
 #         self.right = None
 
+# recursion 1
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
         if len(nums) == 0:
@@ -44,9 +45,15 @@ class Solution:
         
         return root
         
-        
+# recursion 2
+class Solution:
+    def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
+        if len(nums) == 0:
+            return None
+        mid = len(nums)//2
+        root = TreeNode(nums[mid])
+        root.left = self.sortedArrayToBST(nums[:mid])
+        root.right = self.sortedArrayToBST(nums[mid + 1:])
+        return root
+
     
-    
-
-
-
