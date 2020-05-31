@@ -96,7 +96,8 @@ class Solution:
 #             prev = slow
 #             slow = slow.next
 #             fast = fast.next.next
-        
+          # save node before slow 
+          # if exits, set to None
 #         if prev:
 #             prev.next = None
         
