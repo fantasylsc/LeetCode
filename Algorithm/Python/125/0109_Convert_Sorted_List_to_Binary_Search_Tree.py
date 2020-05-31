@@ -47,7 +47,6 @@ Return false.
 #         self.left = None
 #         self.right = None
 
-# related: 108. Convert Sorted Array to Binary Search Tree
 # O(n) solution
 
 class Solution:
@@ -82,7 +81,7 @@ class Solution:
 
 
 
-
+# similar topic: 108. Convert Sorted Array to Binary Search Tree
 # O(NlogN) solution
 # pay attention to findMiddle
 
