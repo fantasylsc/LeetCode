@@ -17,6 +17,11 @@ Output: 1->4->3->2->5->NULL
 #         self.val = x
 #         self.next = None
 
+# 1. find start1 and start2 nodes
+# 2. reverse middle segment
+# 3. find end1 and end2 nodes
+# 4. reorder list, start1.next = end1, start2.next = end2
+
 class Solution:
     def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
         if m > n or head == None:
