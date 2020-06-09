@@ -19,6 +19,10 @@ Output: 2->3
 #         self.val = x
 #         self.next = None
 
+# head = dummy
+# if duplicate, head.next = head.next.next, skip duplicate
+# if not duplicate, head = head.next
+
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         if not head or not head.next:
