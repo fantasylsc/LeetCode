@@ -39,7 +39,7 @@ class Solution:
         
         mid = self.findMiddle(head)
         
-        # use mid.next, if use mid, 1,2,3, mid = 2, mid = 2, endless loop
+        # if use mid, 4->2->1->3 mid = 2, mid = 1, mid = 1, endless loop (head and head.next not None)
         list1 = self.sortList(mid.next)
         mid.next = None
         list2 = self.sortList(head)
@@ -50,7 +50,7 @@ class Solution:
         
     def findMiddle(self, head):
         slow = head
-        fast = head.next # pay attention: when length of list is even, there is error without next
+        fast = head.next # if use fast = head, 4->2->1->3, 4->2 endless loop
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
