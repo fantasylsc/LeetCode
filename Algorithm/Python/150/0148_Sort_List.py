@@ -26,6 +26,9 @@ Output: -1->0->3->4->5
 #         self.val = x
 #         self.next = None
 
+# Divide and conquer
+# find middle, sort first half, sort second half, merge sorted lists
+
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         # find middle
