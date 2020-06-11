@@ -28,6 +28,7 @@ Output: -1->0->3->4->5
 
 # Divide and conquer
 # find middle, sort first half, sort second half, merge sorted lists
+# when merge lists, use original list nodes instead of creating new nodes
 
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
@@ -68,7 +69,7 @@ class Solution:
         
         while list1 and list2:
             if list1.val < list2.val:
-                head.next = list1# use current node, other than creating new node
+                head.next = list1 # use current node, other than creating new node
                 list1 = list1.next
             else:
                 head.next = list2
