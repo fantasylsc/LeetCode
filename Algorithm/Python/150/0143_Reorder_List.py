@@ -20,6 +20,8 @@ Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 #         self.val = x
 #         self.next = None
 
+# when merge the list, use original list nodes
+
 class Solution:
     def reorderList(self, head: ListNode) -> None:
         """
