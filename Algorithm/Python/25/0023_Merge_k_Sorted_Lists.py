@@ -21,6 +21,28 @@ Output: 1->1->2->3->4->4->5->6
 #         self.val = x
 #         self.next = None
 
+# 1. brute force 2. using heap 3. merge two lists
+
+# brute force
+
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        nodes = []
+        
+        for list in lists:
+            while list:
+                nodes.append(list.val)
+                list = list.next
+        
+        dummy = ListNode(0)
+        head = dummy
+        
+        for node in sorted(nodes):
+            head.next = ListNode(node)
+            head = head.next
+            
+        return dummy.next
+
 # solution by merging 2 lists
 
 class Solution:
