@@ -65,6 +65,8 @@ class Solution:
 
 # Hashmap
 
+# check is curr visited before, if, update 
+
 # class Solution:
 #     def copyRandomList(self, head: 'Node') -> 'Node':
 #         if not head:
