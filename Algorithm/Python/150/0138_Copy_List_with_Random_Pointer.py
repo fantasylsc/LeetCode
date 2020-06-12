@@ -71,17 +71,18 @@ class Solution:
 #             return None
         
 #         dummy = Node(0, None, None)
-#         newHead = dummy
+#         newHead = dummy # head for new list
 #         curr = head
 #         dic = {}
         
 #         while curr:
+#             # if current node in dic
 #             if curr in dic:
 #                 newNode = dic[curr]
 #             else:
-#                 newNode = Node(curr.val, None, None)
-#                 dic[curr] = newNode
-#             newHead.next = newNode
+#                 newNode = Node(curr.val, None, None) # curr not in dic, create newNode
+#                 dic[curr] = newNode # mapping of next pointer nodes
+#             newHead.next = newNode # update next pointer for newHead
             
 #             if curr.random:
 #                 if curr.random in dic:
@@ -89,6 +90,7 @@ class Solution:
 #                 else:
 #                     newNode.random = Node(curr.random.val, None, None)
 #                     dic[curr.random] = newNode.random
+#             # move newHead and curr node forward
 #             newHead = newNode
 #             curr = curr.next
             
