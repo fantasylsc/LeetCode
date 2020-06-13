@@ -65,7 +65,13 @@ class Solution:
 
 # Hashmap
 
-# check is curr visited before, if, update 
+# for each node in original list
+# check if we met before, if, get node from dic, if not, create newNode, save node to dic
+# point newHead to newNode
+# if random node is not None
+# if we met random node before, get node from dic and point random pointer to node
+# if random node is new, create new random node, save node to dic
+# move newHead and curr forward by one step
 
 # class Solution:
 #     def copyRandomList(self, head: 'Node') -> 'Node':
