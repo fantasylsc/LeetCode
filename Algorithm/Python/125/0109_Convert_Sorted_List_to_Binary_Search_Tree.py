@@ -91,7 +91,7 @@ class Solution:
 #     def findMiddle(self, head):
 #         prev = None
 #         slow = head
-#         fast = head
+#         fast = head # if use head.next, 1->2, slow = head, endless loop
         
 #         while fast and fast.next:
 #             prev = slow
