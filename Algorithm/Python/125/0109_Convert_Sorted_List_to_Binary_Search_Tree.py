@@ -91,7 +91,11 @@ class Solution:
 #     def findMiddle(self, head):
 #         prev = None
 #         slow = head
-#         fast = head # if use head.next, 1->2, error
+#         fast = head 
+#         # if use head.next, 1->2->3->4
+#         # mid = 2, left = 1, right = 3->4
+#         # 3,4, mid = 3 = head(base case condition)
+#         # return root(3), wrong
         
 #         while fast and fast.next:
 #             prev = slow
