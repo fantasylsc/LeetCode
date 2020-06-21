@@ -51,7 +51,13 @@ class Solution:
         
     def findMiddle(self, head):
         slow = head
-        fast = head.next # if use fast = head, 4->2->1->3, 4->2 endless loop
+        fast = head.next 
+        # if use fast = head, 4->2->1->3
+        # mid = 1, sort(4,2,1), sort(3)
+        # mid = 2, sort(4,2), sort(1)
+        # mid = 2, sort(4,2), sort(None)
+        # ...... endless loop
+
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
