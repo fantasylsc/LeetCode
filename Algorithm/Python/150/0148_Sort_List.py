@@ -55,7 +55,6 @@ class Solution:
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
-        print(slow.val)
         return slow
         
     def mergeList(self, list1, list2):
