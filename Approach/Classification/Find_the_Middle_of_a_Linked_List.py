@@ -1,14 +1,15 @@
 # find the prvious middle node
+# use this function for sorting list
 def findMiddle(self, head):
     prev = None
     slow = head
-    fast = head.next
+    fast = head.next # if use fast = head, 4->2->1->3, 4->2 endless loop
     
     while fast and fast.next:
         prev = slow
         slow = slow.next
         fast = fast.next.next
-
+    return slow
 
 
 
@@ -17,12 +18,12 @@ def findMiddle(self, head):
 def findMiddle(self, head):
     prev = None
     slow = head
-    fast = head
+    fast = head 
     
     while fast and fast.next:
         prev = slow
         slow = slow.next
         fast = fast.next.next
-
+    return slow
 
 
