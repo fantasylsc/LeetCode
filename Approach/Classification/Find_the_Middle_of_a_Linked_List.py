@@ -10,7 +10,10 @@ class Solution:
         
         mid = self.findMiddle(head)
         
-        # if use mid, 4->2->1->3 mid = 2, mid = 1, mid = 1, endless loop (head and head.next not None)
+        # if use mid, 4->2->1->3
+        # mid = 2, mid = 1, mid = 1
+        # endless loop (head and head.next not None)
+        
         list1 = self.sortList(mid.next)
         mid.next = None
         list2 = self.sortList(head)
