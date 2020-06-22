@@ -17,6 +17,9 @@ Output:
 
 '''
 
+# backtrack recursion
+# for each num in 1...n
+# choose or not choose
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         self.res = []
