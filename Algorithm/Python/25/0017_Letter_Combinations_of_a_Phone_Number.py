@@ -53,7 +53,9 @@ class Solution:
             self.DFS(level + 1, current + letters[i])
 
 # BFS
-
+# '2': 'abc', '3': 'def'
+# res = [a,b,c]
+# res = [ad,bd,cd] + [ae,be,ce] + [cf,bf,cf]
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         if not digits:
