@@ -35,11 +35,13 @@ Note:
 
 class Solution:
     def fib(self, N: int) -> int:
+        # base case
         if N == 0:
             return 0
         if N == 1:
             return 1
         
+        # recursion
         return self.fib(N - 1) + self.fib(N - 2)
 
 
@@ -47,11 +49,13 @@ class Solution:
 
 class Solution:
     def fib(self, N: int) -> int:
+        # base case
         if N == 0:
             return 0
         if N == 1:
             return 1
         
+        # memorization
         self.mem = [float('inf')] * (N + 1)
         self.mem[0] = 0
         self.mem[1] = 1
@@ -60,6 +64,7 @@ class Solution:
         
         return res
     
+    # recursion with memorization
     def helper(self, N):
         if self.mem[N] != float('inf'):
             return self.mem[N]
@@ -76,10 +81,12 @@ class Solution:
         if N == 1:
             return 1
         
+        # initialization        
         dp = [0] * (N + 1)
         dp[0] = 0
         dp[1] = 1
         
+        # function
         for i in range(2, N + 1):
             dp[i] = dp[i - 1] + dp[i - 2]
             
