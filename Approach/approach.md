@@ -109,7 +109,7 @@ When to use DP:
 
 Four elements of DP:
 
-1) State, 2) Function, 3) Initialization, 4) Answer.
+(1) State, (2) Function, (3) Initialization, (4) Answer.
 
 Four categories of DP:
 
