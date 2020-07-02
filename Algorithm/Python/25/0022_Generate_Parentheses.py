@@ -31,7 +31,7 @@ class Solution:
         if len(current) == 2 * n:
             self.res.append(current)
             return
-        # these two if statement make sure the combination is valid
+        # these two if statements make sure the combination is valid
         if left < n:
             self.backtrack(n, current + '(', left + 1, right)
         if right < left:
