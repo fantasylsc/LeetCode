@@ -34,5 +34,7 @@ class Solution:
         for i in range(start_level, n + 1):
             curr.append(i)
             self.helper(n, k, i + 1, curr) # i + 1 (without duplicate) or start_level (with duplicate)
+            # if use: self.helper(n, k, start + 1, curr)
+            # when i = 2, start = 1, will generate [2, 2]
             curr.pop()
         
