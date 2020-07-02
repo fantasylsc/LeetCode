@@ -71,7 +71,27 @@ class Solution:
         self.mem[N] = self.helper(N - 1) + self.helper(N - 2)
         
         return self.mem[N]
-
+       
+class Solution:
+    def fib(self, N: int) -> int:
+        self.mem = {}
+        res = self.helper(N)
+        return res
+        
+    def helper(self, N):
+        if N == 0:
+            return 0
+        if N == 1:
+            return 1
+        
+        if N in self.mem:
+            return self.mem[N]
+        
+        self.mem[N] = self.helper(N - 1) + self.helper(N - 2)
+        
+        return self.mem[N]
+       
+       
 # DP  24 ms
 
 class Solution:
