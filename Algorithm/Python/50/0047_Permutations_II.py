@@ -16,6 +16,9 @@ Output:
 
 '''
 
+# pay attention to skip condition
+# compare with permutations I
+
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
