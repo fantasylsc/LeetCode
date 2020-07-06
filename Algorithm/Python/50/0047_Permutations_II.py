@@ -17,6 +17,7 @@ Output:
 '''
 
 # pay attention to skip condition
+# sort nums
 # compare with permutations I
 
 class Solution:
