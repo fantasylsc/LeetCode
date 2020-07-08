@@ -65,11 +65,14 @@ class Solution:
             return True
 
         # Check the current status, before jumping into backtracking
+        # row or col out of range or self.board[row][col] != suffix[0]
         if row < 0 or row == self.ROWS or col < 0 or col == self.COLS \
                 or self.board[row][col] != suffix[0]:
             return False
-
+        
+        # self.board[row][col] == suffix[0]
         ret = False
+        
         # mark the choice before exploring further.
         self.board[row][col] = '#'
         # explore the 4 neighbor directions
@@ -77,7 +80,12 @@ class Solution:
             ret = self.backtrack(row + rowOffset, col + colOffset, suffix[1:])
             # break instead of return directly to do some cleanup afterwards
             if ret: break
-
+            '''
+            # sudden-death return, no cleanup.
+            if self.backtrack(row + rowOffset, col + colOffset, suffix[1:]):
+                return True
+            '''
+        
         # revert the change, a clean slate and no side-effect
         self.board[row][col] = suffix[0]
 
