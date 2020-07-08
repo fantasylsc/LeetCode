@@ -48,7 +48,8 @@ class Solution:
         self.ROWS = len(board)
         self.COLS = len(board[0])
         self.board = board
-
+        
+        # start recursion from every position
         for row in range(self.ROWS):
             for col in range(self.COLS):
                 if self.backtrack(row, col, word):
