@@ -89,7 +89,7 @@ Basic Skills:
 
 Example: [Calculate Fibonacci Number](https://leetcode.com/problems/fibonacci-number/): [Approach Compare](https://github.com/fantasylsc/LeetCode/blob/master/Algorithm/Python/525/0509_Fib_Number.py) (1. Recusion without memoization, 2. Recursion with memoization, 3. Bottom up Dynamic Programming)
 
-Backtracking: [Combinatinos](../Algorithm/Python/100/0077_Combinations.py) | [Letter Combinations of a Phone Number](../Algorithm/Python/25/0017_Letter_Combinations_of_a_Phone_Number.py) | [Generate Parentheses](../Algorithm/Python/25/0022_Generate_Parentheses.py) | [Combination Sum](../Algorithm/Python/50/0039_Combination_Sum.py) | [Permutations](../Algorithm/Python/50/0046_Permutations.py) | [Permutations II](../Algorithm/Python/50/0047_Permutations_II.py) | [Word Search *](../Algorithm/Python/100/0079_Word_Search.py) | [Subsets II](../Algorithm/Python/100/0090_Subsets_II.py) | [Path Sum II](../Algorithm/Python/125/0113_Path_Sum_II.py) |
+Backtracking: [Combinatinos](../Algorithm/Python/100/0077_Combinations.py) | [Letter Combinations of a Phone Number](../Algorithm/Python/25/0017_Letter_Combinations_of_a_Phone_Number.py) | [Generate Parentheses](../Algorithm/Python/25/0022_Generate_Parentheses.py) | [Combination Sum](../Algorithm/Python/50/0039_Combination_Sum.py) | [Permutations](../Algorithm/Python/50/0046_Permutations.py) | [Permutations II](../Algorithm/Python/50/0047_Permutations_II.py) | [Word Search *](../Algorithm/Python/100/0079_Word_Search.py) | [Subsets II *](../Algorithm/Python/100/0090_Subsets_II.py) | [Path Sum II](../Algorithm/Python/125/0113_Path_Sum_II.py) |
 
 ### Dynamic Programming
 
