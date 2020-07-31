@@ -112,7 +112,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)| [Python](./Algorithm/Python/100/0084_Largest_Rectangle_in_Histogram.py)|Hard|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)| [Python](./Algorithm/Python/100/0085_Maximal_Rectangle.py)|Hard|
 |86|[Partition List](https://leetcode.com/problems/partition-list/)| [Python](./Algorithm/Python/100/0086_Partition_List.py)|Medium|
-|87|[Scramble String](https://leetcode.com/problems/scramble-string/)| [Python](./algorithms/cpp/scrambleString/scrambleString.cpp)|Hard|
+|87|[Scramble String](https://leetcode.com/problems/scramble-string/)| [Python](./Algorithm/Python/100/0087_Scramble_String.py)|Hard|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](./Algorithm/Python/100/0088_Merge_Sorted_Array.py)|Easy|
 |89|[Gray Code](https://leetcode.com/problems/gray-code/)| [Python](./algorithms/cpp/grayCode/grayCode.cpp)|Medium|
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)| [Python](./Algorithm/Python/100/0090_Subsets_II.py)|Medium|
