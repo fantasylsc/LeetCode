@@ -58,7 +58,9 @@ class Solution:
         str2 = s2
         if sorted(str1) != sorted(str2):
             return False
-        
+
+        # aaab, aaab
+        # aaab, baaa
         for i in range(1, len(s1)):
             s11 = s1[0:i]
             s12 = s1[i:]
