@@ -87,6 +87,7 @@ class Solution:
         dp = [[[False] * n for _ in range(n)] for _ in range(n + 1)]
         
         # dp[k][i][j], 3,1,2 dimension
+        # dp[k][i][j]: whether s1, s2 with length k and start with ith and jth string are scrable
         for l in range(1, n + 1):
             for i in range(0, n - l + 1):
                 for j in range(0, n - l + 1):
