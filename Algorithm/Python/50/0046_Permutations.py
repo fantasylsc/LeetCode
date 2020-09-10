@@ -17,7 +17,7 @@ Output:
 
 '''
 
-#  DFS
+#  DFS, back track
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
