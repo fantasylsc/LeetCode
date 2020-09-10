@@ -16,7 +16,7 @@
 
 - Trie: [Implement Trie (Prefix Tree)]() | [Word Search II]() |
 
-
+[Python Data Structure Complexity](https://wiki.python.org/moin/TimeComplexity)
 
 
 ## 2. Sorting Algorithms
