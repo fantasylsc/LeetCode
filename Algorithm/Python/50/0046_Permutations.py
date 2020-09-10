@@ -17,6 +17,7 @@ Output:
 
 '''
 
+#  DFS
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
@@ -49,6 +50,7 @@ class Solution:
 
 '''
 
+# Back track
 # class Solution:
 #     def permute(self, nums: List[int]) -> List[List[int]]:
 #         n = len(nums)
