@@ -1,4 +1,4 @@
-# Data Strucutre & Algorithms Classification
+# Data Strucutre & Algorithms
 
 ## 1. Data Structures
 
