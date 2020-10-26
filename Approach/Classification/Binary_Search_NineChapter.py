@@ -1,7 +1,7 @@
 '''
 
 Binary Search Template in NineChapter
-
+Thie template can be widely used in a lot of cases.
 This binary search template can be used in find the first or last target in the list. Example: [1,2,2,2,2,3,3,4]
 
 '''
