@@ -26,7 +26,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
 # Iterative solution:
 # postorder sequence: left, right, root
-# using root, right, left traversal, then reverse the result
+# almost idenfical to preorder traversal
 
 # Iterative solution 1
 # postorder (left, right, root),  use traversal order (root, right, left) and append node reversely
