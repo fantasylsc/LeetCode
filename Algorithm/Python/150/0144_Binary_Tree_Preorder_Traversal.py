@@ -24,6 +24,8 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 #         self.right = None
 
 # Iterative solution
+# Preorder traversal is the easiest DFS when using iterative approach
+# pop, append value into result, append right, append left
 
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
