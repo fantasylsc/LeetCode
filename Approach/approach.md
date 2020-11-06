@@ -52,13 +52,15 @@ Binary Tree Traversal: traverse order 1-2-3-4-5.
 
 [Inorder](../Algorithm/Python/100/0094_Binary_Tree_Inorder_Traversal.py) (left, root, right)
 
-[Level order](../Algorithm/Python/125/0102_Binary_Tree_Level_Order_Traversal.py) (BFS)
+[BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
+[Level order](../Algorithm/Python/125/0102_Binary_Tree_Level_Order_Traversal.py)
 
 <p align="center">
 <img width="500"  src=./Materials/DFSBFS.png >
 </p>
 
-Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/)(Iterative: using stack), [BFS (Level Order Tree Traversal)](https://www.geeksforgeeks.org/level-order-tree-traversal/)(Iterative: using queue), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
+Binary Tree: [DFS](https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/)(Iterative: using stack), [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)(Iterative: using queue), [DFS vs BFS](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
 
 ### Divide & Conquer
 
