@@ -36,6 +36,8 @@ Constraints:
 5. loop through four directions for backtracking
 6. recover the change (backtrack)
 
+a little more complex than regular backtrack problems
+
 '''
 
 class Solution:
