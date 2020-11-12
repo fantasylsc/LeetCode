@@ -60,12 +60,12 @@ class Solution:
             return 0
         if grid[x][y] == 2:
             return 1 if n == 0 else 0
-        grid[x][y] = -1
+        grid[x][y] = -1 # mark visited points
         paths = self.dfs(grid, x + 1, y, n - 1) + \
                 self.dfs(grid, x - 1, y, n - 1) + \
                 self.dfs(grid, x, y + 1, n - 1) + \
                 self.dfs(grid, x, y - 1, n - 1)
-        grid[x][y] = 0
+        grid[x][y] = 0 # recover points
         return paths
         
         
