@@ -121,7 +121,7 @@ Four categories of DP:
 
 3) Two Sequences (40%): [Longest Common Subsequence](../Algorithm/Python/1150/1143_Longest_Common_Subsequence.py) | [Longest Common Substring](./Classification/Longest_Common_Substring.py) | [Edit Distance](../Algorithm/Python/75/0072_Edit_Distance.py) | [Distinct Subsequences](../Algorithm/Python/125/0115_Distinct_Subsequences.py) | [Interleaving String](../Algorithm/Python/100/0097_Interleaving_String.py) |
 
-4) Knapsack (10%): [0-1 Knapsack](./Classification/Backpack.py) | [K Sum](./Classification/kSum.py) | [Minimum Adjustment Cost](./Classification/Minimum_Adjustment_Cost.py) | [Coin Change](../Algorithm/Python/325/0322_Coin_Change.py) | [Coin Change (IC)]() |
+4) Knapsack (10%): [0-1 Knapsack](./Classification/Backpack.py) | [K Sum](./Classification/kSum.py) | [Minimum Adjustment Cost](./Classification/Minimum_Adjustment_Cost.py) | [Coin Change](../Algorithm/Python/325/0322_Coin_Change.py) | [Coin Change (IC)](./Classification/Coin_Change_IC.py) |
 
 
 [Dynamic Progrmming Problem Archives](https://www.geeksforgeeks.org/category/dynamic-programming/)
