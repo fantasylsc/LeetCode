@@ -16,40 +16,60 @@ Example: for amount=44 (44¢) and denominations=[1,2,3][1,2,3] (11¢, 22¢ and 3
 
 '''
 
-  def change_possibilities_top_down(amount_left, denominations, current_index=0):
 
-    # Base cases:
-    # We hit the amount spot on. yes!
-    if amount_left == 0:
-        return 1
+# recursion
 
-    # We overshot the amount left (used too many coins)
-    if amount_left < 0:
-        return 0
+def change_possibilities_top_down(amount_left, denominations, current_index=0):
 
-    # We're out of denominations
-    if current_index == len(denominations):
-        return 0
+  # Base cases:
+  # We hit the amount spot on. yes!
+  if amount_left == 0:
+      return 1
 
-    print("checking ways to make %i with %s" % (
-        amount_left,
-        denominations[current_index:],
-    ))
+  # We overshot the amount left (used too many coins)
+  if amount_left < 0:
+      return 0
 
-    # Choose a current coin
-    current_coin = denominations[current_index]
+  # We're out of denominations
+  if current_index == len(denominations):
+      return 0
 
-    # See how many possibilities we can get
-    # for each number of times to use current_coin
-    num_possibilities = 0
-    while amount_left >= 0:
-        num_possibilities += change_possibilities_top_down(
-            amount_left,
-            denominations,
-            current_index + 1,
-        )
-        amount_left -= current_coin
+  print("checking ways to make %i with %s" % (
+      amount_left,
+      denominations[current_index:],
+  ))
 
-    return num_possibilities
+  # Choose a current coin
+  current_coin = denominations[current_index]
 
+  # See how many possibilities we can get
+  # for each number of times to use current_coin
+  num_possibilities = 0
+  while amount_left >= 0:
+      num_possibilities += change_possibilities_top_down(
+          amount_left,
+          denominations,
+          current_index + 1,
+      )
+      amount_left -= current_coin
+
+  return num_possibilities
+
+
+# DP
+
+def change_possibilities_bottom_up(amount, denominations):
+
+  ways_of_doing_n_cents = [0] * (amount + 1)
+  ways_of_doing_n_cents[0] = 1
+
+  for coin in denominations:
+
+      for higher_amount in range(coin, amount + 1):
+          higher_amount_remainder = higher_amount - coin
+          ways_of_doing_n_cents[higher_amount] += (
+              ways_of_doing_n_cents[higher_amount_remainder]
+          )
+
+  return ways_of_doing_n_cents[amount]
 
