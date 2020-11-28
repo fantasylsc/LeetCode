@@ -66,10 +66,10 @@ def change_possibilities_bottom_up(amount, denominations):
   # add coins one by one
   for coin in denominations:
       # see possibilites using current coin
-      # current = previous + add current coin
-      # dp[k] = dp[k] + dp[k - coin]
       for higher_amount in range(coin, amount + 1):
           higher_amount_remainder = higher_amount - coin
+          # current = previous + add current coin
+          # dp[k] = dp[k] + dp[k - coin]
           ways_of_doing_n_cents[higher_amount] += (
               ways_of_doing_n_cents[higher_amount_remainder]
           )
