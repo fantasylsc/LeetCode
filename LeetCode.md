@@ -369,6 +369,8 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)| [Python](./Algorithm/Python/500/0482_License_Key_Formatting.py)|Easy|
+|498|[Diagonal_Traverse](https://leetcode.com/problems/diagonal-traverse/)| [Python](./Algorithm/Python/500/0498_%20Diagonal_Traverse.py)|Medium|
+
 
 
 ## [Go to Top](#LeetCode-Solutions)
