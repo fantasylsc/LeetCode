@@ -65,7 +65,8 @@ class Solution:
         
 # Top down recursion
 # This solution has to check the depth of every node until find diff_depth > 1
-        
+# Check depth difference and left subtree and right subtree
+
 # class Solution:
 #     def isBalanced(self, root: TreeNode) -> bool:
 #         def getDepth(root):
@@ -81,11 +82,13 @@ class Solution:
         
 #         if abs(getDepth(root.left) - getDepth(root.right)) > 1:
 #             return False
-#         return self.isBalanced(root.left) and self.isBalanced(root.right)
-        
+#         return abs(getDepth(root.left) - getDepth(root.right) < 2 \
+#                  and self.isBalanced(root.left) \
+#                  and self.isBalanced(root.right)
+
  
 # Bottom up recursion
-# recursion with pruning
+# recursion with pruning, early stop if subtree is not balanced
 
 # class Solution:
 #     # Return whether or not the tree at root is balanced while also returning
