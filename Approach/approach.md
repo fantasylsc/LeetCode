@@ -46,7 +46,7 @@ Sorted Array: [Remove Duplicates from Sorted Array I](../Algorithm/Python/50/002
 
 Binary Tree Traversal: traverse order 1-2-3-4-5. 
 
-[Preorder](../Algorithm/Python/150/0144_Binary_Tree_Preorder_Traversal.py) (root, left, right) 
+[Preorder](../Algorithm/Python/150/0144_Binary_Tree_Preorder_Traversal.py) (Root-to-leaf traversal) (root, left, right) 
 
 [Postorder](../Algorithm/Python/150/0145_Binary_Tree_Postorder_Traversal.py) (left, right, root) 
 
