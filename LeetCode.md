@@ -262,7 +262,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)| [Python](./algorithms/cpp/summaryRanges/SummaryRanges.cpp)|Easy|
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Python](./algorithms/cpp/majorityElement/majorityElement.II.cpp)|Medium|
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)| [Python](./algorithms/cpp/kthSmallestElementInaBST/KthSmallestElementInABst.cpp), [Python](./algorithms/python/KthSmallestElementInABST/kthSmallest.py)|Medium|
-|231|[Power of Two](https://leetcode.com/problems/power-of-two/)| [Python](./algorithms/cpp/powerOfTwo/PowerOfTwo.cpp)|Easy|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)| [Python](./Algorithm/Python/225/0231_Power_of_Two.py)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)| [Python](./Algorithm/Python/250/0232_Implement_Queue_using_Stacks.py)|Easy|
 |233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)| [Python](./algorithms/cpp/numberOfDigitOne/NumberOfDigitOne.cpp)|Medium|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)| [Python](./algorithms/cpp/palindromeLinkedList/PalindromeLinkedList.cpp)|Easy|
