@@ -41,12 +41,20 @@ class MedianFinder:
         """
         initialize your data structure here.
         """
-        
+        self.low = []
+        self.high = []
 
     def addNum(self, num: int) -> None:
+        heapq.heappush(self.low, -num)
         
+        heapq.heappush(self.high, -heapq.heappop(self.low))
+        
+        if len(self.low) < len(self.high):
+            heapq.heappush(self.low, -heapq.heappop(self.high))
 
     def findMedian(self) -> float:
+        return -self.low[0] if len(self.low) > len(self.high) \
+                else (-self.low[0] + self.high[0])/2 
         
 
 
