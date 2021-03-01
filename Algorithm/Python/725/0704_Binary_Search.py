@@ -1,84 +1,47 @@
 '''
 
-Given the root node of a binary search tree (BST) and a value to be inserted into the tree, insert the value into the BST. Return the root node of the BST after the insertion. It is guaranteed that the new value does not exist in the original BST.
+Given a sorted (in ascending order) integer array nums of n elements and a target value, write a function to search target in nums. If target exists, then return its index, otherwise return -1.
 
-Note that there may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion. You can return any of them.
 
-For example, 
+Example 1:
 
-Given the tree:
-        4
-       / \
-      2   7
-     / \
-    1   3
-And the value to insert: 5
-You can return this binary search tree:
+Input: nums = [-1,0,3,5,9,12], target = 9
+Output: 4
+Explanation: 9 exists in nums and its index is 4
 
-         4
-       /   \
-      2     7
-     / \   /
-    1   3 5
-This tree is also valid:
+Example 2:
 
-         5
-       /   \
-      2     7
-     / \   
-    1   3
-         \
-          4
+Input: nums = [-1,0,3,5,9,12], target = 2
+Output: -1
+Explanation: 2 does not exist in nums so return -1
+
+
+Note:
+
+You may assume that all elements in nums are unique.
+n will be in the range [1, 10000].
+The value of each element in nums will be in the range [-9999, 9999].
 
 '''
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
-# Recursion
-# only insert at leaf node
 class Solution:
-    def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
-        # leaf node, insert TreeNode
-        if not root:
-            return TreeNode(val)
+    def search(self, nums: List[int], target: int) -> int:
+        left = 0
+        right = len(nums) - 1
 
-        # search insert position
-        if val < root.val:
-            root.left = self.insertIntoBST(root.left, val)
+        while left < right:
+            mid = left + (right - left) // 2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] < target:
+                left += 1
+            else:
+                right = mid
+
+        if nums[left] == target:
+            return left
         else:
-            root.right = self.insertIntoBST(root.right, val)
-        return root
-
-# Iteration
-# Different from tree traverse, without using stack
-
-# class Solution:
-#     def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
-#         node = root
-#         while node:
-#             # insert into the right subtree
-#             if val > node.val:
-#                 # insert right now
-#                 if not node.right:
-#                     node.right = TreeNode(val)
-#                     return root
-#                 else:
-#                     node = node.right
-#             # insert into the left subtree
-#             else:
-#                 # insert right now
-#                 if not node.left:
-#                     node.left = TreeNode(val)
-#                     return root
-#                 else:
-#                     node = node.left
-#         return TreeNode(val)
-    
+            return -1
     
     
     

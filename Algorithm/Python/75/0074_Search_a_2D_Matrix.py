@@ -31,31 +31,76 @@ Output: false
 # 2. take the 2D Matrix as a list, row = idx // n , col = idx % n, n = len(matrix[0])
 # 3. search from the left down corner
 
+# Two binary search, search row, then search column
+# class Solution:
+#     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+#         if matrix == None or len(matrix) == 0 or len(matrix[0]) == 0:
+#             return False
+#
+#         m = len(matrix)
+#         n = len(matrix[0])
+#
+#         left = 0
+#         right = m - 1
+#
+#         while left < right:
+#             mid = left + (right - left) // 2
+#
+#             if matrix[mid][n - 1] == target:
+#                 return True
+#             elif matrix[mid][n - 1] < target:
+#                 left += 1
+#             else:
+#                 right = mid
+#
+#         if matrix[left][0] > target:
+#             return False
+#
+#         r = left
+#
+#         left = 0
+#         right = n - 1
+#
+#         while left < right:
+#             mid = left + (right - left) // 2
+#             if matrix[r][mid] == target:
+#                 return True
+#             elif matrix[r][mid] < target:
+#                 left += 1
+#             else:
+#                 right = mid
+#
+#         if matrix[r][left] == target:
+#             return True
+#         else:
+#             return False
+
+
 # take the 2D Matrix as a list
-class Solution:
-    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        m = len(matrix)
-        if m == 0:
-            return False
-        n = len(matrix[0])
-        if m == 1 and n == 0:
-            return False
-        
-        start, end = 0, n * m - 1
-        while start + 1 < end:
-            mid = start + (end - start) // 2
-            mid_val = matrix[mid // n][mid % n]
-            if mid_val == target:
-                return True
-            if mid_val > target:
-                end = mid
-            else:
-                start = mid
-        if matrix[start // n][start % n] == target:
-            return True
-        if matrix[end // n][end % n] == target:
-            return True
-        return False
+# class Solution:
+#     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+#         m = len(matrix)
+#         if m == 0:
+#             return False
+#         n = len(matrix[0])
+#         if m == 1 and n == 0:
+#             return False
+#
+#         start, end = 0, n * m - 1
+#         while start + 1 < end:
+#             mid = start + (end - start) // 2
+#             mid_val = matrix[mid // n][mid % n]
+#             if mid_val == target:
+#                 return True
+#             if mid_val > target:
+#                 end = mid
+#             else:
+#                 start = mid
+#         if matrix[start // n][start % n] == target:
+#             return True
+#         if matrix[end // n][end % n] == target:
+#             return True
+#         return False
         
 # search from the left down corner
 class Solution:
