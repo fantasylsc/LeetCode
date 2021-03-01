@@ -31,6 +31,7 @@ Output: false
 # 2. take the 2D Matrix as a list, row = idx // n , col = idx % n, n = len(matrix[0])
 # 3. search from the left down corner
 
+# take the 2D Matrix as a list
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         m = len(matrix)
@@ -56,4 +57,21 @@ class Solution:
             return True
         return False
         
+# search from the left down corner
+class Solution:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        m = len(matrix)
+        n = len(matrix[0])
 
+        i = m - 1
+        j = 0
+
+        while i >= 0 and j <= n - 1:
+            if matrix[i][j] == target:
+                return True
+            elif matrix[i][j] > target:
+                i -= 1
+            else:
+                j += 1
+
+        return False
