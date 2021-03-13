@@ -9,6 +9,12 @@ Worst case space complexity: O(k)
 
 '''
 
+'''
+idea:
+count the number of nums for each num,
+then append each num with n count to result
+'''
+
 import unittest
 from typing import List
 
