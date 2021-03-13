@@ -11,6 +11,17 @@ Take last element in nums as pivot.
 
 '''
 
+'''
+idea:
+Put smaller nums left and larger nums right accordint to pivot
+Loop through nums, if current num is samller than pivot:
+swap current num with larger num
+If current num is larger than pivot:
+Do nothing, continue.
+i + 1 points to larger num, so we do i + 1 before swap
+j points to the num we are looping through
+'''
+
 import unittest
 from typing import List
 
