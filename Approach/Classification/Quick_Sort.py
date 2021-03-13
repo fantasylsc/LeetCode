@@ -26,7 +26,7 @@ class Solution:
             self.quickSort(nums, pi + 1, high)
 
     def partition(self, nums, low, high): 
-        i = (low - 1)         # index of smaller element 
+        i = (low - 1)         # i + 1 points to num larger than pivot 
         pivot = nums[high]     # pivot 
   
         for j in range(low , high): 
