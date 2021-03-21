@@ -38,26 +38,30 @@ class Solution:
 
         return -1
 
-# failed approach, failed test case 2, endless loop
+# solution 2:
 # class Solution:
-#     def SearchFirstTarget(self, nums: List[int], target: int) -> int:
-#         if len(nums) == 0:
-#             return -1
-        
-#         start = 0
-#         end = len(nums) - 1
+# 	def SearchFirstTarget(self, nums, target):
+# 		left = 0
+# 		right = len(nums) - 1
 
-#         while start < end:
-#             mid = start + (end - start) // 2
-#             if nums[mid] > target:
-#                 end = mid - 1
-#             else:
-#                 start = mid
+# 		while left < right:
+# 			mid = left + (right - left)//2
+# 			if nums[mid] < target:
+# 				left = mid + 1
+# 			elif nums[mid] > target:
+# 				right = mid
+# 			else:
+# 				if mid == len(nums) - 1:
+# 					return mid
+# 				elif nums[mid + 1] == target:
+# 					left = mid + 1
+# 				else:
+# 					return mid
 
-#         if nums[start] == target:
-#             return start
-
-#         return -1
+# 		if nums[left] == target:
+# 			return left
+# 		else:
+# 			return -1
 
 
 class Test(unittest.TestCase):
