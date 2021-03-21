@@ -7,7 +7,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Python](./Algorithm/Python/25/0001_Two_Sum.py), [C++](./Algorithm/C%2B%2B/0001_Two_Sum.cpp)|Easy|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| [Python](./Algorithm/Python/25/0002_Add_Two_Numbers.py)|Medium|
-|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](./Algorithm/Python/25/0003_Longest_Substring_Without_Repreating_Characters.py)|Medium|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](./Algorithm/Python/25/0003_Longest_Substring_Without_Repreating_Characters.py, [Java](./Algorithm/Java/100/0003_Longest_Substring_Without_Repreating_Characters.py)|Medium|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Python](./Algorithm/Python/25/0004_Median_of_Two_Sorted_Arrays.py)|Hard|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [Python](./Algorithm/Python/25/0005_Longest_Palindromic_Substring.py)|Medium|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| [Python](./Algorithm/Python/25/0006_ZigZag_Conversion.py)|Medium|
