@@ -6,6 +6,8 @@
 
 ## [Interview Questions](./Approach/interview.md)
 
+## [14 Patterns for Coding Questions](./Patterns/PT.md)
+
 
 
 
