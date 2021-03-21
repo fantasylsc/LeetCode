@@ -15,17 +15,18 @@ Explanation: The answer is "abc", with the length of 3.
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        visited = {}
-        max_len = 0
-        start = -1
-        
-        for i in range(len(s)):
-            if s[i] in visited:
-                start = max(start, visited[s[i]])
-            max_len = max(max_len, i - start)
-            visited[s[i]] = i
-            
-        return max_len
+        res = 0
+        mp = {}
+        i = 0
+
+        for j in range(len(s)):
+            if s[j] in mp:
+                i = max(mp[s[j]] + 1, i)
+
+            res = max(res, j - i + 1)
+            mp[s[j]] = j
+
+        return res
 
 
 
