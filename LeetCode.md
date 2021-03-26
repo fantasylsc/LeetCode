@@ -71,7 +71,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |50|["Pow(x, n)"](https://leetcode.com/problems/powx-n/)| [Python](./Algorithm/Python/50/0050_Pow(x%2Cn).py)|Medium|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)| [Python](./Algorithm/Python/75/0051_N-Queens.py)|Hard|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)| [Python](./Algorithm/Python/75/0052_N-Queens_II.py)|Hard|
-|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Python](./Algorithm/Python/75/0053_Maximum_Subarray.py)|Medium|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Python](./Algorithm/Python/75/0053_Maximum_Subarray.py) [Java](./Algorithm/Java/100/0053_Maximum_Subarray.java)|Medium|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)| [Python](./Algorithm/Python/75/0054_Spiral_Matrix.py)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)| [Python](./Algorithm/Python/75/0055_Jump_Game.py)|Medium|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)| [Python](./Algorithm/Python/75/0056_Merge_Intervals.py)|Hard|
