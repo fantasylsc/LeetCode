@@ -10,8 +10,7 @@ Commmon questions:
 * Longest Substring without repeating characters (Medium)
 * Search for string with same character but different order (Difficult)
 
-Related questions:
-
+Related questions: 3, 
 
 ## 2. Two pointers
 
