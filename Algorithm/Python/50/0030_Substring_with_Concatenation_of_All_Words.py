@@ -25,39 +25,37 @@ Output: []
 
 # Extention of problem strStr
 
+from collections import Counter
+
+
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         if len(s) == 0 or len(words) == 0:
             return []
-        wordCnt = {}
-        for i in range(len(words)):
-            if words[i] in wordCnt:
-                wordCnt[words[i]] += 1
-            else:
-                wordCnt[words[i]] = 1
 
-        
-        word_len = len(words[0])
-        n = len(words)
         res = []
-        
-        for i in range(len(s) - n * word_len + 1):
-            strCnt = {}
-            j = 0
-            while j < n:
-                t = s[i + j * word_len: i + j * word_len + word_len]
-                if t not in wordCnt: # t not in words
+        m = len(words)
+        n = len(words[0])
+        wordCounter = Counter(words)
+
+        for i in range(len(s) - m * n + 1):
+            k = m
+            j = i
+            copy = wordCounter.copy()
+
+            while k > 0:
+                sub_string = s[j: j + n]
+
+                if sub_string not in copy or copy[sub_string] < 1:
                     break
-                if t not in strCnt:
-                    strCnt[t] = 1
-                else:
-                    strCnt[t] += 1
-                if strCnt[t] > wordCnt[t]: # strCnt doesn't match wordCnt
-                    break
-                j += 1
-            if j == n:
+
+                copy[sub_string] -= 1
+                k -= 1
+                j += n
+
+            if k == 0:
                 res.append(i)
-                
+
         return res
         
 
