@@ -5,10 +5,14 @@ Reference: https://mp.weixin.qq.com/s/gUU0m-MrKV3tJl-MiawhpA
 
 ## 1. Sliding Window
 
+When to use sliding window:
+* linear data structure, eg. linked list, array or string
+* search for value that made by longest/shortest substring or subarray
+
 Commmon questions:
-* 53. Maximum Subarray (Easy)
-* 395. Longest Substring with At Least K Repeating Characters (Medium)
-* 567. Permutation in String (Difficult)
+* 53.Maximum Subarray (Easy)
+* 395.Longest Substring with At Least K Repeating Characters (Medium)
+* 567.Permutation in String (Difficult)
 
 Related questions: 3, 30, 76
 
@@ -19,9 +23,9 @@ When to use two pointers:
 * The element sets in array are paired, triad, or subarray
 
 Common questions:
-* 977. Squares of a Sorted Array
-* 15. 3Sum
-* 844. Backspace String Compare
+* 977.Squares of a Sorted Array
+* 15.3Sum
+* 844.Backspace String Compare
 
 ## 3. Slow fast pointers
 
