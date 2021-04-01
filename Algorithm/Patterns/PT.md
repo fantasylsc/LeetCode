@@ -6,13 +6,22 @@ Reference: https://mp.weixin.qq.com/s/gUU0m-MrKV3tJl-MiawhpA
 ## 1. Sliding Window
 
 Commmon questions:
-* Max sum for array with K elements (Easy)
-* Longest Substring without repeating characters (Medium)
-* Search for string with same character but different order (Difficult)
+* 53. Maximum Subarray (Easy)
+* 395. Longest Substring with At Least K Repeating Characters (Medium)
+* 567. Permutation in String (Difficult)
 
-Related questions: 3, 53，30, 76
+Related questions: 3, 30, 76
 
 ## 2. Two pointers
+
+When to use two pointers:
+* Search for a set of elements that satisfy constrains in a sorted array or linked list
+* The element sets in array are paired, triad, or subarray
+
+Common questions:
+* 977. Squares of a Sorted Array
+* 15. 3Sum
+* 844. Backspace String Compare
 
 ## 3. Slow fast pointers
 
