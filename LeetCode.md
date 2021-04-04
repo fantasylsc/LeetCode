@@ -336,6 +336,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [Python](./Algorithm/Python/400/0377_Combination_Sum_IV.py)|Medium|
+|395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)| [Python](./Algorithm/Python/400/0395_Longest_Substring_with_At_Least_K_Repeating_Characters.py) [Java](./Algorithm/Java/400/0395_Longest_Substring_with_At_Least_K_Repeating_Characters.java)|Medium|
 
 
 

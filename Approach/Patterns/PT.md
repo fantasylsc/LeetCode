@@ -10,7 +10,7 @@ When to use:
 * search for value that made by longest/shortest substring or subarray
 
 Commmon questions:
-* 53.Maximum Subarray (Easy)
+* 53.[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (Easy)
 * 395.Longest Substring with At Least K Repeating Characters (Medium)
 * 567.Permutation in String (Difficult)
 
