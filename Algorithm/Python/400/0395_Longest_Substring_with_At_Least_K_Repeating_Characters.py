@@ -37,4 +37,47 @@ def longestSubstring(s: str, k: int) -> int:
 
     return res
 
+# version2
+
+from collections import Counter
+#
+# class Solution:
+#     def longestSubstring(self, s: str, k: int) -> int:
+#         counter = Counter(s)
+#         unique_char = len(counter)
+#         res = 0
+#
+#         for required_unique in range(1, unique_char + 1):
+#             freq = {}
+#             start = 0
+#             end = 0
+#             formed_k = 0
+#
+#             while end < len(s):
+#                 if len(freq) <= required_unique:
+#                     if s[end] in freq:
+#                         freq[s[end]] += 1
+#                     else:
+#                         freq[s[end]] = 1
+#
+#                     if freq[s[end]] == k:
+#                         formed_k += 1
+#
+#                     end += 1
+#                 else:
+#                     if freq[s[start]] == k:
+#                         formed_k -= 1
+#
+#                     freq[s[start]] -= 1
+#                     if freq[s[start]] == 0:
+#                         del freq[s[start]]
+#
+#                     start += 1
+#
+#                 if len(freq) == required_unique and len(freq) == formed_k:
+#                     res = max(res, end - start)
+#
+#         return res
+
+
 

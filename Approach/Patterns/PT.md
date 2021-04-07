@@ -10,8 +10,8 @@ When to use:
 * search for value that made by longest/shortest substring or subarray
 
 Commmon questions:
-* 53.[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (Easy)
-* 395.[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/) (Medium)
+* 53.[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [Python](../../Algorithm/Python/75/0053_Maximum_Subarray.py) [Java](../../Algorithm/Java/100/0053_Maximum_Subarray.java) (Easy)
+* 395.[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/), [Python](../../Algorithm/Python/400/0395_Longest_Substring_with_At_Least_K_Repeating_Characters.py) [Java](../../Algorithm/Java/400/0395_Longest_Substring_with_At_Least_K_Repeating_Characters.java) (Medium)
 * 567.[Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Medium)
 
 Related questions: 3, 30, 76
