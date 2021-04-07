@@ -12,7 +12,7 @@ When to use:
 Commmon questions:
 * 53.[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/), [Python](../../Algorithm/Python/75/0053_Maximum_Subarray.py) [Java](../../Algorithm/Java/100/0053_Maximum_Subarray.java) (Easy)
 * 395.[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/), [Python](../../Algorithm/Python/400/0395_Longest_Substring_with_At_Least_K_Repeating_Characters.py) [Java](../../Algorithm/Java/400/0395_Longest_Substring_with_At_Least_K_Repeating_Characters.java) (Medium)
-* 567.[Permutation in String](https://leetcode.com/problems/permutation-in-string/) (Medium)
+* 567.[Permutation in String](https://leetcode.com/problems/permutation-in-string/), [Python](../../Algorithm/Python/575/0567_Permutation_in_String.py) (Medium)
 
 Related questions: 3, 30, 76
 
@@ -23,9 +23,9 @@ When to use:
 * The element sets in array are paired, triad, or subarray
 
 Common questions:
-* 977.Squares of a Sorted Array
-* 15.3Sum
-* 844.Backspace String Compare
+* 977.[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/), [Python](../../Algorithm/Python/1000/0977_Squares_of_a_Sorted_Array.py) (Easy)
+* 15.[3Sum](https://leetcode.com/problems/3sum/), [Python](../../Algorithm/Python/25/0015_3_Sum.py) (Medium)
+* 844.[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 
 ## 3. Slow fast pointers
 

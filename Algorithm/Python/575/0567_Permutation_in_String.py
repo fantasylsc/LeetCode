@@ -9,23 +9,23 @@ class Solution:
         m = len(s1)
         n = len(s2)
 
-        counter1 = Counter(s1)
-        counter2 = Counter(s2[0:m])
+        count1 = Counter(s1)
+        count2 = Counter(s2[0:m])
 
-        if counter1 == counter2:
+        if count1 == count2:
             return True
 
-        for i in range(1, n - m + 1):
-            counter2[s2[i - 1]] -= 1
-            if counter2[s2[i - 1]] == 0:
-                del counter2[s2[i - 1]]
+        for i in range(n - m):
+            count2[s2[i]] -= 1
+            if count2[s2[i]] == 0:
+                del count2[s2[i]]
 
-            if s2[i + m - 1] in counter2:
-                counter2[s2[i + m - 1]] += 1
+            if s2[i + m] in count2:
+                count2[s2[i + m]] += 1
             else:
-                counter2[s2[i + m - 1]] = 1
+                count2[s2[i + m]] = 1
 
-            if counter1 == counter2:
+            if count1 == count2:
                 return True
 
         return False

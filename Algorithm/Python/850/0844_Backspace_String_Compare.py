@@ -49,6 +49,22 @@ class Solution:
 
         return all(x == y for x, y in itertools.zip_longest(F(S), F(T)))
 
+# build string
 
+# class Solution:
+#     def backspaceCompare(self, s: str, t: str) -> bool:
+#         def build_string(string):
+#             res = []
+#
+#             for c in string:
+#                 if c == '#':
+#                     if res:
+#                         res.pop()
+#                 else:
+#                     res.append(c)
+#
+#             return ''.join(res)
+#
+#         return build_string(s) == build_string(t)
 
 
