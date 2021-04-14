@@ -25,7 +25,7 @@ When to use:
 Common questions:
 * 977.[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/), [Python](../../Algorithm/Python/1000/0977_Squares_of_a_Sorted_Array.py) (Easy)
 * 15.[3Sum](https://leetcode.com/problems/3sum/), [Python](../../Algorithm/Python/25/0015_3_Sum.py) (Medium)
-* 844.[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
+* 844.[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/), [Python](../../Algorithm/Python/850/0844_Backspace_String_Compare.py) (Easy)
 
 ## 3. Slow fast pointers
 
@@ -34,9 +34,10 @@ When to use:
 * Need to know position of specific element or length or linked list
 
 Common questions:
-* 141.Linked List Cycle
-* 234.Palindrome Linked List (Easy)
-* 457.Circular Array Loop
+* 141.[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/), [Python](../../Algorithm/Python/150/0141_Linked_List_Cycle.py) [Easy]
+* 234.[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/), [Python]() (Easy)
+* 457.[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/), [Python](../../Algorithm/Python/475/0457_Circular_Array_Loop.py) (Medium)
+* 19.[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/), [Python](../../Algorithm/Python/25/0019_Remove_Nth_Node_From_End_of_List.py) (Medium)
 
 
 ## 4. Merge Interval
