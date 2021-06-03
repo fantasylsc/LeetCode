@@ -31,7 +31,7 @@ cache.get(4);       // returns 4
 '''
 Python OrderedDict()
 
-dic = OrderedIdct()
+dic = OrderedDict()
 dic[key] = value
 dic.pop(key)
 dic.popitem(last = False) # Default pop last item
