@@ -41,7 +41,24 @@ class Solution:
             return left
         else:
             return -1
-
+    
+    """
+    Find first value that less or equal to target
+    
+    """
+    def binary_search_find_upper_bound(self,key, target):
+        left, right = 0, len(self.hmap[key])-1
+        leftborder = 0
+        
+        while (left <= right):
+            mid = left + (right - left) // 2
+            if self.hmap[key][mid][0] <= target:
+                left = mid + 1
+                leftborder = mid
+            else:
+                right = mid - 1
+                
+        return leftborder
 
 class Test(unittest.TestCase):
     def test(self):
