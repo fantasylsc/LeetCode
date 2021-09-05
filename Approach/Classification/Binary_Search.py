@@ -42,23 +42,38 @@ class Solution:
         else:
             return -1
     
-    """
-    Find first value that less or equal to target
+import bisect
+
+# bisect implementation
+# https://github.com/python/cpython/blob/3.8/Lib/bisect.py#L49
+
+def bisect_left(l, t):
+    left = 0
+    #search within list index
+    # right = len(l) - 1
+    #search for insert index
+    right = len(l)
     
-    """
-    def binary_search_find_upper_bound(self,key, target):
-        left, right = 0, len(self.hmap[key])-1
-        leftborder = 0
-        
-        while (left <= right):
-            mid = left + (right - left) // 2
-            if self.hmap[key][mid][0] <= target:
-                left = mid + 1
-                leftborder = mid
-            else:
-                right = mid - 1
-                
-        return leftborder
+    while left < right:
+        mid = left + (right - left)//2
+        if l[mid] < t:
+            left = mid + 1
+        else:
+            right = mid
+    return left
+
+def bisect_right(l, t):
+    left = 0
+    right = len(l)
+    
+    while left < right:
+        mid = left + (right - left)//2
+        # difference is here
+        if l[mid] <= t:
+            left = mid + 1
+        else:
+            right = mid
+    return left
 
 class Test(unittest.TestCase):
     def test(self):
