@@ -49,7 +49,25 @@ class Solution:
   
         nums[i + 1], nums[high] = nums[high], nums[i + 1] 
         return (i + 1)  
+    
+    # other partition function implementation
+    def partition1(self, nums, left, right): 
+        # if choose pivot as the last item
+        pivot = nums[right]
+        # 1. move pivot to end
+        # nums[pivot_index], nums[right] = nums[right], nums[pivot_index]  
 
+        # 2. move all smaller elements to the left
+        store_index = left
+        for i in range(left, right):
+            if nums[i] < pivot:
+                nums[store_index], nums[i] = nums[i], nums[store_index]
+                store_index += 1
+
+        # 3. move pivot to its final place
+        nums[right], nums[store_index] = nums[store_index], nums[right]  
+
+        return store_index
 
 
 
