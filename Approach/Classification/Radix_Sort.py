@@ -21,7 +21,7 @@ class Solution:
         # of passing digit number, exp is passed. exp is 10^i 
         # where i is current digit number 
         exp = 1
-        while max_num/exp > 0: 
+        while max_num//exp > 0: 
             self.countingSort(nums, exp) 
             exp *= 10
 
