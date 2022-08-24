@@ -90,3 +90,49 @@ class Test(unittest.TestCase):
 
 unittest.main(verbosity = 2)
 
+
+class Solution():
+    def quickSort(self, l, left, right):
+        if left < right:
+            pivot = self.partition(l, left, right)
+            self.quickSort(l, left, pivot - 1)
+            self.quickSort(l, pivot + 1, right)
+            
+    def partition(self, l, left, right):
+        pivot = l[right]
+        store_index = left
+        
+        for i in range(left, right):
+            if l[i] < pivot:
+                l[store_index], l[i] = l[i], l[store_index]
+                store_index += 1
+        
+        l[store_index], l[right] = l[right], l[store_index]
+        
+        return store_index
+
+    
+class Solution1():
+    # select item in kth index in sorted order
+    def quickSelect(self, l, left, right, k):
+        if left == right:
+            return l[left]
+        pivot_index = self.partition(l, left, right)
+        if pivot_index == k:
+            return l[pivot_index]
+        elif pivot_index < k:
+            return self.quickSelect(l, pivot_index + 1, right, k)
+        else:
+            return self.quickSelect(l, left, pivot_index - 1, k)
+        
+    def partition(self, l, left, right):
+        store_index = left
+        pivot = l[right]
+        
+        for i in range(left, right):
+            if l[i] < pivot:
+                l[store_index], l[i] = l[i], l[store_index]
+                store_index += 1
+            
+        l[store_index], l[right] = l[right], l[store_index]
+        return store_index
