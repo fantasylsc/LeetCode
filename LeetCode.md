@@ -247,6 +247,7 @@ Shortcut # : [25](#25) | [50](#50) | [75](#75) | [100](#100) | [125](#125) | [15
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python](./Algorithm/Python/0200_Number_of_Islands.py)|Medium|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [Python](./Algorithm/Python/225/0205_Isomorphic_Strings.py)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](./Algorithm/Python/225/0206_Reverse_Linked_List.py)|Easy|
+|211|[Design Add and Search Words Data Structure]([https://leetcode.com/problems/the-skyline-problem/](https://leetcode.com/problems/design-add-and-search-words-data-structure/))| [Python](./Algorithm/Python/225/0211_Design_Add_and_Search_Words_Data_Structure.py)|Medium|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)| [Python](./Algorithm/Python/225/0218_The_Skyline_Problem.py)|Hard|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)| [Python](./Algorithm/Python/225/0221_Maximal_Square.py)|Medium|
 
