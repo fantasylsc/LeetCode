@@ -14,7 +14,7 @@
 
 - Heap: [Find Median from Data Stream](../Algorithm/Python/300/0295_Find_Median_from_Data_Stream.py) | [The Skyline Problem](..//Algorithm/Python/225/0218_The_Skyline_Problem.py) ([Ref](https://zxi.mytechroad.com/blog/tree/leetcode-218-the-skyline-problem/)) | 
 
-- Trie: [Implement Trie (Prefix Tree)]() | [Word Search II]() |
+- Trie: [Implement Trie (211)](../Algorithm/Python/225/0211_Design_Add_and_Search_Words_Data_Structure.py) | [Word Search II]() |
 
 [Python Data Structure Complexity](https://wiki.python.org/moin/TimeComplexity)
 
