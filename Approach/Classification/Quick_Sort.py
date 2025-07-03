@@ -49,7 +49,31 @@ class Solution:
   
         nums[i + 1], nums[high] = nums[high], nums[i + 1] 
         return (i + 1)  
+        
+    def better_partition(self, nums, low, high): 
+        #partition
+        r = randint(low, high)
+        nums[r], nums[high] = nums[high], nums[r]
+
+        p = high  # set pivot to rightmost element
+        i, j = low, high - 1
+
+        while i <= j:
+            if nums[i] < nums[p]: 
+                i += 1
+            else:
+                if nums[j] > nums[p]:
+                    j -= 1
+                else:
+                    nums[i], nums[j] = nums[j], nums[i]
+                    i += 1
+                    j -= 1
+        
+        nums[i], nums[p] = nums[p], nums[i]
+
+        return i
     
+        
     # other partition function implementation
     def partition1(self, nums, left, right): 
         # if choose pivot as the last item
