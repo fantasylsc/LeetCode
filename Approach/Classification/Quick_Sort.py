@@ -150,13 +150,22 @@ class Solution1():
             return self.quickSelect(l, left, pivot_index - 1, k)
         
     def partition(self, l, left, right):
-        store_index = left
-        pivot = l[right]
+        random_index = randint(left, right)
+        l[random_index], l[right] = l[right], l[random_index]
         
-        for i in range(left, right):
-            if l[i] < pivot:
-                l[store_index], l[i] = l[i], l[store_index]
-                store_index += 1
-            
-        l[store_index], l[right] = l[right], l[store_index]
-        return store_index
+        i, j = left, right - 1
+        
+        while i <= j:
+            if l[i] < l[right]:
+                i += 1
+            else:
+                if l[j] > l[right]:
+                    j -= 1
+                else:
+                    l[i], l[j] = l[j], l[i]
+                    i += 1
+                    j -= 1
+        
+        l[i], l[right] = l[right], l[i]
+        
+        return i
